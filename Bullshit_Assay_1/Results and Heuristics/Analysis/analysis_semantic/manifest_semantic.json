@@ -1,0 +1,15 @@
+{
+  "input_jsonl": "results.jsonl",
+  "outdir": "analysis_semantic",
+  "seed": 20260507,
+  "records_in_jsonl": 540,
+  "successful_records_in_jsonl": 540,
+  "records_coded": 540,
+  "models_detected": 6,
+  "freeze_first_successes_per_cell": 10,
+  "notes": [
+    "Heuristic labels are provisional weak signals.",
+    "Model names are hidden in coded_outputs.csv and summaries.",
+    "Do not inspect blind_model_map_PRIVATE.json until after blind coding."
+  ]
+}

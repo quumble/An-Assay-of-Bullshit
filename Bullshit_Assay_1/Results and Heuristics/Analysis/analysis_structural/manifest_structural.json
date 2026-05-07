@@ -1,0 +1,23 @@
+{
+  "input_jsonl": "results.jsonl",
+  "outdir": "analysis_structural",
+  "seed": 20260507,
+  "records_in_jsonl": 540,
+  "successful_records_in_jsonl": 540,
+  "records_coded": 540,
+  "models_detected": 6,
+  "freeze_first_successes_per_cell": 10,
+  "semantic_csv_joined": null,
+  "cross_coder_disagreements": {
+    "word_count": -1,
+    "sentence_count": -1,
+    "compliance": -1
+  },
+  "author_disclosure": "This script was authored by claude-opus-4-7, which is one of the subjects of the experiment. Structural features were chosen partly because they are less vulnerable to author bias than semantic content features, but they are not bias-free. Read findings accordingly, especially any finding involving Claude models.",
+  "notes": [
+    "Heuristic labels are provisional weak signals.",
+    "Model names are hidden in coded_outputs.csv and summaries.",
+    "Do not inspect blind_model_map_PRIVATE.json until any blind qualitative coding is complete.",
+    "This coder uses an independent blind map from semantic_heuristics.py; output_id (a hash of provider/model/prompt_id/iteration/timestamp) is the join key across coders."
+  ]
+}

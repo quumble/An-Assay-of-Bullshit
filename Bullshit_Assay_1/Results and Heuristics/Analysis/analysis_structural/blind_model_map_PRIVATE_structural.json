@@ -1,0 +1,20 @@
+{
+  "seed": 20260507,
+  "warning": "PRIVATE: reveals blind model labels. Do not inspect before any blind qualitative coding is complete.",
+  "blind_map_model_to_label": {
+    "gpt-5.4": "M1",
+    "gpt-5.4-nano": "M2",
+    "claude-opus-4-7": "M3",
+    "claude-sonnet-4-6": "M4",
+    "gpt-5.4-mini": "M5",
+    "claude-haiku-4-5-20251001": "M6"
+  },
+  "blind_map_label_to_model": {
+    "M1": "gpt-5.4",
+    "M2": "gpt-5.4-nano",
+    "M3": "claude-opus-4-7",
+    "M4": "claude-sonnet-4-6",
+    "M5": "gpt-5.4-mini",
+    "M6": "claude-haiku-4-5-20251001"
+  }
+}

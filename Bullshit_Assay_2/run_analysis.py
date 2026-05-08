@@ -107,8 +107,16 @@ def cmd_analyze(args) -> None:
 
 
 def cmd_test(args) -> None:
+    # Ensure the repo root is on sys.path so `analysis.tests.*` imports work
+    # regardless of where Python is invoked from.
+    repo_root = Path(__file__).resolve().parent
+    if str(repo_root) not in sys.path:
+        sys.path.insert(0, str(repo_root))
+
     loader = unittest.TestLoader()
-    suite = loader.discover(start_dir="analysis/tests", pattern="test_*.py")
+    # Load by module name explicitly. More robust than discover() across
+    # Python versions (3.14 tightened discover()'s import rules).
+    suite = loader.loadTestsFromName("analysis.tests.test_features")
     runner = unittest.TextTestRunner(verbosity=2)
     result = runner.run(suite)
     sys.exit(0 if result.wasSuccessful() else 1)

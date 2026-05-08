@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bullshit Assay 2 — Validation</title>
+<style>
+  :root {
+    --bg: #faf8f3;
+    --ink: #1a1a1a;
+    --rule: #1a1a1a;
+    --muted: #6b6661;
+    --accent: #7a1f1f;
+    --highlight: #f4e8c8;
+    --soft: #efe9dc;
+    --green: #2d5016;
+    --amber: #8a5a00;
+    --red: #7a1f1f;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif;
+    font-size: 16px;
+    line-height: 1.5;
+    min-height: 100vh;
+  }
+  body {
+    padding: 32px 24px 96px;
+    max-width: 880px;
+    margin: 0 auto;
+  }
+  header {
+    border-bottom: 2px solid var(--rule);
+    padding-bottom: 16px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  h1 {
+    font-family: 'Didot', 'Bodoni MT', 'Bodoni 72', Didone, Georgia, serif;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+  .meta {
+    font-family: 'IBM Plex Mono', 'Menlo', 'Consolas', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+  }
+  .progress {
+    font-family: 'IBM Plex Mono', 'Menlo', monospace;
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .progress strong {
+    color: var(--ink);
+    font-weight: 500;
+  }
+
+  /* Loader / setup screen */
+  .setup {
+    text-align: center;
+    padding: 80px 0;
+  }
+  .setup h2 {
+    font-family: 'Didot', 'Bodoni MT', Georgia, serif;
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
+  .setup p {
+    color: var(--muted);
+    margin-bottom: 24px;
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .file-input {
+    display: inline-block;
+    border: 1px solid var(--rule);
+    padding: 12px 24px;
+    background: var(--bg);
+    cursor: pointer;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: background 0.15s ease;
+  }
+  .file-input:hover { background: var(--soft); }
+  .file-input input { display: none; }
+
+  /* Item card */
+  .card {
+    border: 1px solid var(--rule);
+    background: var(--bg);
+    padding: 32px 36px;
+    margin-bottom: 24px;
+    box-shadow: 4px 4px 0 var(--rule);
+  }
+  .card-meta {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--soft);
+  }
+  .card-meta .target {
+    color: var(--accent);
+    font-weight: 500;
+  }
+
+  .preamble {
+    background: var(--soft);
+    padding: 12px 16px;
+    margin-bottom: 16px;
+    font-family: 'Iowan Old Style', Georgia, serif;
+    font-style: italic;
+    color: var(--muted);
+    border-left: 3px solid var(--accent);
+  }
+  .preamble-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    font-style: normal;
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .poem {
+    font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
+    font-size: 17px;
+    line-height: 1.7;
+    white-space: pre-wrap;
+    padding: 16px 0 24px;
+    border-bottom: 1px dashed var(--soft);
+    margin-bottom: 24px;
+  }
+
+  .auto-features {
+    background: var(--soft);
+    padding: 16px 20px;
+    margin-bottom: 24px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    line-height: 1.7;
+  }
+  .auto-features dt {
+    display: inline-block;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-size: 10px;
+    width: 180px;
+    vertical-align: top;
+  }
+  .auto-features dd {
+    display: inline-block;
+    color: var(--ink);
+  }
+  .auto-features .row { padding: 2px 0; }
+  .auto-features .scheme { font-family: 'IBM Plex Mono', monospace; letter-spacing: 0.2em; }
+
+  /* Question groups */
+  .question {
+    margin-bottom: 20px;
+  }
+  .question-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    margin-bottom: 8px;
+    display: block;
+  }
+  .question-label .key {
+    display: inline-block;
+    background: var(--ink);
+    color: var(--bg);
+    padding: 1px 6px;
+    margin-right: 6px;
+    font-size: 10px;
+    border-radius: 2px;
+  }
+  .options {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .opt {
+    padding: 8px 16px;
+    border: 1px solid var(--rule);
+    background: var(--bg);
+    cursor: pointer;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    transition: all 0.1s ease;
+    user-select: none;
+  }
+  .opt:hover { background: var(--soft); }
+  .opt[data-selected="true"] {
+    background: var(--ink);
+    color: var(--bg);
+    border-color: var(--ink);
+  }
+  .opt[data-value="yes"][data-selected="true"] { background: var(--green); border-color: var(--green); }
+  .opt[data-value="no"][data-selected="true"] { background: var(--red); border-color: var(--red); }
+  .opt[data-value="mostly"][data-selected="true"],
+  .opt[data-value="partial"][data-selected="true"] { background: var(--amber); border-color: var(--amber); }
+
+  .opt .key {
+    display: inline-block;
+    margin-right: 4px;
+    opacity: 0.6;
+    font-size: 10px;
+  }
+
+  .notes-area {
+    margin-top: 16px;
+  }
+  .notes-area textarea {
+    width: 100%;
+    min-height: 60px;
+    padding: 12px;
+    border: 1px solid var(--rule);
+    background: var(--bg);
+    font-family: 'Iowan Old Style', Georgia, serif;
+    font-size: 14px;
+    resize: vertical;
+  }
+  .notes-area textarea:focus { outline: 2px solid var(--accent); outline-offset: -2px; }
+
+  /* Navigation */
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 24px;
+    align-items: center;
+  }
+  .nav-btn {
+    padding: 12px 24px;
+    border: 1px solid var(--rule);
+    background: var(--bg);
+    cursor: pointer;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  .nav-btn:hover:not(:disabled) { background: var(--soft); }
+  .nav-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+  .nav-btn.primary { background: var(--ink); color: var(--bg); }
+  .nav-btn.primary:hover { background: #333; }
+  .jump {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .jump input {
+    width: 60px;
+    padding: 4px 8px;
+    border: 1px solid var(--rule);
+    background: var(--bg);
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+  }
+
+  /* Footer toolbar */
+  .toolbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--bg);
+    border-top: 2px solid var(--rule);
+    padding: 12px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    z-index: 10;
+  }
+  .toolbar .left, .toolbar .right { display: flex; gap: 16px; align-items: center; }
+  .toolbar button {
+    padding: 8px 16px;
+    border: 1px solid var(--rule);
+    background: var(--bg);
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    text-transform: inherit;
+    letter-spacing: inherit;
+  }
+  .toolbar button:hover { background: var(--soft); }
+  .toolbar .stats { color: var(--muted); }
+
+  .keymap {
+    font-size: 10px;
+    color: var(--muted);
+    margin-top: 8px;
+    line-height: 1.6;
+  }
+  .keymap kbd {
+    background: var(--ink);
+    color: var(--bg);
+    padding: 1px 6px;
+    border-radius: 2px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+  }
+
+  .complete-banner {
+    background: var(--highlight);
+    border: 2px solid var(--rule);
+    padding: 24px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .complete-banner h2 {
+    font-family: 'Didot', Georgia, serif;
+    font-weight: 400;
+    margin-bottom: 8px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Bullshit Assay 2</h1>
+    <div class="meta">Validation harness · blinded</div>
+  </div>
+  <div class="progress" id="progressDisplay">No sample loaded</div>
+</header>
+
+<div id="setup" class="setup">
+  <h2>Load validation sample</h2>
+  <p>
+    Select the <code>validation_sample.json</code> file generated by
+    <code>python run_analysis.py validate --draw</code>.
+    Your tags save to local browser storage as you work and persist across sessions.
+  </p>
+  <label class="file-input">
+    Choose file
+    <input type="file" id="fileInput" accept=".json">
+  </label>
+</div>
+
+<main id="main" hidden>
+  <div id="card-container"></div>
+  <div class="nav">
+    <button class="nav-btn" id="prevBtn">← Previous</button>
+    <div class="jump">
+      Go to #<input type="number" id="jumpInput" min="1"> of <span id="totalCount"></span>
+    </div>
+    <button class="nav-btn primary" id="nextBtn">Next →</button>
+  </div>
+  <div class="keymap">
+    <kbd>1</kbd>/<kbd>2</kbd>/<kbd>3</kbd> POS, rhyme &nbsp;·&nbsp;
+    <kbd>Y</kbd>/<kbd>N</kbd> person, preamble &nbsp;·&nbsp;
+    <kbd>←</kbd>/<kbd>→</kbd> navigate &nbsp;·&nbsp;
+    <kbd>Tab</kbd> next untagged
+  </div>
+</main>
+
+<div id="completeBanner" class="complete-banner" hidden>
+  <h2>All items tagged.</h2>
+  <p>Export results, then run <code>python run_analysis.py validate --score validation_results.json</code>.</p>
+</div>
+
+<div class="toolbar" id="toolbar" hidden>
+  <div class="left">
+    <span class="stats" id="stats"></span>
+  </div>
+  <div class="right">
+    <button id="exportBtn">Export results</button>
+    <button id="loadResultsBtn">Resume from file</button>
+    <button id="clearBtn">Clear local storage</button>
+  </div>
+</div>
+
+<script>
+const STORAGE_KEY = 'bullshit_assay_2_validation_v1';
+
+let state = {
+  sample: null,    // the loaded sample payload
+  tags: {},        // run_id -> { pos_ok, rhyme_ok, person_ok, preamble_ok, notes }
+  currentIdx: 0,
+  sessionOrder: null, // an array of indices, randomized per session
+};
+
+// -----------------------------------------------------------------------
+// Persistence
+// -----------------------------------------------------------------------
+
+function saveLocal() {
+  if (!state.sample) return;
+  const payload = {
+    sampleSeed: state.sample.seed,
+    nItems: state.sample.n_items,
+    tags: state.tags,
+    currentIdx: state.currentIdx,
+    sessionOrder: state.sessionOrder,
+    savedAt: new Date().toISOString(),
+  };
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
+}
+
+function loadLocal() {
+  const raw = localStorage.getItem(STORAGE_KEY);
+  if (!raw) return null;
+  try { return JSON.parse(raw); } catch { return null; }
+}
+
+function clearLocal() {
+  if (!confirm('Clear all local tags? This cannot be undone (unless you exported first).')) return;
+  localStorage.removeItem(STORAGE_KEY);
+  location.reload();
+}
+
+// -----------------------------------------------------------------------
+// Loading
+// -----------------------------------------------------------------------
+
+document.getElementById('fileInput').addEventListener('change', async (e) => {
+  const file = e.target.files[0];
+  if (!file) return;
+  const text = await file.text();
+  try {
+    const payload = JSON.parse(text);
+    loadSample(payload);
+  } catch (err) {
+    alert('Could not parse JSON: ' + err.message);
+  }
+});
+
+function loadSample(payload) {
+  if (!payload.items || !Array.isArray(payload.items)) {
+    alert('Invalid sample file: missing items array.');
+    return;
+  }
+  state.sample = payload;
+
+  // Restore from local storage if seed matches
+  const local = loadLocal();
+  if (local && local.sampleSeed === payload.seed && local.nItems === payload.n_items) {
+    state.tags = local.tags || {};
+    state.currentIdx = local.currentIdx || 0;
+    state.sessionOrder = local.sessionOrder || null;
+  } else {
+    state.tags = {};
+    state.currentIdx = 0;
+    state.sessionOrder = null;
+  }
+
+  // Generate session order if not present (randomized index order per session)
+  if (!state.sessionOrder) {
+    state.sessionOrder = shuffleIndices(payload.items.length);
+  }
+
+  document.getElementById('setup').hidden = true;
+  document.getElementById('main').hidden = false;
+  document.getElementById('toolbar').hidden = false;
+  document.getElementById('totalCount').textContent = payload.items.length;
+  document.getElementById('jumpInput').max = payload.items.length;
+
+  render();
+}
+
+function shuffleIndices(n) {
+  const arr = Array.from({length: n}, (_, i) => i);
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+// -----------------------------------------------------------------------
+// Rendering
+// -----------------------------------------------------------------------
+
+function currentItem() {
+  if (!state.sample) return null;
+  const realIdx = state.sessionOrder[state.currentIdx];
+  return state.sample.items[realIdx];
+}
+
+function render() {
+  if (!state.sample) return;
+  const item = currentItem();
+  if (!item) return;
+  const tag = state.tags[item.run_id] || {};
+
+  const auto = item.auto || {};
+  const preambleHTML = item.preamble_text ? `
+    <div class="preamble">
+      <span class="preamble-label">Detected preamble (excluded from features)</span>
+      ${escapeHTML(item.preamble_text)}
+    </div>` : '';
+
+  document.getElementById('card-container').innerHTML = `
+    <div class="card">
+      <div class="card-meta">
+        <span>Item <strong>${state.currentIdx + 1}</strong> of ${state.sample.items.length}</span>
+        <span class="target">Target: fewer than ${item.length_cap} lines</span>
+      </div>
+
+      ${preambleHTML}
+
+      <div class="poem">${escapeHTML(item.poem_body)}</div>
+
+      <div class="auto-features">
+        <div class="row"><dt>Detected scheme</dt><dd class="scheme">${escapeHTML(auto.rhyme_scheme || '—')}</dd></div>
+        <div class="row"><dt>Scheme (known only)</dt><dd class="scheme">${escapeHTML(auto.rhyme_scheme_known_only || '—')}</dd></div>
+        <div class="row"><dt>Rhyme participation</dt><dd>${auto.rhyme_participation_rate != null ? auto.rhyme_participation_rate.toFixed(2) : '—'}</dd></div>
+        <div class="row"><dt>Detected voice</dt><dd>${escapeHTML(auto.person || '—')}</dd></div>
+        <div class="row"><dt>Has preamble</dt><dd>${auto.has_preamble ? 'yes' : 'no'}</dd></div>
+      </div>
+
+      <div class="question">
+        <div class="question-label"><span class="key">1/2/3</span>Does the part-of-speech tagging look broadly correct?</div>
+        <div class="options" data-feature="pos_ok">
+          <div class="opt" data-value="yes" data-selected="${tag.pos_ok === 'yes'}"><span class="key">1</span>Yes</div>
+          <div class="opt" data-value="mostly" data-selected="${tag.pos_ok === 'mostly'}"><span class="key">2</span>Mostly</div>
+          <div class="opt" data-value="no" data-selected="${tag.pos_ok === 'no'}"><span class="key">3</span>No</div>
+        </div>
+      </div>
+
+      <div class="question">
+        <div class="question-label"><span class="key">1/2/3</span>Does the detected rhyme scheme match what you hear?</div>
+        <div class="options" data-feature="rhyme_ok">
+          <div class="opt" data-value="yes" data-selected="${tag.rhyme_ok === 'yes'}"><span class="key">1</span>Yes</div>
+          <div class="opt" data-value="partial" data-selected="${tag.rhyme_ok === 'partial'}"><span class="key">2</span>Partial</div>
+          <div class="opt" data-value="no" data-selected="${tag.rhyme_ok === 'no'}"><span class="key">3</span>No</div>
+        </div>
+      </div>
+
+      <div class="question">
+        <div class="question-label"><span class="key">Y/N</span>Does the auto-classified voice match the poem?</div>
+        <div class="options" data-feature="person_ok">
+          <div class="opt" data-value="yes" data-selected="${tag.person_ok === 'yes'}"><span class="key">Y</span>Yes</div>
+          <div class="opt" data-value="no" data-selected="${tag.person_ok === 'no'}"><span class="key">N</span>No</div>
+        </div>
+      </div>
+
+      <div class="question">
+        <div class="question-label"><span class="key">Y/N</span>Was the preamble correctly detected and split?</div>
+        <div class="options" data-feature="preamble_ok">
+          <div class="opt" data-value="yes" data-selected="${tag.preamble_ok === 'yes'}"><span class="key">Y</span>Yes</div>
+          <div class="opt" data-value="no" data-selected="${tag.preamble_ok === 'no'}"><span class="key">N</span>No</div>
+        </div>
+      </div>
+
+      <div class="notes-area">
+        <textarea id="notesField" placeholder="Notes (optional) — anything that doesn't fit the categories">${escapeHTML(tag.notes || '')}</textarea>
+      </div>
+    </div>
+  `;
+
+  // Wire up option clicks
+  document.querySelectorAll('.opt').forEach(el => {
+    el.addEventListener('click', () => {
+      const feat = el.parentElement.dataset.feature;
+      const val = el.dataset.value;
+      setTag(feat, val);
+    });
+  });
+  document.getElementById('notesField').addEventListener('input', (e) => {
+    setTag('notes', e.target.value);
+  });
+
+  document.getElementById('progressDisplay').innerHTML =
+    `<strong>${tagged()}</strong> / ${state.sample.items.length} tagged`;
+  document.getElementById('jumpInput').value = state.currentIdx + 1;
+  document.getElementById('prevBtn').disabled = state.currentIdx === 0;
+  document.getElementById('nextBtn').disabled = state.currentIdx === state.sample.items.length - 1;
+  updateStats();
+
+  if (allTagged()) {
+    document.getElementById('completeBanner').hidden = false;
+  } else {
+    document.getElementById('completeBanner').hidden = true;
+  }
+}
+
+function escapeHTML(s) {
+  if (s == null) return '';
+  return String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function setTag(feature, value) {
+  const item = currentItem();
+  if (!item) return;
+  if (!state.tags[item.run_id]) state.tags[item.run_id] = {};
+  state.tags[item.run_id][feature] = value;
+  saveLocal();
+  render();
+}
+
+function tagged() {
+  return Object.values(state.tags).filter(t => isItemFullyTagged(t)).length;
+}
+function isItemFullyTagged(t) {
+  return t && t.pos_ok && t.rhyme_ok && t.person_ok && t.preamble_ok;
+}
+function allTagged() {
+  if (!state.sample) return false;
+  return state.sample.items.every(it => isItemFullyTagged(state.tags[it.run_id]));
+}
+
+function updateStats() {
+  const t = tagged();
+  const n = state.sample.items.length;
+  const pct = n > 0 ? Math.round(100 * t / n) : 0;
+  document.getElementById('stats').textContent =
+    `${t}/${n} fully tagged (${pct}%)`;
+}
+
+// -----------------------------------------------------------------------
+// Navigation
+// -----------------------------------------------------------------------
+
+function nextItem() {
+  if (!state.sample) return;
+  if (state.currentIdx < state.sample.items.length - 1) {
+    state.currentIdx++;
+    saveLocal();
+    render();
+    window.scrollTo(0, 0);
+  }
+}
+function prevItem() {
+  if (!state.sample) return;
+  if (state.currentIdx > 0) {
+    state.currentIdx--;
+    saveLocal();
+    render();
+    window.scrollTo(0, 0);
+  }
+}
+function jumpToNextUntagged() {
+  if (!state.sample) return;
+  const n = state.sample.items.length;
+  for (let i = 1; i <= n; i++) {
+    const idx = (state.currentIdx + i) % n;
+    const realIdx = state.sessionOrder[idx];
+    const item = state.sample.items[realIdx];
+    if (!isItemFullyTagged(state.tags[item.run_id])) {
+      state.currentIdx = idx;
+      saveLocal();
+      render();
+      window.scrollTo(0, 0);
+      return;
+    }
+  }
+}
+
+document.getElementById('nextBtn').addEventListener('click', nextItem);
+document.getElementById('prevBtn').addEventListener('click', prevItem);
+document.getElementById('jumpInput').addEventListener('change', (e) => {
+  const v = parseInt(e.target.value, 10);
+  if (v >= 1 && v <= state.sample.items.length) {
+    state.currentIdx = v - 1;
+    saveLocal();
+    render();
+    window.scrollTo(0, 0);
+  }
+});
+
+// -----------------------------------------------------------------------
+// Keyboard shortcuts
+// -----------------------------------------------------------------------
+
+document.addEventListener('keydown', (e) => {
+  // Don't intercept if typing in textarea or input
+  if (e.target.tagName === 'TEXTAREA' || e.target.tagName === 'INPUT') return;
+  if (!state.sample) return;
+
+  if (e.key === 'ArrowRight') { nextItem(); e.preventDefault(); return; }
+  if (e.key === 'ArrowLeft') { prevItem(); e.preventDefault(); return; }
+  if (e.key === 'Tab') { jumpToNextUntagged(); e.preventDefault(); return; }
+
+  // First, hit POS (1/2/3), then rhyme, then person, then preamble
+  // Single-key triggers: 1/2/3 for POS+rhyme, Y/N for person+preamble
+  // Implementation: the first untagged of the four questions consumes 1/2/3 or Y/N
+  const item = currentItem();
+  if (!item) return;
+  const t = state.tags[item.run_id] || {};
+
+  if (['1', '2', '3'].includes(e.key)) {
+    const map3 = { '1': 'yes', '2': 'mostly', '3': 'no' };
+    const mapPartial = { '1': 'yes', '2': 'partial', '3': 'no' };
+    if (!t.pos_ok) {
+      setTag('pos_ok', map3[e.key]);
+    } else if (!t.rhyme_ok) {
+      setTag('rhyme_ok', mapPartial[e.key]);
+    }
+    e.preventDefault();
+  } else if (['y', 'Y', 'n', 'N'].includes(e.key)) {
+    const v = e.key.toLowerCase() === 'y' ? 'yes' : 'no';
+    if (!t.person_ok) {
+      setTag('person_ok', v);
+    } else if (!t.preamble_ok) {
+      setTag('preamble_ok', v);
+      // After preamble (last question), auto-advance if fully tagged
+      const updated = state.tags[item.run_id];
+      if (isItemFullyTagged(updated)) {
+        setTimeout(nextItem, 200);
+      }
+    }
+    e.preventDefault();
+  }
+});
+
+// -----------------------------------------------------------------------
+// Export
+// -----------------------------------------------------------------------
+
+document.getElementById('exportBtn').addEventListener('click', () => {
+  if (!state.sample) return;
+  const out = {
+    version: 1,
+    sample_seed: state.sample.seed,
+    n_items: state.sample.n_items,
+    exported_at: new Date().toISOString(),
+    items: state.sample.items.map(it => ({
+      run_id: it.run_id,
+      length_cap: it.length_cap,
+      auto: it.auto,
+      tags: state.tags[it.run_id] && (() => {
+        const t = state.tags[it.run_id];
+        return {
+          pos_ok: t.pos_ok || null,
+          rhyme_ok: t.rhyme_ok || null,
+          person_ok: t.person_ok || null,
+          preamble_ok: t.preamble_ok || null,
+        };
+      })() || null,
+      notes: (state.tags[it.run_id] && state.tags[it.run_id].notes) || null,
+    })),
+  };
+  const blob = new Blob([JSON.stringify(out, null, 2)], {type: 'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'validation_results.json';
+  a.click();
+  URL.revokeObjectURL(url);
+});
+
+document.getElementById('loadResultsBtn').addEventListener('click', () => {
+  const input = document.createElement('input');
+  input.type = 'file';
+  input.accept = '.json';
+  input.onchange = async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const text = await file.text();
+    try {
+      const payload = JSON.parse(text);
+      if (!payload.items) { alert('Invalid file.'); return; }
+      // Merge tags into state
+      let restored = 0;
+      for (const item of payload.items) {
+        if (item.tags) {
+          state.tags[item.run_id] = { ...item.tags, notes: item.notes };
+          restored++;
+        }
+      }
+      saveLocal();
+      render();
+      alert(`Restored tags for ${restored} items from file.`);
+    } catch (err) {
+      alert('Could not parse: ' + err.message);
+    }
+  };
+  input.click();
+});
+
+document.getElementById('clearBtn').addEventListener('click', clearLocal);
+
+// -----------------------------------------------------------------------
+// Auto-load on page load if local storage has data
+// -----------------------------------------------------------------------
+// (We can't load the original sample without the file — we just leave the
+// setup screen up so the user re-loads the same JSON. Their tags persist.)
+</script>
+
+</body>
+</html>

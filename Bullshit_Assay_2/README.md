@@ -60,11 +60,22 @@ reason.
 
 ## Setup
 
+For running the experiment:
+
 ```
 pip install anthropic openai tqdm
 export ANTHROPIC_API_KEY=sk-ant-...
 export OPENAI_API_KEY=sk-...
 ```
+
+For running the analysis pipeline:
+
+```
+pip install spacy pronouncing scipy scikit-learn statsmodels pandas openpyxl numpy
+```
+
+The spaCy model and Brysbaert concreteness norms auto-download to
+`~/.cache/bullshit_assay_2/` on first use.
 
 Model identifiers match series 1 exactly. Haiku is pinned to a dated
 snapshot; the others use unpinned aliases as in series 1, for parity in
@@ -152,12 +163,65 @@ to exploratory.
 ## Files
 
 - `run_experiment.py` — runner.
+- `run_analysis.py` — single entrypoint for the analysis pipeline.
+- `analysis/` — analysis package:
+    - `features.py` — per-poem feature extraction (structural, POS, person, concreteness, rhyme).
+    - `embed.py` — poem embedding via OpenAI text-embedding-3-large.
+    - `analyze.py` — primary statistical analyses (Q1–Q4 from preregistration).
+    - `validate.py` — stratified-sample drawing and human-tag scoring.
+    - `validation_tool.html` — single-file blinded HTML tagging tool, opens in any browser.
+    - `tests/` — unit tests with hand-crafted poem fixtures.
 - `preregistration.md` — locked study design and analysis plan.
 - `coding_heuristic.md` — locked measurement specification.
 - `deviations.md` — log of any departures from the preregistration
   during analysis.
-- `results.jsonl` — output (created on first run).
-- `run_metadata.json` — output (written at run start).
+- `results.jsonl` — experiment output (created on first run).
+- `run_metadata.json` — experiment output (written at run start).
+
+## Analysis pipeline
+
+The full pipeline runs in five steps. All commands are PowerShell-friendly
+and run from the repo root.
+
+```
+# 1. Extract features from every poem
+python run_analysis.py features --input results.jsonl --output features.jsonl
+
+# 2. Compute embeddings (~$2 OpenAI cost for 5,400 poems)
+python run_analysis.py embed --input features.jsonl --output embeddings.jsonl
+
+# 3. Draw a stratified blinded sample for human validation
+python run_analysis.py validate --draw --n 200 --seed 42
+
+# 4. Open analysis/validation_tool.html in your browser, load the sample,
+#    tag everything (keyboard shortcuts: 1/2/3 for POS+rhyme, Y/N for
+#    person+preamble, arrow keys to navigate, Tab for next untagged).
+#    Click "Export results" when done.
+
+# 5. Score the human tags against the automated extractors
+python run_analysis.py validate --score --input validation_results.json
+
+# 6. Run the primary statistical analyses
+python run_analysis.py analyze
+```
+
+Run unit tests on the feature extractors at any time:
+
+```
+python run_analysis.py test
+```
+
+## Validation gate
+
+Per `coding_heuristic.md`, the validation step is **mandatory before any
+aggregate analysis is computed**. Features that fail the 85% agreement
+threshold are downgraded to exploratory before primary analyses run.
+The HTML tool tags poems blinded — model identity is hidden, only the
+length cap is shown — to protect against unconscious bias.
+
+The Q1 embedding analysis requires `embeddings.jsonl`. If you skip the
+embedding step, Q1 reports as "no embeddings provided" and the other
+three primary analyses still run.
 
 ## Caveats
 

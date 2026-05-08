@@ -2,8 +2,8 @@
 
 **Project:** quumble/An-Assay-of-Bullshit, series 2
 **Document version:** 1.0
-**Locked on:** \[5/8/26, 4:48PM]
-**Run start (planned):** \[5/8/26 5:00PM]
+**Locked on:** [date this document is committed to the public repo]
+**Run start (planned):** [date]
 
 This document specifies the design, hypotheses, primary analyses, and
 decision rules for series 2 **before any data is collected**. Any
@@ -12,7 +12,7 @@ deviation from this document during analysis is recorded in
 
 ## Background
 
-Series 1 (`Bullshit\_Assay\_1/`) ran 540 calls across 6 models (3 Claude
+Series 1 (`Bullshit_Assay_1/`) ran 540 calls across 6 models (3 Claude
 tiers, 3 OpenAI tiers) and 9 prompts (3 categories × 3 length
 constraints) at 10 iterations per cell. Within-cell n was too small to
 support strong claims, but tier-level and family-level differences were
@@ -42,65 +42,65 @@ lines") vary by model, length cap, or phrasing?
 Exploratory questions (not pre-specified, results clearly labeled
 exploratory):
 
-* Topic distribution across models (BERTopic or equivalent on the full
-corpus).
-* Opening-line analysis (first-line embedding distances; stock-opening
-frequencies).
-* Rhyme scheme distribution (do models default to different rhyme
-schemes?).
-* Lexical diversity (MTLD per poem).
-* Preamble rate (do some models prefix conversational framing more
-often?) — see `coding\_heuristic.md` for definition.
+- Topic distribution across models (BERTopic or equivalent on the full
+  corpus).
+- Opening-line analysis (first-line embedding distances; stock-opening
+  frequencies).
+- Rhyme scheme distribution (do models default to different rhyme
+  schemes?).
+- Lexical diversity (MTLD per poem).
+- Preamble rate (do some models prefix conversational framing more
+  often?) — see `coding_heuristic.md` for definition.
 
 ## Design
 
-* **Models (6):** 3 Claude tiers (Haiku, Sonnet, Opus) and 3 OpenAI
-tiers (nano, mini, full). Model identifiers match series 1; exact
-strings logged in `run\_metadata.json` at run time.
-* **Prompts (9):** 3 length caps (5, 10, 20 lines) × 3 phrasings
-("write", "compose", "gimme"). Full prompt text:
+- **Models (6):** 3 Claude tiers (Haiku, Sonnet, Opus) and 3 OpenAI
+  tiers (nano, mini, full). Model identifiers match series 1; exact
+  strings logged in `run_metadata.json` at run time.
+- **Prompts (9):** 3 length caps (5, 10, 20 lines) × 3 phrasings
+  ("write", "compose", "gimme"). Full prompt text:
 
-|ID|Prompt|
-|-|-|
-|poem\_write\_5|write a poem in fewer than 5 lines.|
-|poem\_write\_10|write a poem in fewer than 10 lines.|
-|poem\_write\_20|write a poem in fewer than 20 lines.|
-|poem\_compose\_5|compose a poem in fewer than 5 lines.|
-|poem\_compose\_10|compose a poem in fewer than 10 lines.|
-|poem\_compose\_20|compose a poem in fewer than 20 lines.|
-|poem\_gimme\_5|gimme a poem in fewer than 5 lines.|
-|poem\_gimme\_10|gimme a poem in fewer than 10 lines.|
-|poem\_gimme\_20|gimme a poem in fewer than 20 lines.|
+| ID | Prompt |
+|---|---|
+| poem_write_5 | write a poem in fewer than 5 lines. |
+| poem_write_10 | write a poem in fewer than 10 lines. |
+| poem_write_20 | write a poem in fewer than 20 lines. |
+| poem_compose_5 | compose a poem in fewer than 5 lines. |
+| poem_compose_10 | compose a poem in fewer than 10 lines. |
+| poem_compose_20 | compose a poem in fewer than 20 lines. |
+| poem_gimme_5 | gimme a poem in fewer than 5 lines. |
+| poem_gimme_10 | gimme a poem in fewer than 10 lines. |
+| poem_gimme_20 | gimme a poem in fewer than 20 lines. |
 
-* **Iterations per cell:** 100
-* **Total planned calls:** 6 × 9 × 100 = 5,400
-* **API settings:** temperature = 1.0, max\_tokens = 400, no system
-prompt.
-* **Call ordering:** the full 5,400-call task list is shuffled with a
-logged random seed. Calls are interleaved across models and
-providers throughout the run, so any time-correlated provider
-effects do not align with model.
+- **Iterations per cell:** 100
+- **Total planned calls:** 6 × 9 × 100 = 5,400
+- **API settings:** temperature = 1.0, max_tokens = 400, no system
+  prompt.
+- **Call ordering:** the full 5,400-call task list is shuffled with a
+  logged random seed. Calls are interleaved across models and
+  providers throughout the run, so any time-correlated provider
+  effects do not align with model.
 
 ## Coding plan
 
-Pre-specified in `coding\_heuristic.md`. That document is locked at the
+Pre-specified in `coding_heuristic.md`. That document is locked at the
 same time as this one and any change is recorded in `deviations.md`.
 
 Brief summary:
 
-* Structural features: line count, stanza count, words/line, total
-words, word length.
-* POS ratios (spaCy `en\_core\_web\_trf`): noun, verb, adjective, adverb,
-pronoun.
-* Person classification: impersonal / 1st\_singular / 1st\_plural / 2nd /
-3rd / mixed.
-* Concreteness: mean Brysbaert rating; coverage reported alongside.
-* Rhyme: rhyme participation rate; rhyme scheme.
-* Embeddings: text-embedding-3-large, cosine distance.
-* Compliance: per-poem boolean and per-cell rate.
-* Mandatory 50-poem manual validation step before any aggregate
-analysis. Features failing 85% agreement are downgraded to
-exploratory.
+- Structural features: line count, stanza count, words/line, total
+  words, word length.
+- POS ratios (spaCy `en_core_web_trf`): noun, verb, adjective, adverb,
+  pronoun.
+- Person classification: impersonal / 1st_singular / 1st_plural / 2nd /
+  3rd / mixed.
+- Concreteness: mean Brysbaert rating; coverage reported alongside.
+- Rhyme: rhyme participation rate; rhyme scheme.
+- Embeddings: text-embedding-3-large, cosine distance.
+- Compliance: per-poem boolean and per-cell rate.
+- Mandatory 50-poem manual validation step before any aggregate
+  analysis. Features failing 85% agreement are downgraded to
+  exploratory.
 
 ## Pre-specified primary analyses
 
@@ -125,8 +125,8 @@ models."
 To test family-vs-tier structure: for the top-3 highest-η² features,
 also report effect sizes for two collapsed factors:
 
-* family (2 levels: Claude / GPT)
-* tier (3 levels: small / med / full, collapsing across families)
+- family (2 levels: Claude / GPT)
+- tier (3 levels: small / med / full, collapsing across families)
 
 **Decision rule:** Q2 reports the ranked feature list with effect sizes.
 A feature is described as "differing across models" if its
@@ -148,22 +148,22 @@ phrasing (with a footnote to that effect).
 
 ### Q4 — compliance
 
-Per-cell compliance rate (proportion of poems where line\_count < N).
-Logistic regression with model, length\_cap, and phrasing as predictors;
+Per-cell compliance rate (proportion of poems where line_count < N).
+Logistic regression with model, length_cap, and phrasing as predictors;
 report main effects and interactions.
 
 **Decision rule:** Q4 reports the regression results. Any factor with
-p < 0.05 and a meaningful effect size (odds ratio outside \[0.67, 1.5])
+p < 0.05 and a meaningful effect size (odds ratio outside [0.67, 1.5])
 is described as influencing compliance.
 
 ## Sensitivity analyses
 
-* Re-run all primary analyses excluding non-compliant poems. If Q1 or
-Q2 conclusions change, this is reported as a finding.
-* Re-run concreteness analyses excluding poems with concreteness
-coverage < 0.30.
-* For features that fail the manual-validation 85% threshold, results
-are reported but flagged.
+- Re-run all primary analyses excluding non-compliant poems. If Q1 or
+  Q2 conclusions change, this is reported as a finding.
+- Re-run concreteness analyses excluding poems with concreteness
+  coverage < 0.30.
+- For features that fail the manual-validation 85% threshold, results
+  are reported but flagged.
 
 ## Stopping rule
 
@@ -177,31 +177,30 @@ or excluded).
 
 ## What would change our minds
 
-* If the manual validation step reveals systematic tagger or detector
-failures, affected features are downgraded.
-* If embedding silhouette scores fall below permutation null for all
-labelings, this is reported as a positive finding: models converge
-on poetry style despite training differences.
-* If compliance rates are uniformly near-perfect or uniformly low
-across all cells, the compliance question loses its variance and Q4
-becomes degenerate; this is reported as such.
+- If the manual validation step reveals systematic tagger or detector
+  failures, affected features are downgraded.
+- If embedding silhouette scores fall below permutation null for all
+  labelings, this is reported as a positive finding: models converge
+  on poetry style despite training differences.
+- If compliance rates are uniformly near-perfect or uniformly low
+  across all cells, the compliance question loses its variance and Q4
+  becomes degenerate; this is reported as such.
 
 ## Data and code release
 
-* Full `results.jsonl` (raw API responses) released to the public
-GitHub repo on a fixed date regardless of results.
-* All analysis code released alongside.
-* `run\_metadata.json` released, including seed, model snapshot
-identifiers, and package versions.
-* `deviations.md` released, listing any departures from this document
-with dates.
+- Full `results.jsonl` (raw API responses) released to the public
+  GitHub repo on a fixed date regardless of results.
+- All analysis code released alongside.
+- `run_metadata.json` released, including seed, model snapshot
+  identifiers, and package versions.
+- `deviations.md` released, listing any departures from this document
+  with dates.
 
 ## Authors and acknowledgments
 
-Bo Chesterton and Opus 4.7
+[fill in]
 
 ## Citation
 
 If using this design or data, please cite the repository and the
 preregistration commit hash.
-

@@ -62,8 +62,11 @@ strict yes-only scoring they would fail (`pos_ok` 0.78, `rhyme_ok`
 primary analyses excluding these features is reported in the final
 write-up; if conclusions change, this is disclosed.
 
-**Status:** Implemented. Sensitivity analysis pending. Reported in
-final write-up.
+**Status:** Implemented. Sensitivity rerun completed (see
+`Claude_Analysis/deviations.md` 2026-05-09 entry "Sensitivity:
+strict-yes-only validation scoring"). Conclusions unchanged under
+the stricter scoring; the seven non-validation-gated features all
+remain Bonferroni-significant with η² > 0.01.
 
 ---
 

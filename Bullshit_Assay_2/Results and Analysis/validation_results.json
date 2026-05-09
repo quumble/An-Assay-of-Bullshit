@@ -1,0 +1,3608 @@
+{
+  "version": 1,
+  "sample_seed": 42,
+  "n_items": 200,
+  "exported_at": "2026-05-09T14:40:02.108Z",
+  "items": [
+    {
+      "run_id": "bac67382-3916-49fa-b7ca-0811b87c662a",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "AABBCD",
+        "rhyme_scheme_known_only": "AABBCD",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "3rd",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "43fb58df-f1b9-43fe-ae99-a03d205d4d2a",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABA",
+        "rhyme_scheme_known_only": "ABA",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "impersonal",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "bccdf28c-87ac-4dcd-9049-42ecddb494b4",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCBDEFGHIJI",
+        "rhyme_scheme_known_only": "ABCBDEFGHIJI",
+        "rhyme_participation_rate": 0.3333333333333333,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "no",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "f89a7185-eb1c-49d1-b978-6b18f88732ac",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJ",
+        "rhyme_scheme_known_only": "ABCDEFGHIJ",
+        "rhyme_participation_rate": 0,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "no"
+      },
+      "notes": "title included as first line"
+    },
+    {
+      "run_id": "24ed0a68-c553-479e-bed4-dc73488f6b71",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABCB?DED",
+        "rhyme_scheme_known_only": "ABCBDED",
+        "rhyme_participation_rate": 0.5714285714285714,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "21244590-9d3d-4894-ab21-b810706e3c95",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AAB",
+        "rhyme_scheme_known_only": "AAB",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "impersonal",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "3593f1e4-441b-4cb2-ad14-7d064ccee82c",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABCBDE?E",
+        "rhyme_scheme_known_only": "ABCBDEE",
+        "rhyme_participation_rate": 0.5714285714285714,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "bc47e714-7438-402a-8b50-16625c9e080e",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABA",
+        "rhyme_scheme_known_only": "ABA",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "f8d62d55-2273-49e1-af13-85966f1b164b",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABAC",
+        "rhyme_scheme_known_only": "ABAC",
+        "rhyme_participation_rate": 0.5,
+        "person": "mixed",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "no",
+        "rhyme_ok": "no",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "c993b2c3-9b37-44e7-b5b7-2fc50d2b62c6",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJK",
+        "rhyme_scheme_known_only": "ABCDEFGHIJK",
+        "rhyme_participation_rate": 0,
+        "person": "mixed",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "no"
+      },
+      "notes": "title included as first line"
+    },
+    {
+      "run_id": "eed2e130-ffab-425e-a3ec-61fe37cbad54",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCBDEFEGHIH",
+        "rhyme_scheme_known_only": "ABCBDEFEGHIH",
+        "rhyme_participation_rate": 0.5,
+        "person": "1st_singular",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "14589c58-15ce-4bfc-8700-4e551efbf15b",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABABCDCD",
+        "rhyme_scheme_known_only": "ABABCDCD",
+        "rhyme_participation_rate": 1,
+        "person": "1st_singular",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "5a1b4f55-17d7-4f3f-a9f1-2cbc07957c25",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABCDC",
+        "rhyme_scheme_known_only": "ABCDC",
+        "rhyme_participation_rate": 0.4,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "no"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "0ad162cf-088e-41cb-9a6c-1ab9cbb0775e",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "AABCDDEE",
+        "rhyme_scheme_known_only": "AABCDDEE",
+        "rhyme_participation_rate": 0.75,
+        "person": "mixed",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "9e887064-4902-413d-8c21-6fd6d0c2199c",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABCD",
+        "rhyme_scheme_known_only": "ABCD",
+        "rhyme_participation_rate": 0,
+        "person": "mixed",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "88e55b59-32ca-4269-ae9f-8d3e3631ef9a",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "AABBCCDDEE",
+        "rhyme_scheme_known_only": "AABBCCDDEE",
+        "rhyme_participation_rate": 1,
+        "person": "3rd",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "311c2333-5033-4e4e-ae13-f2fc189bf610",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AAA",
+        "rhyme_scheme_known_only": "AAA",
+        "rhyme_participation_rate": 1,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "1b77a390-9a06-40b1-a0cd-29d743639668",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABCCDD",
+        "rhyme_scheme_known_only": "ABCCDD",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "impersonal",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "3dda5f6b-bd06-4f86-ade4-53d2482b8c88",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1,
+        "person": "impersonal",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "6fa92d76-b1e3-4616-b2b1-78686419cbae",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "A?BCDEF",
+        "rhyme_scheme_known_only": "ABCDEF",
+        "rhyme_participation_rate": 0,
+        "person": "2nd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "8e3ca3d9-c0fe-4fd0-a426-5a403a8db19d",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJKLMNOP",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKLMNOP",
+        "rhyme_participation_rate": 0,
+        "person": "1st_plural",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "22c68842-2bcc-4654-9c29-fb8e8e880f66",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "AABCDDEFGH",
+        "rhyme_scheme_known_only": "AABCDDEFGH",
+        "rhyme_participation_rate": 0.4,
+        "person": "mixed",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "no",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "fee82ff6-e0e9-4cf4-816c-dd503ace10fc",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "9710d851-6406-4906-b2be-42bdc4f7270b",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABCD",
+        "rhyme_scheme_known_only": "ABCD",
+        "rhyme_participation_rate": 0,
+        "person": "impersonal",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "f0b9da7b-eef4-4462-bdae-95f4bb981c56",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABBCCDD",
+        "rhyme_scheme_known_only": "ABBCCDD",
+        "rhyme_participation_rate": 0.8571428571428571,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "no"
+      },
+      "notes": "title included as first line"
+    },
+    {
+      "run_id": "e71c5615-f2b8-40c2-952f-d12c19680858",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJKLMNOPQ",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKLMNOPQ",
+        "rhyme_participation_rate": 0,
+        "person": "mixed",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "no"
+      },
+      "notes": "title included as first line"
+    },
+    {
+      "run_id": "ea113a00-088a-4a12-9c5c-bc7e920d8e41",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "6182486a-1a81-40bf-ba11-054cf845cceb",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1,
+        "person": "mixed",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "d8238dcc-f4fe-43d4-b383-65c82759fd3a",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABCD",
+        "rhyme_scheme_known_only": "ABCD",
+        "rhyme_participation_rate": 0,
+        "person": "impersonal",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "56391572-bd15-47d0-8bd0-62351ef0d71a",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGFHI",
+        "rhyme_scheme_known_only": "ABCDEFGFHI",
+        "rhyme_participation_rate": 0.2,
+        "person": "impersonal",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "ebdbd60c-2ac0-44b2-91fe-d1a97107d4bb",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1,
+        "person": "impersonal",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "79ec7f7c-40f5-4942-b8e1-427126408912",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "?ABCDE",
+        "rhyme_scheme_known_only": "ABCDE",
+        "rhyme_participation_rate": 0,
+        "person": "mixed",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": "cyrillic replacement"
+    },
+    {
+      "run_id": "49511889-da82-455a-a766-879515c4118a",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABCDEF",
+        "rhyme_scheme_known_only": "ABCDEF",
+        "rhyme_participation_rate": 0,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "cb0fcbcc-cde9-4a5b-99fe-3a9d990fa540",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJKLMNOP",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKLMNOP",
+        "rhyme_participation_rate": 0,
+        "person": "mixed",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "651d73fd-3a4d-4ba1-8177-51b3855a43f4",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "AABBCCDD",
+        "rhyme_scheme_known_only": "AABBCCDD",
+        "rhyme_participation_rate": 1,
+        "person": "mixed",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "no",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "0d84272f-3913-4b34-b2a6-da1bea39ab05",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "6ef8b054-12ed-491a-8d9e-acc71a3dfaf8",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABCBDEFE",
+        "rhyme_scheme_known_only": "ABCBDEFE",
+        "rhyme_participation_rate": 0.5,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "78b7a565-83f0-49a0-8aa7-84747e4bae9d",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABCDEF",
+        "rhyme_scheme_known_only": "ABCDEF",
+        "rhyme_participation_rate": 0,
+        "person": "impersonal",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "no"
+      },
+      "notes": "title included as first line"
+    },
+    {
+      "run_id": "7b7f5b82-7903-40a4-a7c2-82ab273f553f",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "?ABACC",
+        "rhyme_scheme_known_only": "ABACC",
+        "rhyme_participation_rate": 0.8,
+        "person": "impersonal",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "no",
+        "rhyme_ok": "no",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "c340b508-6e6c-4542-baff-4eaad035c6b0",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABCBDBEF",
+        "rhyme_scheme_known_only": "ABCBDBEF",
+        "rhyme_participation_rate": 0.375,
+        "person": "3rd",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "8f7559e8-02b8-436f-9063-5d3f5eaa9f67",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABAB",
+        "rhyme_scheme_known_only": "ABAB",
+        "rhyme_participation_rate": 1,
+        "person": "impersonal",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "7bdc1812-5d93-4a20-bceb-0cd220d1c84d",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1,
+        "person": "mixed",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "2d1e107f-3524-420e-9065-5e31850d6800",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABC",
+        "rhyme_scheme_known_only": "ABC",
+        "rhyme_participation_rate": 0,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "51897765-0e6d-4a68-aa63-7a5f07100c9a",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABACDEDF",
+        "rhyme_scheme_known_only": "ABACDEDF",
+        "rhyme_participation_rate": 0.5,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "5e4651ad-67d2-4e8b-a1ba-9a8b2c15c2de",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABC",
+        "rhyme_scheme_known_only": "ABC",
+        "rhyme_participation_rate": 0,
+        "person": "impersonal",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "82095ac1-ef61-48d6-b9bc-d243f78560d6",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "AABBCCDDEEFG",
+        "rhyme_scheme_known_only": "AABBCCDDEEFG",
+        "rhyme_participation_rate": 0.8333333333333334,
+        "person": "1st_singular",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "c235e4d6-88b9-41b7-b0b6-eee58fb099ac",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCBCDADA",
+        "rhyme_scheme_known_only": "ABCBCDADA",
+        "rhyme_participation_rate": 1,
+        "person": "1st_singular",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "no"
+      },
+      "notes": "title included as first line"
+    },
+    {
+      "run_id": "d2068673-2507-4d64-b223-44bd97c66951",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABCCDEFG",
+        "rhyme_scheme_known_only": "ABCCDEFG",
+        "rhyme_participation_rate": 0.25,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "no",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "071d1790-d276-4947-adb1-bd314d82d810",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABCCDDEE",
+        "rhyme_scheme_known_only": "ABCCDDEE",
+        "rhyme_participation_rate": 0.75,
+        "person": "1st_singular",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "48ab253c-2289-453e-b26b-1afa52e34b48",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AAA",
+        "rhyme_scheme_known_only": "AAA",
+        "rhyme_participation_rate": 1,
+        "person": "impersonal",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "48af5dae-a3d2-4ffc-a60a-e9621f303c4b",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJKL",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKL",
+        "rhyme_participation_rate": 0,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "no",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "a052478d-439d-4665-91a9-d594660b73a7",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCBDEFE",
+        "rhyme_scheme_known_only": "ABCBDEFE",
+        "rhyme_participation_rate": 0.5,
+        "person": "mixed",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "3a82ff76-1579-4f09-89b1-ca29aad33728",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABAB",
+        "rhyme_scheme_known_only": "ABAB",
+        "rhyme_participation_rate": 1,
+        "person": "mixed",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "no",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "14a743b4-79f8-4a4e-873d-4934c78eb765",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHI",
+        "rhyme_scheme_known_only": "ABCDEFGHI",
+        "rhyme_participation_rate": 0,
+        "person": "mixed",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "1fe9ee28-4c68-461b-8a72-6e738c6e70d0",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABC",
+        "rhyme_scheme_known_only": "ABC",
+        "rhyme_participation_rate": 0,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "ae3954f9-f474-4c82-96c0-29e3a625379f",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABCDEF",
+        "rhyme_scheme_known_only": "ABCDEF",
+        "rhyme_participation_rate": 0,
+        "person": "impersonal",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "9cf4784c-efe4-4a91-aca1-4206ca7c03ca",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "AABBCC",
+        "rhyme_scheme_known_only": "AABBCC",
+        "rhyme_participation_rate": 1,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "3d969d03-fdb1-4ba4-a462-eca37d533efe",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGGHIJK",
+        "rhyme_scheme_known_only": "ABCDEFGGHIJK",
+        "rhyme_participation_rate": 0.16666666666666666,
+        "person": "mixed",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "cf884ade-90b3-4547-b77b-6062883e6dde",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJKLMNOP",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKLMNOP",
+        "rhyme_participation_rate": 0,
+        "person": "1st_singular",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "a0d18c40-2478-428f-ad71-6094095e66a7",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AAB",
+        "rhyme_scheme_known_only": "AAB",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "mixed",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "78fa6d24-f520-442c-bd90-b5c8790df9c3",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "AABBCCDD",
+        "rhyme_scheme_known_only": "AABBCCDD",
+        "rhyme_participation_rate": 1,
+        "person": "1st_singular",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "28d9df76-11d5-4f07-a445-a3e8c2433505",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABC",
+        "rhyme_scheme_known_only": "ABC",
+        "rhyme_participation_rate": 0,
+        "person": "1st_plural",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "c346a43f-bce6-4057-b2d3-a9cbba405e32",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABCDE",
+        "rhyme_scheme_known_only": "ABCDE",
+        "rhyme_participation_rate": 0,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "no",
+        "rhyme_ok": "no",
+        "person_ok": "yes",
+        "preamble_ok": "no"
+      },
+      "notes": "title included as first line"
+    },
+    {
+      "run_id": "b4c56154-6c77-4185-93d3-ed5e0b0b9c8b",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABCDC",
+        "rhyme_scheme_known_only": "ABCDC",
+        "rhyme_participation_rate": 0.4,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "partial",
+        "person_ok": "no",
+        "preamble_ok": "no"
+      },
+      "notes": "title included as first line"
+    },
+    {
+      "run_id": "617cc80a-c3e5-46f6-bfdc-47cefc60eb89",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "AABBCCDD",
+        "rhyme_scheme_known_only": "AABBCCDD",
+        "rhyme_participation_rate": 1,
+        "person": "impersonal",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "982cbb2c-b180-444a-9686-1ad6a8ffa5b8",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABACDEFEGG",
+        "rhyme_scheme_known_only": "ABACDEFEGG",
+        "rhyme_participation_rate": 0.6,
+        "person": "mixed",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "39c2609c-e316-45a7-ba94-346b0880acda",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABABCDCDEFEF",
+        "rhyme_scheme_known_only": "ABABCDCDEFEF",
+        "rhyme_participation_rate": 1,
+        "person": "mixed",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "200c28de-87e4-4492-9d22-b41669f1e01f",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AAB",
+        "rhyme_scheme_known_only": "AAB",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "1dce4e3f-85a2-466a-afd0-ad07e9672db6",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "AABBCCDEFFGG",
+        "rhyme_scheme_known_only": "AABBCCDEFFGG",
+        "rhyme_participation_rate": 0.8333333333333334,
+        "person": "mixed",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "d63cc97b-3efd-4ae4-845e-90420d5968ae",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCBDEFGFHI?I",
+        "rhyme_scheme_known_only": "ABCBDEFGFHII",
+        "rhyme_participation_rate": 0.5,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "no"
+      },
+      "notes": "title included as first line"
+    },
+    {
+      "run_id": "5cbdca45-db39-48b0-8c9d-ed72d93e5609",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "AABBCCBB",
+        "rhyme_scheme_known_only": "AABBCCBB",
+        "rhyme_participation_rate": 1,
+        "person": "1st_singular",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "13322bdd-a086-420b-9db1-0b70883feead",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "AABBAACCDDEEFF",
+        "rhyme_scheme_known_only": "AABBAACCDDEEFF",
+        "rhyme_participation_rate": 1,
+        "person": "1st_plural",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "6b72c4b7-df33-437e-9c19-95ed285c7e9f",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABACDEDEFGFG",
+        "rhyme_scheme_known_only": "ABACDEDEFGFG",
+        "rhyme_participation_rate": 0.8333333333333334,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "9b5f8625-cdf4-4b34-be1b-f1ba8b59483a",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCBDEDEFGFG",
+        "rhyme_scheme_known_only": "ABCBDEDEFGFG",
+        "rhyme_participation_rate": 0.8333333333333334,
+        "person": "mixed",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "5b0b199d-a51b-4d11-8d69-b8d8c76bb6eb",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABCD",
+        "rhyme_scheme_known_only": "ABCD",
+        "rhyme_participation_rate": 0,
+        "person": "impersonal",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "314addee-529e-404c-8282-48e4486ee49c",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "dd27a1fa-830e-46d2-ac6e-71c4d1d2d048",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "AABCDDEF",
+        "rhyme_scheme_known_only": "AABCDDEF",
+        "rhyme_participation_rate": 0.5,
+        "person": "1st_singular",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "ea636849-1756-4046-85af-154a7a1c8800",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABCC",
+        "rhyme_scheme_known_only": "ABCC",
+        "rhyme_participation_rate": 0.5,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "e7a714b0-1101-469f-a143-018cb20dc985",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABABCC",
+        "rhyme_scheme_known_only": "ABABCC",
+        "rhyme_participation_rate": 1,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "7ee8f798-041e-433e-ab08-ee0eb27dc023",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABCD",
+        "rhyme_scheme_known_only": "ABCD",
+        "rhyme_participation_rate": 0,
+        "person": "1st_plural",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "f72739f5-d858-453e-a6a0-bf67d22f20cb",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABCB",
+        "rhyme_scheme_known_only": "ABCB",
+        "rhyme_participation_rate": 0.5,
+        "person": "impersonal",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "1ad2bb68-aeb7-4db3-8d06-37e399a12dad",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "?ABACDCD",
+        "rhyme_scheme_known_only": "ABACDCD",
+        "rhyme_participation_rate": 0.8571428571428571,
+        "person": "mixed",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "73c0105c-c4b2-45c6-bd2d-1b9353eb2f2c",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCBDEFGFHIHJK",
+        "rhyme_scheme_known_only": "ABCBDEFGFHIHJK",
+        "rhyme_participation_rate": 0.42857142857142855,
+        "person": "3rd",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "baa3808a-3e09-4f1b-a9bb-34fa8ffd7ddd",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "AABBCCDE",
+        "rhyme_scheme_known_only": "AABBCCDE",
+        "rhyme_participation_rate": 0.75,
+        "person": "1st_singular",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "19f35814-92a6-4de3-a0ff-dbae42745735",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABCDEF",
+        "rhyme_scheme_known_only": "ABCDEF",
+        "rhyme_participation_rate": 0,
+        "person": "1st_singular",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "8b5ade1b-35c5-45f5-8026-8d5dc3110dbe",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABCDC",
+        "rhyme_scheme_known_only": "ABCDC",
+        "rhyme_participation_rate": 0.4,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "no",
+        "person_ok": "yes",
+        "preamble_ok": "no"
+      },
+      "notes": "title included as first line"
+    },
+    {
+      "run_id": "b7f9c8d9-51dd-43cc-87b7-01cfe27f9af0",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCBDEFEGHIH",
+        "rhyme_scheme_known_only": "ABCBDEFEGHIH",
+        "rhyme_participation_rate": 0.5,
+        "person": "3rd",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "e2432cd0-2e50-452a-922c-f5bf8e2be65d",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "3be55b30-0f49-43ac-9658-1ba966ee26c1",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABCBDEDE",
+        "rhyme_scheme_known_only": "ABCBDEDE",
+        "rhyme_participation_rate": 0.75,
+        "person": "impersonal",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "60c09b87-7a66-4891-872b-a263488c604f",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "AABBCC",
+        "rhyme_scheme_known_only": "AABBCC",
+        "rhyme_participation_rate": 1,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "1679413a-710a-45cf-8e96-ca9177e23026",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1,
+        "person": "3rd",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "20a84df0-25bd-4c5e-9c02-809a85f80b0d",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABCD",
+        "rhyme_scheme_known_only": "ABCD",
+        "rhyme_participation_rate": 0,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "06c8023a-f9fb-463e-bce8-393e64a45498",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABAC?DED",
+        "rhyme_scheme_known_only": "ABACDED",
+        "rhyme_participation_rate": 0.5714285714285714,
+        "person": "mixed",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "no",
+        "rhyme_ok": "no",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "3144a0ef-4afa-4363-9653-99a402c57346",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJ",
+        "rhyme_scheme_known_only": "ABCDEFGHIJ",
+        "rhyme_participation_rate": 0,
+        "person": "3rd",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "no",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "c77194bb-b025-483f-8d4c-b63bbddb2c4a",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJKL",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKL",
+        "rhyme_participation_rate": 0,
+        "person": "mixed",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "no",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "43051014-757d-46ff-9c54-799796e7661d",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJK",
+        "rhyme_scheme_known_only": "ABCDEFGHIJK",
+        "rhyme_participation_rate": 0,
+        "person": "1st_plural",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": "title included as first line"
+    },
+    {
+      "run_id": "8c1e04c9-fca0-4797-912a-74587ac4d46d",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJK?L",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKL",
+        "rhyme_participation_rate": 0,
+        "person": "mixed",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "no"
+      },
+      "notes": "title included as first line"
+    },
+    {
+      "run_id": "7adec854-732c-4fbe-a34f-3cfc2ff1b7dd",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCBDEFEGHIH",
+        "rhyme_scheme_known_only": "ABCBDEFEGHIH",
+        "rhyme_participation_rate": 0.5,
+        "person": "mixed",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "no",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "af8f594b-91e2-4d38-b028-59d8f90d5b64",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "AABBCC",
+        "rhyme_scheme_known_only": "AABBCC",
+        "rhyme_participation_rate": 1,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "3b951bed-175b-4555-86c8-4d63366032ff",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABCCDDEF",
+        "rhyme_scheme_known_only": "ABCCDDEF",
+        "rhyme_participation_rate": 0.5,
+        "person": "3rd",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "6bbad471-89cd-4f8f-bce6-a6c953f709eb",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABC",
+        "rhyme_scheme_known_only": "ABC",
+        "rhyme_participation_rate": 0,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "52817bd0-cf98-4616-b49c-10344e04b4e2",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABBCC",
+        "rhyme_scheme_known_only": "ABBCC",
+        "rhyme_participation_rate": 0.8,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "no",
+        "rhyme_ok": "no",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": "title included as first line"
+    },
+    {
+      "run_id": "c948a0fb-d3ac-4b4e-b53c-13a8259ab772",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABCD",
+        "rhyme_scheme_known_only": "ABCD",
+        "rhyme_participation_rate": 0,
+        "person": "impersonal",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "3b5b1ddf-e65b-4275-a580-220014747bb6",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABCBDDEE",
+        "rhyme_scheme_known_only": "ABCBDDEE",
+        "rhyme_participation_rate": 0.75,
+        "person": "1st_singular",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "f5342ed6-41b1-4c95-a985-d7d4e63970be",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJ?KL",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKL",
+        "rhyme_participation_rate": 0,
+        "person": "1st_plural",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "no"
+      },
+      "notes": "title included as first line"
+    },
+    {
+      "run_id": "41662201-f774-4217-8366-a6b6c00080f0",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABAC",
+        "rhyme_scheme_known_only": "ABAC",
+        "rhyme_participation_rate": 0.5,
+        "person": "impersonal",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "e6a78144-e622-4bc2-b402-d6dcd541ff3d",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABABCDCD",
+        "rhyme_scheme_known_only": "ABABCDCD",
+        "rhyme_participation_rate": 1,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "34c61d91-205d-47f7-9a64-237b514a091e",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "AABBCC",
+        "rhyme_scheme_known_only": "AABBCC",
+        "rhyme_participation_rate": 1,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "a6aa867f-43ee-45fc-9893-25da203d1f2e",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDEEFFGG",
+        "rhyme_scheme_known_only": "ABCDEEFFGG",
+        "rhyme_participation_rate": 0.6,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "f883cbce-3d6e-4065-800d-0310c8f2099b",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABACDE",
+        "rhyme_scheme_known_only": "ABACDE",
+        "rhyme_participation_rate": 0.3333333333333333,
+        "person": "mixed",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "e68285fa-e041-4615-93ba-e99b50db6e6f",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABCBAB",
+        "rhyme_scheme_known_only": "ABCBAB",
+        "rhyme_participation_rate": 0.8333333333333334,
+        "person": "mixed",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": "c slant rhyme"
+    },
+    {
+      "run_id": "ab9485bc-fea6-4999-90f6-313e7c31788f",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "AABBCC",
+        "rhyme_scheme_known_only": "AABBCC",
+        "rhyme_participation_rate": 1,
+        "person": "impersonal",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "a8a99fe5-ffb2-4d7a-b467-d3c5da558829",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABBCCDD?EFFEE",
+        "rhyme_scheme_known_only": "ABBCCDDEFFEE",
+        "rhyme_participation_rate": 0.9166666666666666,
+        "person": "mixed",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "no"
+      },
+      "notes": "title included as first line"
+    },
+    {
+      "run_id": "0ec23bb3-e246-401e-b94c-555c03cf68e6",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJKL",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKL",
+        "rhyme_participation_rate": 0,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "no",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "50705453-6a96-475b-8967-5d9fce4b03fb",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGFHIJI",
+        "rhyme_scheme_known_only": "ABCDEFGFHIJI",
+        "rhyme_participation_rate": 0.3333333333333333,
+        "person": "1st_singular",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "80b58787-9ef6-44d8-9ce8-49c768175396",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AAB",
+        "rhyme_scheme_known_only": "AAB",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "1st_plural",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "0ad3d9cb-b47b-431d-acf8-23ef02a49e07",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AB?B",
+        "rhyme_scheme_known_only": "ABB",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "ad82667b-7007-43d1-a339-f5aad1bb3eae",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCBDED?",
+        "rhyme_scheme_known_only": "ABCBDED",
+        "rhyme_participation_rate": 0.5714285714285714,
+        "person": "3rd",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": "hindi replacement"
+    },
+    {
+      "run_id": "9f7a40fe-5fc2-495d-94f2-421a608efb4b",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AAB",
+        "rhyme_scheme_known_only": "AAB",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "impersonal",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "59b31964-8dae-4fb0-a896-5a510b79c84f",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDCEFEBGHG",
+        "rhyme_scheme_known_only": "ABCDCEFEBGHG",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "1st_singular",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "e06bca58-eacc-4da9-8281-5d537dbc0860",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "AABBCD",
+        "rhyme_scheme_known_only": "AABBCD",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "impersonal",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "adab309c-f46f-4b7a-a3b0-afff745444da",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "?ABCDEFGHIJK",
+        "rhyme_scheme_known_only": "ABCDEFGHIJK",
+        "rhyme_participation_rate": 0,
+        "person": "3rd",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "00ed273b-09a5-4c69-8510-07e4794077ee",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "AABBCD",
+        "rhyme_scheme_known_only": "AABBCD",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "impersonal",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "no",
+        "rhyme_ok": "no",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "e57bd5ee-dfc8-4e43-8117-04a1bca06c23",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABACDEDEFF",
+        "rhyme_scheme_known_only": "ABACDEDEFF",
+        "rhyme_participation_rate": 0.8,
+        "person": "3rd",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "ddb850d7-665b-4794-a0c3-0a37ea7f9af1",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AABC",
+        "rhyme_scheme_known_only": "AABC",
+        "rhyme_participation_rate": 0.5,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "cf6d37b7-a7dc-4d96-9232-fb099d19bd3b",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABC",
+        "rhyme_scheme_known_only": "ABC",
+        "rhyme_participation_rate": 0,
+        "person": "impersonal",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "14c249fa-27bb-4aec-96d4-35854b7498bf",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABCBC",
+        "rhyme_scheme_known_only": "ABCBC",
+        "rhyme_participation_rate": 0.8,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "no"
+      },
+      "notes": "title included as first line"
+    },
+    {
+      "run_id": "ca0b66ab-15ab-4245-8e37-311ae2747fc6",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABAA",
+        "rhyme_scheme_known_only": "ABAA",
+        "rhyme_participation_rate": 0.75,
+        "person": "mixed",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "9de03ace-75f2-43d5-a433-aa49836f7091",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABC",
+        "rhyme_scheme_known_only": "ABC",
+        "rhyme_participation_rate": 0,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "47e8011e-656c-4581-a755-b2df577a688f",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJKLMNOP",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKLMNOP",
+        "rhyme_participation_rate": 0,
+        "person": "1st_singular",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "43bdcd85-4b85-44e8-a9cb-f1d216fec731",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJKL",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKL",
+        "rhyme_participation_rate": 0,
+        "person": "mixed",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "2890b550-a38d-4160-b1af-4317781f656d",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "AABBAA",
+        "rhyme_scheme_known_only": "AABBAA",
+        "rhyme_participation_rate": 1,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "aee7e761-3b74-4988-87c6-0ce90527aa13",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "AABBCCDEFFGG",
+        "rhyme_scheme_known_only": "AABBCCDEFFGG",
+        "rhyme_participation_rate": 0.8333333333333334,
+        "person": "1st_singular",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "15cb41d5-4e08-4f00-96aa-89234a15339f",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABABCDCDEFEF",
+        "rhyme_scheme_known_only": "ABABCDCDEFEF",
+        "rhyme_participation_rate": 1,
+        "person": "1st_plural",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "4bd4fd5a-04a7-4ede-a25a-ffeb373a2911",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "A?BCDEFGHIJKLMN",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKLMN",
+        "rhyme_participation_rate": 0,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "no",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "f83a68a9-5f82-4685-a1b0-a7d82c8c1b50",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AAB",
+        "rhyme_scheme_known_only": "AAB",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "impersonal",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "dd851956-8129-438e-948c-ba684eafc717",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABCB",
+        "rhyme_scheme_known_only": "ABCB",
+        "rhyme_participation_rate": 0.5,
+        "person": "1st_plural",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "ae5a02c5-07ca-4705-9e00-6327a360cdc8",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABC",
+        "rhyme_scheme_known_only": "ABC",
+        "rhyme_participation_rate": 0,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "7ce41bca-e0fa-4a6d-82d2-3a558fcc8b78",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABABCDCD",
+        "rhyme_scheme_known_only": "ABABCDCD",
+        "rhyme_participation_rate": 1,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "74fb462d-e2fc-4654-a089-07f2222d3009",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AAAA",
+        "rhyme_scheme_known_only": "AAAA",
+        "rhyme_participation_rate": 1,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "325a75fa-66e3-4ec2-8424-0794eb6585f7",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABCDCEFGH",
+        "rhyme_scheme_known_only": "ABCDCEFGH",
+        "rhyme_participation_rate": 0.2222222222222222,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "no",
+        "rhyme_ok": "no",
+        "person_ok": "no",
+        "preamble_ok": "no"
+      },
+      "notes": "title included as first line"
+    },
+    {
+      "run_id": "e0feb0e5-9461-4edf-9513-00eb3c53bdcf",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "?ABACDED",
+        "rhyme_scheme_known_only": "ABACDED",
+        "rhyme_participation_rate": 0.5714285714285714,
+        "person": "3rd",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "no",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "6affae73-a9ab-4ccf-aead-804f24a4de10",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCBDEFE",
+        "rhyme_scheme_known_only": "ABCBDEFE",
+        "rhyme_participation_rate": 0.5,
+        "person": "1st_singular",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "7753e04a-ee85-422a-8fea-500229897cec",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "17428207-c68c-4862-93ad-19f378ae4e4c",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1,
+        "person": "impersonal",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "05ec927c-611c-4951-ad5d-f2244d2adbcb",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABC",
+        "rhyme_scheme_known_only": "ABC",
+        "rhyme_participation_rate": 0,
+        "person": "impersonal",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "1b264f02-18c5-492a-b9f4-a800e4b07773",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1,
+        "person": "1st_plural",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "3b5cfd1b-0197-425c-b189-d19597c2c856",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "AABBCC",
+        "rhyme_scheme_known_only": "AABBCC",
+        "rhyme_participation_rate": 1,
+        "person": "mixed",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "2e636f2b-4b5a-493a-8901-6836c8dfbb76",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABCDEEFF",
+        "rhyme_scheme_known_only": "ABCDEEFF",
+        "rhyme_participation_rate": 0.5,
+        "person": "1st_singular",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "no",
+        "rhyme_ok": "no",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "adcf1561-7044-4a45-b46e-cf58b08a0ada",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AAB",
+        "rhyme_scheme_known_only": "AAB",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "impersonal",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "ef3839bb-299a-4d3a-90f9-9e64f7116a62",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABCDE",
+        "rhyme_scheme_known_only": "ABCDE",
+        "rhyme_participation_rate": 0,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "38a62acd-8dbb-4d77-aea3-03bac2e60439",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1,
+        "person": "impersonal",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "0a2ee6b9-d910-4872-b1e8-c75522a27928",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "AABBCC",
+        "rhyme_scheme_known_only": "AABBCC",
+        "rhyme_participation_rate": 1,
+        "person": "impersonal",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "390b465c-f7fc-4d87-b0e8-e3d8d44e4d8e",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABABCDCDEFEF",
+        "rhyme_scheme_known_only": "ABABCDCDEFEF",
+        "rhyme_participation_rate": 1,
+        "person": "3rd",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "41148ca6-16dc-4bda-ad8e-334432c2c7b1",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "?ABACDCD",
+        "rhyme_scheme_known_only": "ABACDCD",
+        "rhyme_participation_rate": 0.8571428571428571,
+        "person": "mixed",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "d4b463da-2b7c-4e60-a240-289ce8713eee",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGH",
+        "rhyme_scheme_known_only": "ABCDEFGH",
+        "rhyme_participation_rate": 0,
+        "person": "mixed",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "f78902a4-38fa-4dbb-b9f9-73b549db47f0",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "363f9bc2-241d-4d2d-8436-e751a701ec92",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABA?CDC?BEBF",
+        "rhyme_scheme_known_only": "ABACDCBEBF",
+        "rhyme_participation_rate": 0.7,
+        "person": "3rd",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "partial",
+        "person_ok": "no",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "43cbf396-0c97-494e-8fc1-bc9bfe2ac301",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJKLMNOP",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKLMNOP",
+        "rhyme_participation_rate": 0,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "10e7bdd1-179a-4bc5-bc41-eaa87d124607",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJKLL",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKLL",
+        "rhyme_participation_rate": 0.15384615384615385,
+        "person": "1st_singular",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "1e084d54-e683-41bd-a16f-30fafbd26e35",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABCB",
+        "rhyme_scheme_known_only": "ABCB",
+        "rhyme_participation_rate": 0.5,
+        "person": "impersonal",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "e566b85a-3436-429d-acbc-8fc9a16e37a7",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDE?FGCHIJ",
+        "rhyme_scheme_known_only": "ABCDEFGCHIJ",
+        "rhyme_participation_rate": 0.18181818181818182,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "no"
+      },
+      "notes": "title included as first line"
+    },
+    {
+      "run_id": "48a0f65e-720a-46d1-b612-36a0a13a1741",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJ",
+        "rhyme_scheme_known_only": "ABCDEFGHIJ",
+        "rhyme_participation_rate": 0,
+        "person": "3rd",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "no",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "eb75a670-5203-4135-bf42-d80b898e14a3",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABA",
+        "rhyme_scheme_known_only": "ABA",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "3rd",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "no",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "c6953178-42f2-451f-99cb-e0a66d6c88d6",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJKLMNOPQ",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKLMNOPQ",
+        "rhyme_participation_rate": 0,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "no",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "e904293e-05e5-4bf6-b86a-924fcdb24d32",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AAB",
+        "rhyme_scheme_known_only": "AAB",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "impersonal",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "a52597ce-d3ed-4b64-8daa-8a2d244ac57b",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDCEFGFHIJI",
+        "rhyme_scheme_known_only": "ABCDCEFGFHIJI",
+        "rhyme_participation_rate": 0.46153846153846156,
+        "person": "mixed",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "partial",
+        "person_ok": "no",
+        "preamble_ok": "no"
+      },
+      "notes": "title included as first line"
+    },
+    {
+      "run_id": "0068b324-3d0c-44d4-883c-705a805e9475",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "AB?CDEFG",
+        "rhyme_scheme_known_only": "ABCDEFG",
+        "rhyme_participation_rate": 0,
+        "person": "1st_singular",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "5b647556-c005-4ab8-bfdf-bc0fdadf8b3f",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABABCDCEFGFG",
+        "rhyme_scheme_known_only": "ABABCDCEFGFG",
+        "rhyme_participation_rate": 0.8333333333333334,
+        "person": "3rd",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "ae498101-8cf1-48c5-9838-38d17c30063f",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABACDD",
+        "rhyme_scheme_known_only": "ABACDD",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "mixed",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "4c767a18-ac18-4198-b816-2fc255ac45dc",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "AABBCCDDEEFF",
+        "rhyme_scheme_known_only": "AABBCCDDEEFF",
+        "rhyme_participation_rate": 1,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "ec85e5de-fff4-4ef1-9d96-d388dc7c6f13",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABABC?DDEEFF",
+        "rhyme_scheme_known_only": "ABABCDDEEFF",
+        "rhyme_participation_rate": 0.9090909090909091,
+        "person": "1st_plural",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "15e0a29d-0b03-4501-8623-81b1803e9111",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABCBDB",
+        "rhyme_scheme_known_only": "ABCBDB",
+        "rhyme_participation_rate": 0.5,
+        "person": "mixed",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "ac0f99e1-3c1f-46ee-a1d7-20fb3a1f4f08",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "619eecba-8508-4302-b616-ad77333ba064",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCBDEFEGHIJ",
+        "rhyme_scheme_known_only": "ABCBDEFEGHIJ",
+        "rhyme_participation_rate": 0.3333333333333333,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "ff5346b0-795b-4698-b419-ef42f2a130cf",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGFHIJK",
+        "rhyme_scheme_known_only": "ABCDEFGFHIJK",
+        "rhyme_participation_rate": 0.16666666666666666,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "no",
+        "rhyme_ok": "no",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": "slant"
+    },
+    {
+      "run_id": "0a012504-a647-434c-8ad0-e3a1ff1025ea",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABC",
+        "rhyme_scheme_known_only": "ABC",
+        "rhyme_participation_rate": 0,
+        "person": "impersonal",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "4b05544d-dee8-4e45-9bf2-f7ecc578faf1",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABCB",
+        "rhyme_scheme_known_only": "ABCB",
+        "rhyme_participation_rate": 0.5,
+        "person": "mixed",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "05ceb0ff-3c1f-47b7-8f7d-0cb89d6d1af2",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABCDEFG",
+        "rhyme_scheme_known_only": "ABCDEFG",
+        "rhyme_participation_rate": 0,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "cda8dd03-d67c-4e87-8aff-029b4af52b7c",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABABCDEFGHGH",
+        "rhyme_scheme_known_only": "ABABCDEFGHGH",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "mixed",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "11a9df6c-8958-4c39-a193-907318602856",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCD?EFEGHIH",
+        "rhyme_scheme_known_only": "ABCDEFEGHIH",
+        "rhyme_participation_rate": 0.36363636363636365,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "139b9c33-dd81-4b64-b6fc-2de9c7735b05",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABC",
+        "rhyme_scheme_known_only": "ABC",
+        "rhyme_participation_rate": 0,
+        "person": "impersonal",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "4f667f56-09f1-4cfc-b42d-ed8676499c7b",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJKK",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKK",
+        "rhyme_participation_rate": 0.16666666666666666,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "no"
+      },
+      "notes": "title included as first line"
+    },
+    {
+      "run_id": "f5303ca3-012e-42f5-a6db-ed3b6335a9f5",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDEBFGGHIJ",
+        "rhyme_scheme_known_only": "ABCDEBFGGHIJ",
+        "rhyme_participation_rate": 0.3333333333333333,
+        "person": "3rd",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "no",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "83a2eaf1-a74b-4595-8d7c-c5b429d9d696",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABCCDD?E",
+        "rhyme_scheme_known_only": "ABCCDDE",
+        "rhyme_participation_rate": 0.5714285714285714,
+        "person": "impersonal",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "partial",
+        "person_ok": "no",
+        "preamble_ok": "yes"
+      },
+      "notes": "weird"
+    },
+    {
+      "run_id": "b63326bd-75d0-488f-9f9d-90ffcab13d4c",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AAB",
+        "rhyme_scheme_known_only": "AAB",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "impersonal",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "0f437a18-5f9e-4068-b03c-9f3c0940a0d2",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABA",
+        "rhyme_scheme_known_only": "ABA",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "impersonal",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "16bc24e8-1a5c-436e-8552-7ffd064543cb",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABAB",
+        "rhyme_scheme_known_only": "ABAB",
+        "rhyme_participation_rate": 1,
+        "person": "impersonal",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "540eba13-8ccf-4298-a67c-694ca34ff8d8",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGFHIJI",
+        "rhyme_scheme_known_only": "ABCDEFGFHIJI",
+        "rhyme_participation_rate": 0.3333333333333333,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "no",
+        "rhyme_ok": "no",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "300fb127-2e90-4aa6-a6ce-5662269f7279",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AAA",
+        "rhyme_scheme_known_only": "AAA",
+        "rhyme_participation_rate": 1,
+        "person": "impersonal",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "e47cf949-40a5-4ecb-97ea-71fd82cf9911",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "AABBCC",
+        "rhyme_scheme_known_only": "AABBCC",
+        "rhyme_participation_rate": 1,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "7c76b6aa-ab09-4a7c-96bb-d219c1a50f64",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1,
+        "person": "impersonal",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "1fa70b8a-1acc-4b9b-a425-7106886b25c3",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "AAB",
+        "rhyme_scheme_known_only": "AAB",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "impersonal",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "2bc1c626-e0c9-423c-9161-225146daea5e",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABAC",
+        "rhyme_scheme_known_only": "ABAC",
+        "rhyme_participation_rate": 0.5,
+        "person": "2nd",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "211eabf7-b427-4ee7-8a7a-bc73303f3e38",
+      "length_cap": 10,
+      "auto": {
+        "rhyme_scheme": "ABABCDCD",
+        "rhyme_scheme_known_only": "ABABCDCD",
+        "rhyme_participation_rate": 1,
+        "person": "1st_singular",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "53dbbd5a-cdcb-488a-be84-46b7f6e562d8",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABCD",
+        "rhyme_scheme_known_only": "ABCD",
+        "rhyme_participation_rate": 0,
+        "person": "impersonal",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "dd34bf78-4a19-45f4-9923-8f5c05704c66",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABCB",
+        "rhyme_scheme_known_only": "ABCB",
+        "rhyme_participation_rate": 0.5,
+        "person": "3rd",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "mostly",
+        "rhyme_ok": "partial",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "5e8fbb47-3b27-4df6-b17f-2aad10c2553c",
+      "length_cap": 20,
+      "auto": {
+        "rhyme_scheme": "AABBCCBB",
+        "rhyme_scheme_known_only": "AABBCCBB",
+        "rhyme_participation_rate": 1,
+        "person": "3rd",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "48f2abe5-0ebd-43ea-91d0-709839d355e3",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABC",
+        "rhyme_scheme_known_only": "ABC",
+        "rhyme_participation_rate": 0,
+        "person": "mixed",
+        "has_preamble": false
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    },
+    {
+      "run_id": "2f063877-6ad8-4acb-a60d-ca43f31ad2d6",
+      "length_cap": 5,
+      "auto": {
+        "rhyme_scheme": "ABB",
+        "rhyme_scheme_known_only": "ABB",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "mixed",
+        "has_preamble": true
+      },
+      "tags": {
+        "pos_ok": "yes",
+        "rhyme_ok": "yes",
+        "person_ok": "yes",
+        "preamble_ok": "yes"
+      },
+      "notes": null
+    }
+  ]
+}

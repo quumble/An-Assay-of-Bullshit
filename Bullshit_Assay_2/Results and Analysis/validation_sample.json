@@ -1,0 +1,2608 @@
+{
+  "version": 1,
+  "n_items": 200,
+  "seed": 42,
+  "agreement_threshold": 0.85,
+  "items": [
+    {
+      "run_id": "bac67382-3916-49fa-b7ca-0811b87c662a",
+      "length_cap": 10,
+      "poem_body": "Moonlight drips on quiet stone,  \nThe night hums low, alone.  \nA river stitches silver thread,  \nThrough sleeping fields and skies of lead.  \nThe wind forgets its name to sing,  \nAnd every branch begins to dream.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AABBCD",
+        "rhyme_scheme_known_only": "AABBCD",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "3rd",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "43fb58df-f1b9-43fe-ae99-a03d205d4d2a",
+      "length_cap": 5,
+      "poem_body": "Moonlight spills on silent stone,\nthe river hums an old refrain\u2014\neven shadows, here, feel known.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABA",
+        "rhyme_scheme_known_only": "ABA",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "impersonal",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "bccdf28c-87ac-4dcd-9049-42ecddb494b4",
+      "length_cap": 20,
+      "poem_body": "The kettle hums its small devotion,\nsteam unspooling toward the light.\nOutside, a sparrow tests the morning\u2014\ntwo notes, a pause, then takes its flight.\n\nI hold the cup the way one holds\na question with no need of answer,\nwarmth pressed gently to the palms,\nthe day still folded, soft, and slender.\n\nSomewhere a door begins to open.\nSomewhere a shadow learns to stay.\nI drink the quiet while it lasts,\nand let the rest become the day.",
+      "preamble_text": "**Threshold**",
+      "auto": {
+        "rhyme_scheme": "ABCBDEFGHIJI",
+        "rhyme_scheme_known_only": "ABCBDEFGHIJI",
+        "rhyme_participation_rate": 0.3333333333333333,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "f89a7185-eb1c-49d1-b978-6b18f88732ac",
+      "length_cap": 20,
+      "poem_body": "**Still Water**\n\nThe pond holds the sky\nlike a secret it never asked for,\nclouds drifting through its depths\nwithout getting wet.\n\nA stone breaks the surface\u2014\nall that stillness\nscattered into rings,\nthen slowly,\nthe sky returns.",
+      "preamble_text": "Here is a short poem:",
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJ",
+        "rhyme_scheme_known_only": "ABCDEFGHIJ",
+        "rhyme_participation_rate": 0.0,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "24ed0a68-c553-479e-bed4-dc73488f6b71",
+      "length_cap": 10,
+      "poem_body": "Under a sky of sleepless gray,  \nthe streetlights hum their tired prayer;  \nI fold the night like paper\u2014  \nsoft edges, slow to tear.  \nA distant train unbuttons  \nthe dark with one last sound,  \nand morning, almost gently,  \nfinds my name on waking ground.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCB?DED",
+        "rhyme_scheme_known_only": "ABCBDED",
+        "rhyme_participation_rate": 0.5714285714285714,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "21244590-9d3d-4894-ab21-b810706e3c95",
+      "length_cap": 5,
+      "poem_body": "Silver beams slip through the pines,\ntouching earth with gentle lines,\nwhile the world dreams on in peace.",
+      "preamble_text": "# Moonlight",
+      "auto": {
+        "rhyme_scheme": "AAB",
+        "rhyme_scheme_known_only": "AAB",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "impersonal",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "3593f1e4-441b-4cb2-ad14-7d064ccee82c",
+      "length_cap": 10,
+      "poem_body": "Moonlight combs the sleep from cedar boughs,  \nAnd silver stitches thread the quiet lake.  \nA fox leaves whispers where the pine roots crouch,  \nWhile distant hills, like patient lungs, awake.  \nI carry night as softly as a song,  \nIts tender dark a pocket for my heart;  \nTill dawn, a pale and careful brushstroke,  \nUnseams the sky and asks the stars to part.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCBDE?E",
+        "rhyme_scheme_known_only": "ABCBDEE",
+        "rhyme_participation_rate": 0.5714285714285714,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "bc47e714-7438-402a-8b50-16625c9e080e",
+      "length_cap": 5,
+      "poem_body": "Night folds the city into silver thread,  \nA quiet moon hums over sleeping stone.  \nOne small star flickers what I never said.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABA",
+        "rhyme_scheme_known_only": "ABA",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "f8d62d55-2273-49e1-af13-85966f1b164b",
+      "length_cap": 5,
+      "poem_body": "Beneath the hush of morning light,  \nyour laughter warms the day to gold;  \nI carry on, though miles are tight\u2014  \nhope finds my heart, and it unfolds.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABAC",
+        "rhyme_scheme_known_only": "ABAC",
+        "rhyme_participation_rate": 0.5,
+        "person": "mixed",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "c993b2c3-9b37-44e7-b5b7-2fc50d2b62c6",
+      "length_cap": 20,
+      "poem_body": "**Still Water**\n\nThe lake holds the sky like a secret,\nreflecting clouds that have already moved on.\nA heron stands at the edge of everything,\npatient as stone, sharp as grief.\n\nThe wind forgets itself in the reeds,\nmakes a sound like someone whispering home.\nI have stood here before in other lives,\nbarefoot, waiting for something to surface.\n\nNothing does.\nAnd somehow that is enough.",
+      "preamble_text": "Here is a short poem:",
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJK",
+        "rhyme_scheme_known_only": "ABCDEFGHIJK",
+        "rhyme_participation_rate": 0.0,
+        "person": "mixed",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "eed2e130-ffab-425e-a3ec-61fe37cbad54",
+      "length_cap": 20,
+      "poem_body": "The kettle hums a one-note song,\nthe window holds the dark.\nI cradle warmth between my palms\nand listen to the park\u2014\n\na fox's cry, a shifting branch,\nthe city's distant sigh.\nSome nights the world feels close enough\nto press against the eye.\n\nI do not need an answer now,\nor anywhere to be.\nThe steam curls upward, slow and pale,\nand that is plenty for me.",
+      "preamble_text": "**Small Hours**",
+      "auto": {
+        "rhyme_scheme": "ABCBDEFEGHIH",
+        "rhyme_scheme_known_only": "ABCBDEFEGHIH",
+        "rhyme_participation_rate": 0.5,
+        "person": "1st_singular",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "14589c58-15ce-4bfc-8700-4e551efbf15b",
+      "length_cap": 10,
+      "poem_body": "Sunlight spills across the floor,\ngolden and alive.\nA sparrow sings outside my door\u2014\nsimple, yet I thrive.\nCoffee steam curls through the air,\nquiet moments, rare and true.\nIn this stillness, I find care,\nin the things I do.",
+      "preamble_text": "# Morning Light",
+      "auto": {
+        "rhyme_scheme": "ABABCDCD",
+        "rhyme_scheme_known_only": "ABABCDCD",
+        "rhyme_participation_rate": 1.0,
+        "person": "1st_singular",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "5a1b4f55-17d7-4f3f-a9f1-2cbc07957c25",
+      "length_cap": 10,
+      "poem_body": "**Still Water**\n\nThe lake holds the sky in its arms,\na mirror for clouds passing by.\nThe wind stirs a whisper of ripples,\nthen silence reclaims the reply.",
+      "preamble_text": "Here is a short poem:",
+      "auto": {
+        "rhyme_scheme": "ABCDC",
+        "rhyme_scheme_known_only": "ABCDC",
+        "rhyme_participation_rate": 0.4,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "0ad162cf-088e-41cb-9a6c-1ab9cbb0775e",
+      "length_cap": 10,
+      "poem_body": "In dusk\u2019s soft hush, the streetlights bloom,  \nA rusted wind hums through the room;  \nYour footsteps fade like distant rain,  \nLeaving my thoughts to learn your name.  \nI hold the night, it turns to gold\u2014  \nHope chisels light from ache and cold.  \nMorning comes, and still you stay,  \nIn every breath that finds its way.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AABCDDEE",
+        "rhyme_scheme_known_only": "AABCDDEE",
+        "rhyme_participation_rate": 0.75,
+        "person": "mixed",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "9e887064-4902-413d-8c21-6fd6d0c2199c",
+      "length_cap": 5,
+      "poem_body": "Rain writes your name\non the window of evening\u2014\nthen the wind remembers\nhow to let it go.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCD",
+        "rhyme_scheme_known_only": "ABCD",
+        "rhyme_participation_rate": 0.0,
+        "person": "mixed",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "88e55b59-32ca-4269-ae9f-8d3e3631ef9a",
+      "length_cap": 20,
+      "poem_body": "Moonlight folds itself in quiet streams,  \nAcross the roofs where sleeping amber gleams.  \nThe night begins to loosen every name,  \nAnd leaves the world less certain of its frame.  \n\nA sparrow dreams beneath a silver gate,  \nWhile stars, like thoughts, arrive a little late.  \nThe river keeps the secrets of the stone,  \nAnd sings of all the places we\u2019ve outgrown.  \n\nThen dawn will lift its pale and patient hand,  \nTo teach the dark how gently it can stand.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AABBCCDDEE",
+        "rhyme_scheme_known_only": "AABBCCDDEE",
+        "rhyme_participation_rate": 1.0,
+        "person": "3rd",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "311c2333-5033-4e4e-ae13-f2fc189bf610",
+      "length_cap": 5,
+      "poem_body": "The sun dips low, the shadows grow,\nStars emerge in their nightly glow,\nThe world breathes soft, and lets go.",
+      "preamble_text": "Here is a short poem:",
+      "auto": {
+        "rhyme_scheme": "AAA",
+        "rhyme_scheme_known_only": "AAA",
+        "rhyme_participation_rate": 1.0,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "1b77a390-9a06-40b1-a0cd-29d743639668",
+      "length_cap": 10,
+      "poem_body": "Dawn folds gold into the trees,  \nA quiet fire on waking leaves.  \nThe river keeps the sky in tune,  \nAnd morning hums a silver rune.  \nOne bird unthreads the last of night,  \nThen day steps softly into light.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCCDD",
+        "rhyme_scheme_known_only": "ABCCDD",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "impersonal",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "3dda5f6b-bd06-4f86-ade4-53d2482b8c88",
+      "length_cap": 5,
+      "poem_body": "Moonlight stitches silver seams,  \nAcross the hush of sleeping streams.  \nNight leans close with velvet hands,  \nAnd dreams grow roots in quiet lands.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1.0,
+        "person": "impersonal",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "6fa92d76-b1e3-4616-b2b1-78686419cbae",
+      "length_cap": 10,
+      "poem_body": "Frost glazes the grass in silver,\nbirds stir in the half-light,\nand the world is still enough\nto hear your own breath,\nsoft as prayer,\nbefore the day breaks open\nand carries you away.",
+      "preamble_text": "# Quiet Morning",
+      "auto": {
+        "rhyme_scheme": "A?BCDEF",
+        "rhyme_scheme_known_only": "ABCDEF",
+        "rhyme_participation_rate": 0.0,
+        "person": "2nd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "8e3ca3d9-c0fe-4fd0-a426-5a403a8db19d",
+      "length_cap": 20,
+      "poem_body": "The wind carries secrets through autumn leaves,\nEach one a story the trees no longer need.\nSunlight breaks gold across the wet grass,\nAnd somewhere, a bird remembers how to sing.\n\nWe are small in the vastness of it all,\nYet our footprints remain in the morning dew.\nTime moves like honey through the hours,\nSweet and slow and somehow too fast.\n\nIn the quiet spaces between words,\nSomething true lives and breathes.\nWe reach for each other in the dark,\nTwo lights trying not to go out.\n\nAnd though nothing lasts forever,\nThis moment does\u2014\nRight here, right now,\nInfinite as the sky.",
+      "preamble_text": "# Whisper",
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJKLMNOP",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKLMNOP",
+        "rhyme_participation_rate": 0.0,
+        "person": "1st_plural",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "22c68842-2bcc-4654-9c29-fb8e8e880f66",
+      "length_cap": 20,
+      "poem_body": "In morning light the streets begin to sing,  \nA kettle hum, a bicycle\u2019s bright ring.  \nMy thoughts drift soft as dust through windowpane,  \nChasing their own small weather after rain.  \n\nI fold my worries, crease them into blue,  \nWhile sunlight stitches all the corners true.  \nNo need to hold the day too tightly\u2014  \nIt slips like sand, then somehow feels like kindly.  \n\nSo let the hours pass, unforced, unclaimed;  \nThe heart will learn what courage is by flame.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AABCDDEFGH",
+        "rhyme_scheme_known_only": "AABCDDEFGH",
+        "rhyme_participation_rate": 0.4,
+        "person": "mixed",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "fee82ff6-e0e9-4cf4-816c-dd503ace10fc",
+      "length_cap": 5,
+      "poem_body": "*The sun dips low, the shadows grow,*\n*Stars emerge with a quiet glow,*\n*Night wraps the world in silk and dreams,*\n*Nothing is ever quite what it seems.*",
+      "preamble_text": "Here is a short poem:",
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1.0,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "9710d851-6406-4906-b2be-42bdc4f7270b",
+      "length_cap": 5,
+      "poem_body": "Whispers fade to silence,\nstars dissolve in dawn,\nnothing lasts forever\u2014\nnot even this poem.",
+      "preamble_text": "# Quick Verse",
+      "auto": {
+        "rhyme_scheme": "ABCD",
+        "rhyme_scheme_known_only": "ABCD",
+        "rhyme_participation_rate": 0.0,
+        "person": "impersonal",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "f0b9da7b-eef4-4462-bdae-95f4bb981c56",
+      "length_cap": 10,
+      "poem_body": "**The Last Light**\n\nThe sun dips low and bleeds the sky,\nPainting gold on clouds drifting by.\nThe day exhales its final breath,\nAnd silence settles, soft as death.\nThe stars emerge, one, two, then all\u2014\nNight wraps the world in its dark shawl.",
+      "preamble_text": "Here's one:",
+      "auto": {
+        "rhyme_scheme": "ABBCCDD",
+        "rhyme_scheme_known_only": "ABBCCDD",
+        "rhyme_participation_rate": 0.8571428571428571,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "e71c5615-f2b8-40c2-952f-d12c19680858",
+      "length_cap": 20,
+      "poem_body": "**The Hour Before Dawn**\n\nThe world holds its breath\nin that blue-dark pause,\nwhen streetlights forget\ntheir purpose,\n\nand the birds are still deciding\nwhether morning\nis worth the trouble\nof a song.\n\nI've stood in that silence\nmore times than I can count,\nnot lost, not found\u2014\njust somewhere in between,\n\nbelonging to neither\nthe night that's leaving\nnor the day\nthat hasn't learned my name.",
+      "preamble_text": "Here's one for you:",
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJKLMNOPQ",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKLMNOPQ",
+        "rhyme_participation_rate": 0.0,
+        "person": "mixed",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "ea113a00-088a-4a12-9c5c-bc7e920d8e41",
+      "length_cap": 5,
+      "poem_body": "Moonlight spills through winter trees,\nA silent song upon the breeze,\nWhere frost and starlight gently meet,\nAnd time itself becomes complete.",
+      "preamble_text": "# Whisper",
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1.0,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "6182486a-1a81-40bf-ba11-054cf845cceb",
+      "length_cap": 5,
+      "poem_body": "The morning light spills gold and slow,\nwhile coffee steams and soft winds blow.\nA day unfolds with quiet grace\u2014\njust breathe it in, just find your place.",
+      "preamble_text": "# Quick Poem",
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1.0,
+        "person": "mixed",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "d8238dcc-f4fe-43d4-b383-65c82759fd3a",
+      "length_cap": 5,
+      "poem_body": "Moonlight folds the river into silver thread,  \nand every quiet star leans close to hear  \nthe world breathe softly in the dark,  \nas dawn begins to stir.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCD",
+        "rhyme_scheme_known_only": "ABCD",
+        "rhyme_participation_rate": 0.0,
+        "person": "impersonal",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "56391572-bd15-47d0-8bd0-62351ef0d71a",
+      "length_cap": 20,
+      "poem_body": "Morning slips a coin of light  \nUnder the door of a quiet room;  \nDust wakes, then dances in the beam,  \nAnd the kettle hums a small tune.\n\nOutside, the trees rehearse the wind,  \nGreen hands lifting toward the sky;  \nEven the road, all cracked and old,  \nLooks briefly new as hours pass by.\n\nSo let the day unroll like silk\u2014  \nNot perfect, just enough to glow.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGFHI",
+        "rhyme_scheme_known_only": "ABCDEFGFHI",
+        "rhyme_participation_rate": 0.2,
+        "person": "impersonal",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "ebdbd60c-2ac0-44b2-91fe-d1a97107d4bb",
+      "length_cap": 5,
+      "poem_body": "*The sun dips low, the shadows grow,*\n*A quiet world wrapped in golden glow,*\n*And in the silence, soft and deep,*\n*The tired earth drifts off to sleep.*",
+      "preamble_text": "Here is a short poem:",
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1.0,
+        "person": "impersonal",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "79ec7f7c-40f5-4942-b8e1-427126408912",
+      "length_cap": 10,
+      "poem_body": "Moonlight folds the city\u2019s \u0448\u0443\u043c,  \nA silver hush over rooftops and rues.  \nThe wind turns pages in the dark,  \nAnd every lamp becomes a small, warm star.  \nI walk where silence keeps its vows,  \nWhile dawn waits, patient as a held breath.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "?ABCDE",
+        "rhyme_scheme_known_only": "ABCDE",
+        "rhyme_participation_rate": 0.0,
+        "person": "mixed",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "49511889-da82-455a-a766-879515c4118a",
+      "length_cap": 10,
+      "poem_body": "Morning folds light into the cup of my hands,  \nA sparrow stitches song through the air,  \nDust dances where the window remembers sun,  \nTime pauses, listening to its own soft pulse.  \nI breathe, and the world grows briefly kind,  \nAs if even silence has learned to bloom.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCDEF",
+        "rhyme_scheme_known_only": "ABCDEF",
+        "rhyme_participation_rate": 0.0,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "cb0fcbcc-cde9-4a5b-99fe-3a9d990fa540",
+      "length_cap": 20,
+      "poem_body": "The kettle hums a hymn to no one,\nsteam unfurling like a question.\nOutside, the streetlight keeps its vigil,\na moon we built ourselves.\n\nI hold the cup with both hands\nthe way I once held everything\nI was afraid to drop\u2014\ngently, and as if it mattered.\n\nSomewhere, a train is leaving.\nSomewhere, a door is closing softly\nso as not to wake the house.\n\nAnd here, the quiet does its slow work,\nstitching the torn hours back together,\nthread by patient thread,\nuntil morning, unhurried,\nfinds me already waiting.",
+      "preamble_text": "**Small Hours**",
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJKLMNOP",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKLMNOP",
+        "rhyme_participation_rate": 0.0,
+        "person": "mixed",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "651d73fd-3a4d-4ba1-8177-51b3855a43f4",
+      "length_cap": 20,
+      "poem_body": "Moonlight rests on the sleeping lane,  \nA silver hush after day\u2019s bright rain.  \nThe wind turns pages in the trees,  \nAnd sutures night with threads of breeze.  \n\nA distant train, a faintly lit star,  \nReminds the dark how small we are.  \nYet in this quiet, soft and deep,  \nThe heart learns secrets it can keep.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AABBCCDD",
+        "rhyme_scheme_known_only": "AABBCCDD",
+        "rhyme_participation_rate": 1.0,
+        "person": "mixed",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "0d84272f-3913-4b34-b2a6-da1bea39ab05",
+      "length_cap": 5,
+      "poem_body": "Beneath the moon\u2019s soft silver gleam,  \nI find my worries turn to dream;  \nWhere shadows fade, my heart takes flight\u2014  \nOne breath, and everything feels right.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1.0,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "6ef8b054-12ed-491a-8d9e-acc71a3dfaf8",
+      "length_cap": 10,
+      "poem_body": "Morning lifts its silver cup,  \nAnd pours light through the sleeping trees;  \nThe river, quick with waking birds,  \nUnknots its ribbon to the breeze.  \nI follow where the soft earth glows,  \nWith dawn held gently in my chest,  \nUntil the day, like open hands,  \nReceives me into quiet rest.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCBDEFE",
+        "rhyme_scheme_known_only": "ABCBDEFE",
+        "rhyme_participation_rate": 0.5,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "78b7a565-83f0-49a0-8aa7-84747e4bae9d",
+      "length_cap": 10,
+      "poem_body": "**Still**\n\nThe lake holds the moon like a secret,\nnot trembling, not proud.\nThe trees have forgotten to worry.\nEven the wind has gone quiet,\nlearning, at last, how to listen.",
+      "preamble_text": "Here's one:",
+      "auto": {
+        "rhyme_scheme": "ABCDEF",
+        "rhyme_scheme_known_only": "ABCDEF",
+        "rhyme_participation_rate": 0.0,
+        "person": "impersonal",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "7b7f5b82-7903-40a4-a7c2-82ab273f553f",
+      "length_cap": 10,
+      "poem_body": "Morning spills gold on the windowsill,  \nA quiet bird stitches the air with song.  \nCoffee breath, soft light, the world stands still,  \nAs shadows loosen and drift along.  \nIn small things, the day begins to bloom\u2014  \nA cup, a breeze, a brightening room.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "?ABACC",
+        "rhyme_scheme_known_only": "ABACC",
+        "rhyme_participation_rate": 0.8,
+        "person": "impersonal",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "c340b508-6e6c-4542-baff-4eaad035c6b0",
+      "length_cap": 10,
+      "poem_body": "Moonlight stitches the quiet night,  \nA silver thread on water laid.  \nThe trees hold still their breaths of green,  \nAnd shadows drift where stars have played.  \nA distant wind hums soft and low,  \nThe dark turns kind, the edges fade\u2014  \nFor in this hush, the world seems small,  \nAnd every heart remembers dawn.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCBDBEF",
+        "rhyme_scheme_known_only": "ABCBDBEF",
+        "rhyme_participation_rate": 0.375,
+        "person": "3rd",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "8f7559e8-02b8-436f-9063-5d3f5eaa9f67",
+      "length_cap": 10,
+      "poem_body": "Autumn leaves drift through the air,\nEach one a memory falling slow.\nThe world grows quiet, cold, and bare,\nWhile hidden seeds beneath still grow.",
+      "preamble_text": "# Whisper",
+      "auto": {
+        "rhyme_scheme": "ABAB",
+        "rhyme_scheme_known_only": "ABAB",
+        "rhyme_participation_rate": 1.0,
+        "person": "impersonal",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "7bdc1812-5d93-4a20-bceb-0cd220d1c84d",
+      "length_cap": 5,
+      "poem_body": "Moonlight spills on quiet stone,\nA whisper drifts where wind has flown.\nStars rehearse their ancient art\u2014\nAnd silence sings inside my heart.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1.0,
+        "person": "mixed",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "2d1e107f-3524-420e-9065-5e31850d6800",
+      "length_cap": 5,
+      "poem_body": "The rain taps soft on windowpanes,\nA gentle rhythm, cool and slow,\nWhile distant thunder hums its song.",
+      "preamble_text": "Here's one for you:",
+      "auto": {
+        "rhyme_scheme": "ABC",
+        "rhyme_scheme_known_only": "ABC",
+        "rhyme_participation_rate": 0.0,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "51897765-0e6d-4a68-aa63-7a5f07100c9a",
+      "length_cap": 10,
+      "poem_body": "At dawn, the quiet window fills with gold,  \nA sparrow stitches song through waking air.  \nThe kettle hums; the morning is still bold,  \nWith simple light resting everywhere.  \nI hold this hour like water in my hands\u2014  \nBrief, shining, impossible to keep.  \nYet somehow peace, like rain on thirsty lands,  \nFalls softly through the roots of what I seek.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABACDEDF",
+        "rhyme_scheme_known_only": "ABACDEDF",
+        "rhyme_participation_rate": 0.5,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "5e4651ad-67d2-4e8b-a1ba-9a8b2c15c2de",
+      "length_cap": 5,
+      "poem_body": "Morning spills gold on the sill,  \nA sparrow stitches silence with song,  \nDay opens like a careful hand.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABC",
+        "rhyme_scheme_known_only": "ABC",
+        "rhyme_participation_rate": 0.0,
+        "person": "impersonal",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "82095ac1-ef61-48d6-b9bc-d243f78560d6",
+      "length_cap": 20,
+      "poem_body": "The dawn breaks soft through winter trees,\nA whisper carried on the breeze.\nCoffee steams in gentle hands,\nWhile frost still holds the sleeping lands.\n\nThe world is still, the world is slow,\nNo rush, no hurry, nowhere to go.\nJust breath and warmth and golden light,\nThe lingering peace of fading night.\n\nIn moments such as these, I find\nA stillness settles in my mind\u2014\nA simple truth, both deep and clear:\nThe present moment waiting here.",
+      "preamble_text": "# Quiet Morning",
+      "auto": {
+        "rhyme_scheme": "AABBCCDDEEFG",
+        "rhyme_scheme_known_only": "AABBCCDDEEFG",
+        "rhyme_participation_rate": 0.8333333333333334,
+        "person": "1st_singular",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "c235e4d6-88b9-41b7-b0b6-eee58fb099ac",
+      "length_cap": 20,
+      "poem_body": "**The Last Light**\n\nThe sun leans down to touch the hill\nand stains the clouds a burning red.\nThe birds go quiet, the wind grows still,\nand day prepares to go to bed.\n\nI stand alone at the garden gate\nand breathe the cool of coming night,\ngrateful for the small and great,\nfor darkness born from fading light.",
+      "preamble_text": "Here is a short poem:",
+      "auto": {
+        "rhyme_scheme": "ABCBCDADA",
+        "rhyme_scheme_known_only": "ABCBCDADA",
+        "rhyme_participation_rate": 1.0,
+        "person": "1st_singular",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "d2068673-2507-4d64-b223-44bd97c66951",
+      "length_cap": 10,
+      "poem_body": "The day folds shut like a worn-out book,\nits pages dimming, gold to gray.\nA single bird rehearses night\nin syllables of fading light.\n\nSomewhere, a window holds a lamp\nthe way a hand might hold a moth\u2014\ntrembling, tender, almost lost\u2014\nand I walk home through all of it.",
+      "preamble_text": "**Dusk Returns**",
+      "auto": {
+        "rhyme_scheme": "ABCCDEFG",
+        "rhyme_scheme_known_only": "ABCCDEFG",
+        "rhyme_participation_rate": 0.25,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "071d1790-d276-4947-adb1-bd314d82d810",
+      "length_cap": 10,
+      "poem_body": "The kettle hums a lullaby,\nthe window holds a slice of sky,\nand steam curls up like quiet prayers\nfrom porcelain cups on wooden chairs.\n\nOutside, the world forgets to rush\u2014\na sparrow tucked inside the hush.\nI sip, I breathe, I let things be:\nthe morning, mine. The silence, free.",
+      "preamble_text": "**Small Hours**",
+      "auto": {
+        "rhyme_scheme": "ABCCDDEE",
+        "rhyme_scheme_known_only": "ABCCDDEE",
+        "rhyme_participation_rate": 0.75,
+        "person": "1st_singular",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "48ab253c-2289-453e-b26b-1afa52e34b48",
+      "length_cap": 5,
+      "poem_body": "Moonlight spills on quiet stone,\nthe river hums a song alone\u2014\neven silence has a tone.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AAA",
+        "rhyme_scheme_known_only": "AAA",
+        "rhyme_participation_rate": 1.0,
+        "person": "impersonal",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "48af5dae-a3d2-4ffc-a60a-e9621f303c4b",
+      "length_cap": 20,
+      "poem_body": "The kettle hums a hymn\nto no one in particular.\nSteam writes and erases itself\non the window's cold page.\n\nOutside, a streetlamp keeps\nits yellow vigil over nothing\u2014\na stray cat, maybe,\nor the memory of one.\n\nI hold the cup with both hands\nthe way you hold a small bird:\ngently, knowing it will leave,\ngrateful it has stayed this long.",
+      "preamble_text": "**Small Hours**",
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJKL",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKL",
+        "rhyme_participation_rate": 0.0,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "a052478d-439d-4665-91a9-d594660b73a7",
+      "length_cap": 20,
+      "poem_body": "Morning spills gold on the sill,  \nA soft hand waking dust from sleep.  \nThe kettle hums a patient tune,  \nAnd shadows fold their corners deep.  \n\nA sparrow stitches light to air,  \nOne bright note, then another, free.  \nI stand between the day and dream,  \nAs if the world were made for tea.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCBDEFE",
+        "rhyme_scheme_known_only": "ABCBDEFE",
+        "rhyme_participation_rate": 0.5,
+        "person": "mixed",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "3a82ff76-1579-4f09-89b1-ca29aad33728",
+      "length_cap": 5,
+      "poem_body": "Beneath the fading streetlight\u2019s glow,  \nyour laughter turns the dark to gold;  \nthe night leans close, slow and low\u2014  \nand morning finds its way, bold.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABAB",
+        "rhyme_scheme_known_only": "ABAB",
+        "rhyme_participation_rate": 1.0,
+        "person": "mixed",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "14a743b4-79f8-4a4e-873d-4934c78eb765",
+      "length_cap": 10,
+      "poem_body": "The kettle hums its small, bright song,\nsteam curling like a question mark.\nOutside, the maple lets go\none leaf, then another\u2014\nnot grief, just gravity\nlearning the shape of release.\nI sip. The window holds the dusk\nthe way a hand holds water:\nbriefly, and without complaint.",
+      "preamble_text": "**Quiet Hour**",
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHI",
+        "rhyme_scheme_known_only": "ABCDEFGHI",
+        "rhyme_participation_rate": 0.0,
+        "person": "mixed",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "1fe9ee28-4c68-461b-8a72-6e738c6e70d0",
+      "length_cap": 5,
+      "poem_body": "The moon slips behind a cloud,\nSilence wraps the sleeping town,\nEven the stars bow their heads.",
+      "preamble_text": "Here's one:",
+      "auto": {
+        "rhyme_scheme": "ABC",
+        "rhyme_scheme_known_only": "ABC",
+        "rhyme_participation_rate": 0.0,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "ae3954f9-f474-4c82-96c0-29e3a625379f",
+      "length_cap": 10,
+      "poem_body": "Midnight hums in a cracked blue cup,  \nStars spill softly, never waking.  \nA moth writes circles in the dark,  \nThin as breath on winter glass.  \nSomewhere, a door forgets to close,  \nAnd dreams drift out like silver dust.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCDEF",
+        "rhyme_scheme_known_only": "ABCDEF",
+        "rhyme_participation_rate": 0.0,
+        "person": "impersonal",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "9cf4784c-efe4-4a91-aca1-4206ca7c03ca",
+      "length_cap": 10,
+      "poem_body": "In the hush between the seconds\u2019 roar,  \nthe streetlights brew their amber lore;  \nmy thoughts drift soft as paper snow,  \ntill morning finds where shadows go.  \nI breathe\u2014one small, brave flame to hold,  \nand let the day be newly told.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AABBCC",
+        "rhyme_scheme_known_only": "AABBCC",
+        "rhyme_participation_rate": 1.0,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "3d969d03-fdb1-4ba4-a462-eca37d533efe",
+      "length_cap": 20,
+      "poem_body": "Golden leaves drift down like letters\nfrom a summer we're forgetting,\nwhile the wind writes secrets\nin the branches turning bare.\n\nThe world grows quiet,\npreparing for its rest,\nand we, too, learn to slow\u2014\nto find the beauty in the letting go.\n\nIn this season of small deaths,\nsomething stirs beneath the frost:\nthe promise of return,\npatient in the sleeping earth.",
+      "preamble_text": "# Autumn's Whisper",
+      "auto": {
+        "rhyme_scheme": "ABCDEFGGHIJK",
+        "rhyme_scheme_known_only": "ABCDEFGGHIJK",
+        "rhyme_participation_rate": 0.16666666666666666,
+        "person": "mixed",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "cf884ade-90b3-4547-b77b-6062883e6dde",
+      "length_cap": 20,
+      "poem_body": "Morning arrives uninvited,\nspilling through the blinds\nlike a guest who knows\nwhere the coffee is kept.\n\nI am learning to let things in\u2014\nthe gray light, the unanswered letter,\nthe small ache behind the ribs\nthat has no name, only weather.\n\nSomewhere a bird repeats\nits one good sentence.\nSomewhere a door I forgot\nswings quietly open.\n\nI stand in the doorway,\nneither leaving nor staying,\nholding the cup of the hour\nuntil it cools in my hands.",
+      "preamble_text": "**Threshold**",
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJKLMNOP",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKLMNOP",
+        "rhyme_participation_rate": 0.0,
+        "person": "1st_singular",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "a0d18c40-2478-428f-ad71-6094095e66a7",
+      "length_cap": 5,
+      "poem_body": "Moonlight spills on quiet stone,\nA river hums its way alone\u2014\nNight exhales, and I am home.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AAB",
+        "rhyme_scheme_known_only": "AAB",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "mixed",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "78fa6d24-f520-442c-bd90-b5c8790df9c3",
+      "length_cap": 10,
+      "poem_body": "The kettle hums a quiet tune,\nthe window holds a paper moon.\nI count my breaths like falling leaves,\neach one a thing the morning grieves.\nOutside, the world is still asleep\u2014\ninside, my thoughts are growing deep.\nI sip the dark, I sip the light,\nand fold myself into the night.",
+      "preamble_text": "**Small Hours**",
+      "auto": {
+        "rhyme_scheme": "AABBCCDD",
+        "rhyme_scheme_known_only": "AABBCCDD",
+        "rhyme_participation_rate": 1.0,
+        "person": "1st_singular",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "28d9df76-11d5-4f07-a445-a3e8c2433505",
+      "length_cap": 5,
+      "poem_body": "Leaves drift down like golden thoughts,\nWhile the world grows quiet and still,\nAnd we learn to let go.",
+      "preamble_text": "# Autumn",
+      "auto": {
+        "rhyme_scheme": "ABC",
+        "rhyme_scheme_known_only": "ABC",
+        "rhyme_participation_rate": 0.0,
+        "person": "1st_plural",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "c346a43f-bce6-4057-b2d3-a9cbba405e32",
+      "length_cap": 10,
+      "poem_body": "**Still Water**\n\nThe lake holds the sky like a secret,\ntrembling when the wind speaks.\nEven the trees lean in to listen,\nroots tangled in what they seek.",
+      "preamble_text": "Here's a short poem:",
+      "auto": {
+        "rhyme_scheme": "ABCDE",
+        "rhyme_scheme_known_only": "ABCDE",
+        "rhyme_participation_rate": 0.0,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "b4c56154-6c77-4185-93d3-ed5e0b0b9c8b",
+      "length_cap": 10,
+      "poem_body": "**Still Water**\n\nThe morning holds its breath,\na silver lake reflects the sky.\nNothing moves but light itself,\nand somewhere, quietly, so do I.",
+      "preamble_text": "Here's a short poem:",
+      "auto": {
+        "rhyme_scheme": "ABCDC",
+        "rhyme_scheme_known_only": "ABCDC",
+        "rhyme_participation_rate": 0.4,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "617cc80a-c3e5-46f6-bfdc-47cefc60eb89",
+      "length_cap": 20,
+      "poem_body": "The morning breaks in golden seams,\ncoffee steams in quiet dreams.\nA bird calls out from leafy height,\nthe world shakes off the weight of night.\n\nToday arrives with open hands\u2014\nno promises, no grand demands.\nJust this: the breath, the light, the air,\nthe simple grace of being there.",
+      "preamble_text": "# Quick",
+      "auto": {
+        "rhyme_scheme": "AABBCCDD",
+        "rhyme_scheme_known_only": "AABBCCDD",
+        "rhyme_participation_rate": 1.0,
+        "person": "impersonal",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "982cbb2c-b180-444a-9686-1ad6a8ffa5b8",
+      "length_cap": 20,
+      "poem_body": "At dusk the rooftops learn the color blue,  \nand windows bloom with little borrowed stars.  \nA kettle hums; the evening stitches through  \nthe loosened seam between our days and ours.  \n\nThe streetlamp pours a circle on the rain,  \neach drop a note too brief for bells to keep.  \nSomewhere a train is practicing goodbye;  \nsomewhere a child is teaching dark to sleep.  \n\nI hold this hour the way a match holds fire\u2014  \nsmall, bright, and trembling at its own desire.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABACDEFEGG",
+        "rhyme_scheme_known_only": "ABACDEFEGG",
+        "rhyme_participation_rate": 0.6,
+        "person": "mixed",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "39c2609c-e316-45a7-ba94-346b0880acda",
+      "length_cap": 20,
+      "poem_body": "In morning\u2019s hush the streetlights fade,  \nA quiet gold the rooftops wear;  \nFootsteps soften down the shade,  \nAnd every shadow learns to spare.  \n\nA sparrow stitches sky with song,  \nWhile windows catch the turning light;  \nThe world moves on\u2014no need to wrong  \nTomorrow\u2019s breath with yesterday\u2019s fight.  \n\nSo hold your heart like open hands,  \nLet small delights be true and near;  \nFor even when the day demands,  \nHope finds its way, sincere and clear.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABABCDCDEFEF",
+        "rhyme_scheme_known_only": "ABABCDCDEFEF",
+        "rhyme_participation_rate": 1.0,
+        "person": "mixed",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "200c28de-87e4-4492-9d22-b41669f1e01f",
+      "length_cap": 5,
+      "poem_body": "Moonlight spills on silent stone,\nA cricket hums, then sings alone\u2014\nNight exhales, and I am home.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AAB",
+        "rhyme_scheme_known_only": "AAB",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "1dce4e3f-85a2-466a-afd0-ad07e9672db6",
+      "length_cap": 20,
+      "poem_body": "Rain writes in silver on the street,  \nA hush of shoes, a softened beat.  \nThe windows bloom with borrowed light,  \nSmall planets waking in the night.  \n\nA bus sighs past, then all is still,  \nDark rooftops lean against the hill.  \nSomewhere a kettle starts to sing,  \nAnd steam becomes a ghost with wings.  \n\nI walk beneath the dripping trees  \nWhile evening folds the air with ease,  \nAnd think how brief, how bright we are\u2014  \nA match, a moth, a little star.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AABBCCDEFFGG",
+        "rhyme_scheme_known_only": "AABBCCDEFFGG",
+        "rhyme_participation_rate": 0.8333333333333334,
+        "person": "mixed",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "d63cc97b-3efd-4ae4-845e-90420d5968ae",
+      "length_cap": 20,
+      "poem_body": "**The Night Settles**\n\nThe stars don't ask permission to appear,\nthey simply wait for darkness to make room.\nThe cricket finds his song without a fear,\nand petals close like doors against the moon.\n\nThe river doesn't mourn for where it's been,\nit carries light and moves without a name.\nAnd I am learning, slowly, how to lean\ninto the quiet, trusting it the same.\n\nSo let the hours fall like leaves tonight,\nlet all the noise dissolve into the air.\nSome things don't need the asking to be right \u2014\nthey only need you willing to be there.",
+      "preamble_text": "Here's one for you:",
+      "auto": {
+        "rhyme_scheme": "ABCBDEFGFHI?I",
+        "rhyme_scheme_known_only": "ABCBDEFGFHII",
+        "rhyme_participation_rate": 0.5,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "5cbdca45-db39-48b0-8c9d-ed72d93e5609",
+      "length_cap": 20,
+      "poem_body": "The morning breaks in shades of gold,\nA gentle warmth that takes the cold,\nAnd in the hush before the day,\nI find the words I couldn't say.\n\nThe world spins soft on silent streets,\nWhere starlight fades and sunlight meets,\nAnd though the night must slip away,\nIts peace will guide me through the day.",
+      "preamble_text": "# Whisper",
+      "auto": {
+        "rhyme_scheme": "AABBCCBB",
+        "rhyme_scheme_known_only": "AABBCCBB",
+        "rhyme_participation_rate": 1.0,
+        "person": "1st_singular",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "13322bdd-a086-420b-9db1-0b70883feead",
+      "length_cap": 20,
+      "poem_body": "The morning breaks in golden light,\nA world remade from fading night.\nBirdsong echoes through the trees,\nA gentle hymn upon the breeze.\n\nDew still clings to petals bright,\nEach drop a prism, pure and right.\nThe day unfolds without a sound,\nWith quiet beauty all around.\n\nIn stillness dwells a sacred grace,\nTime pauses in this sacred space.\nBefore the rush, before the noise,\nThere lives a peace beyond all toys.\n\nSo pause, and let the moment be,\nFor in this hush, we find the key.",
+      "preamble_text": "# Whispers",
+      "auto": {
+        "rhyme_scheme": "AABBAACCDDEEFF",
+        "rhyme_scheme_known_only": "AABBAACCDDEEFF",
+        "rhyme_participation_rate": 1.0,
+        "person": "1st_plural",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "6b72c4b7-df33-437e-9c19-95ed285c7e9f",
+      "length_cap": 20,
+      "poem_body": "Beneath the streetlight\u2019s quiet glow,  \nthe night unspools, slow as a tide.  \nA bicycle bell says hello  \nto dusk, and then it fades and hides.  \n\nThe clouds wear ink across the sky,  \nand shadows stitch the sidewalks tight;  \nmy thoughts drift out, then circle by,  \nlike moths that choose the softest light.  \n\nIf morning comes with borrowed cheer,  \nI\u2019ll leave my worry by the door\u2014  \ntomorrow will be something near:  \na kinder road, a braver shore.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABACDEDEFGFG",
+        "rhyme_scheme_known_only": "ABACDEDEFGFG",
+        "rhyme_participation_rate": 0.8333333333333334,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "9b5f8625-cdf4-4b34-be1b-f1ba8b59483a",
+      "length_cap": 20,
+      "poem_body": "At dusk the rooftops learn to breathe,  \nand windows bloom with borrowed gold.  \nA stray wind combs the sleeping leaves  \nlike hands through stories never told.  \n\nThe moon, a patient silver cup,  \ncollects the spill of distant light;  \nsomewhere a quiet heart wakes up  \nand names its loneliness the night.  \n\nBut morning hides in every stone,  \na small warm seed beneath the blue\u2014  \nso even when we stand alone,  \nthe day is on its way to you.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCBDEDEFGFG",
+        "rhyme_scheme_known_only": "ABCBDEDEFGFG",
+        "rhyme_participation_rate": 0.8333333333333334,
+        "person": "mixed",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "5b0b199d-a51b-4d11-8d69-b8d8c76bb6eb",
+      "length_cap": 5,
+      "poem_body": "Gold spills through the window,\nbirds sing the day awake,\nand for a moment,\neverything feels possible.",
+      "preamble_text": "# Morning Light",
+      "auto": {
+        "rhyme_scheme": "ABCD",
+        "rhyme_scheme_known_only": "ABCD",
+        "rhyme_participation_rate": 0.0,
+        "person": "impersonal",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "314addee-529e-404c-8282-48e4486ee49c",
+      "length_cap": 5,
+      "poem_body": "The sun dips low, the shadows grow,\nA quiet world beneath the snow,\nAnd in the silence, soft and deep,\nThe earth itself drifts off to sleep.",
+      "preamble_text": "Here is a short poem:",
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1.0,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "dd27a1fa-830e-46d2-ac6e-71c4d1d2d048",
+      "length_cap": 10,
+      "poem_body": "The kettle hums its lonely tune,\nthe window holds a paper moon.\nI stir my tea, I count my years\u2014\neach spoon a tide, each sip a pier.\nOutside, the dark is soft, not deep;\neven the streetlights nod toward sleep.\nAnd somewhere in this quiet hush,\nthe world forgives me, just because.",
+      "preamble_text": "**Small Hours**",
+      "auto": {
+        "rhyme_scheme": "AABCDDEF",
+        "rhyme_scheme_known_only": "AABCDDEF",
+        "rhyme_participation_rate": 0.5,
+        "person": "1st_singular",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "ea636849-1756-4046-85af-154a7a1c8800",
+      "length_cap": 5,
+      "poem_body": "Dawn folds the dark like paper thin,  \nA sparrow stitches daylight in.  \nThe quiet blooms on window glass\u2014  \nMorning learns my name as shadows pass.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCC",
+        "rhyme_scheme_known_only": "ABCC",
+        "rhyme_participation_rate": 0.5,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "e7a714b0-1101-469f-a143-018cb20dc985",
+      "length_cap": 10,
+      "poem_body": "A quiet night pours silver on the street,  \nWhere shadows stitch their gentle, distant seams;  \nI hold my breath\u2014then let it go, repeat,  \nLike waves returning to forgotten dreams.  \nThe stars lean close, as if to hear my name,  \nAnd morning, soft, unthreads the dark from flame.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABABCC",
+        "rhyme_scheme_known_only": "ABABCC",
+        "rhyme_participation_rate": 1.0,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "7ee8f798-041e-433e-ab08-ee0eb27dc023",
+      "length_cap": 5,
+      "poem_body": "A single star pierces the dark,\nkindling hope in silence\u2014\nwe are small, yet luminous,\nburning bright together.",
+      "preamble_text": "# Whisper",
+      "auto": {
+        "rhyme_scheme": "ABCD",
+        "rhyme_scheme_known_only": "ABCD",
+        "rhyme_participation_rate": 0.0,
+        "person": "1st_plural",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "f72739f5-d858-453e-a6a0-bf67d22f20cb",
+      "length_cap": 5,
+      "poem_body": "Moonlight spills on silent streets,  \nWhispers stitch the night to dreams;  \nHeart beats soft, then walks unafraid\u2014  \nMorning waits beneath the seams.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCB",
+        "rhyme_scheme_known_only": "ABCB",
+        "rhyme_participation_rate": 0.5,
+        "person": "impersonal",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "1ad2bb68-aeb7-4db3-8d06-37e399a12dad",
+      "length_cap": 10,
+      "poem_body": "Morning spills gold on the windowsill,  \nA sparrow stitches silence with song.  \nThe kettle hums its small blue will,  \nAnd shadows loosen, thin and long.  \nI hold one breath of waking air\u2014  \nWarm bread, wet leaves, the world made new\u2014  \nAs if the day were light to wear,  \nAnd hope a color breaking through.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "?ABACDCD",
+        "rhyme_scheme_known_only": "ABACDCD",
+        "rhyme_participation_rate": 0.8571428571428571,
+        "person": "mixed",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "73c0105c-c4b2-45c6-bd2d-1b9353eb2f2c",
+      "length_cap": 20,
+      "poem_body": "At dusk the city folds its iron wings,  \nand windows bloom with borrowed gold.  \nA lone train hums beneath the streets,  \ncarrying names it will not hold.  \n\nThe moon hangs thin as a promise kept,  \nsoft over rooftops, wires, and rain.  \nSomewhere a violin lifts one note  \nand lays it gently on the dark again.  \n\nI walk with the night inside my coat,  \nwith old small griefs and brighter schemes,  \nwhile every puddle on the pavement  \ntries on the face of broken dreams.  \n\nStill, morning waits beyond the bridge,  \nquiet as bread, and clean as flame.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCBDEFGFHIHJK",
+        "rhyme_scheme_known_only": "ABCBDEFGFHIHJK",
+        "rhyme_participation_rate": 0.42857142857142855,
+        "person": "3rd",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "baa3808a-3e09-4f1b-a9bb-34fa8ffd7ddd",
+      "length_cap": 20,
+      "poem_body": "The morning breaks in gold and gray,\na whisper turning into day.\nThe coffee steams, the world is slow,\noutside, the wind begins to blow.\n\nA bird calls out from leafy height,\nand something settles, feeling right.\nNo grand design, no master plan\u2014\njust this small moment, here I am.",
+      "preamble_text": "# Brief Light",
+      "auto": {
+        "rhyme_scheme": "AABBCCDE",
+        "rhyme_scheme_known_only": "AABBCCDE",
+        "rhyme_participation_rate": 0.75,
+        "person": "1st_singular",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "19f35814-92a6-4de3-a0ff-dbae42745735",
+      "length_cap": 10,
+      "poem_body": "The kettle hums its small, bright song,\nsteam curling like a question mark.\nOutside, the rain rehearses dusk,\neach drop a comma on the glass.\nI hold the cup with both my hands\u2014\na brief, warm country of my own.",
+      "preamble_text": "**Quiet Hour**",
+      "auto": {
+        "rhyme_scheme": "ABCDEF",
+        "rhyme_scheme_known_only": "ABCDEF",
+        "rhyme_participation_rate": 0.0,
+        "person": "1st_singular",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "8b5ade1b-35c5-45f5-8026-8d5dc3110dbe",
+      "length_cap": 10,
+      "poem_body": "**Still Water**\n\nThe lake holds the sky in its palms,\na mirror too honest to lie.\nThe wind comes and breaks the reflection,\nand the water just lets it go by.",
+      "preamble_text": "Here's a short poem:",
+      "auto": {
+        "rhyme_scheme": "ABCDC",
+        "rhyme_scheme_known_only": "ABCDC",
+        "rhyme_participation_rate": 0.4,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "b7f9c8d9-51dd-43cc-87b7-01cfe27f9af0",
+      "length_cap": 20,
+      "poem_body": "At dusk the windows learn to glow,  \nholding the last blue of the day.  \nA bird writes one brief note in air,  \nthen lets the evening take it away.  \n\nThe streetlights bloom like patient stars,  \nsmall suns stitched into the town.  \nSomewhere a door clicks softly shut,  \nsomewhere a tired hand sets burdens down.  \n\nNight does not fall; it gathers,  \ngentle as ink in water spread.  \nAnd in that hush, the world seems kept  \nby all the quiet things unsaid.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCBDEFEGHIH",
+        "rhyme_scheme_known_only": "ABCBDEFEGHIH",
+        "rhyme_participation_rate": 0.5,
+        "person": "3rd",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "e2432cd0-2e50-452a-922c-f5bf8e2be65d",
+      "length_cap": 5,
+      "poem_body": "Beneath the hush of morning light,  \nmy worries loosen, soft and slight;  \nI breathe, and hope stays\u2014steadfast, clear,  \nlike dawn that learns to disappear.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1.0,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "3be55b30-0f49-43ac-9658-1ba966ee26c1",
+      "length_cap": 10,
+      "poem_body": "The kettle hums a quiet song,\nthe morning hasn't started yet.\nSteam curls up like second thoughts,\nthe window holds a silhouette.\nOutside, the world is still asleep\u2014\ninside, a small fire, warm and slow,\na cup, a breath, a place to keep\nthe things I'm not yet ready to know.",
+      "preamble_text": "**Small Hours**",
+      "auto": {
+        "rhyme_scheme": "ABCBDEDE",
+        "rhyme_scheme_known_only": "ABCBDEDE",
+        "rhyme_participation_rate": 0.75,
+        "person": "impersonal",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "60c09b87-7a66-4891-872b-a263488c604f",
+      "length_cap": 10,
+      "poem_body": "The morning breaks in golden light,\nA bird calls out its song so bright,\nThe world awakens, soft and new,\nWhile drops of dew catch every hue,\nA gentle breeze moves through the trees,\nCarrying hope upon the breeze.",
+      "preamble_text": "# Whisper",
+      "auto": {
+        "rhyme_scheme": "AABBCC",
+        "rhyme_scheme_known_only": "AABBCC",
+        "rhyme_participation_rate": 1.0,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "1679413a-710a-45cf-8e96-ca9177e23026",
+      "length_cap": 5,
+      "poem_body": "Moonlight spills on the sleeping lake,  \nA silver hush the night will make;  \nStars lean close in quiet grace,  \nAnd dream their light across time\u2019s face.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1.0,
+        "person": "3rd",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "20a84df0-25bd-4c5e-9c02-809a85f80b0d",
+      "length_cap": 5,
+      "poem_body": "Night folds in softly, streetlights hum\u2014  \nI drift through quiet, letting worries come undone.  \nA single star stays, steady in the dark,  \nAnd in its calm, my heart learns how to rest.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCD",
+        "rhyme_scheme_known_only": "ABCD",
+        "rhyme_participation_rate": 0.0,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "06c8023a-f9fb-463e-bce8-393e64a45498",
+      "length_cap": 10,
+      "poem_body": "Dawn spills gold on the sleeping street,  \nA sparrow stitches songs through the air,  \nLeaves whisper secrets at my feet,  \nAnd morning blooms everywhere.  \n\nThe world, half-dream and half-awake,  \nTurns softly in the tender light,  \nAs if the sky itself might break  \nInto petals bright.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABAC?DED",
+        "rhyme_scheme_known_only": "ABACDED",
+        "rhyme_participation_rate": 0.5714285714285714,
+        "person": "mixed",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "3144a0ef-4afa-4363-9653-99a402c57346",
+      "length_cap": 20,
+      "poem_body": "Morning leans its warm gold glass  \nAcross the quiet shoulders of the day,  \nAnd every leaf remembers rain,  \nThough now it shakes with light.  \n\nThe street is only a river  \nThat forgot how to be wild,  \nSo it carries broken shadows  \nAnd the slow soft bloom of song.  \n\nI stand where yesterday dissolved,  \nListening to the world begin.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJ",
+        "rhyme_scheme_known_only": "ABCDEFGHIJ",
+        "rhyme_participation_rate": 0.0,
+        "person": "3rd",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "c77194bb-b025-483f-8d4c-b63bbddb2c4a",
+      "length_cap": 20,
+      "poem_body": "Morning slips through half-closed blinds,  \na shy gold animal on the floor.  \nThe kettle hums its silver thought,  \nand windows bloom with borrowed sky.  \n\nA crow writes black commas on the wire,  \npausing where the wind would speak.  \nIn my cup, the day turns slowly\u2014  \ndark, warm, and almost kind.  \n\nI do not ask for more than this:  \na chair, a breath, a little light,  \nand something wordless in the chest  \nuntying itself by noon.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJKL",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKL",
+        "rhyme_participation_rate": 0.0,
+        "person": "mixed",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "43051014-757d-46ff-9c54-799796e7661d",
+      "length_cap": 20,
+      "poem_body": "**The Last Light**\n\nThe sun doesn't ask permission\nto bleed across the sky,\nit simply goes,\nthe way all beautiful things do\u2014\nwithout warning,\nwithout apology.\n\nAnd we stand at the window\nholding our coffee,\npretending we aren't watching\nsomething leave.",
+      "preamble_text": "Here's one for you:",
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJK",
+        "rhyme_scheme_known_only": "ABCDEFGHIJK",
+        "rhyme_participation_rate": 0.0,
+        "person": "1st_plural",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "8c1e04c9-fca0-4797-912a-74587ac4d46d",
+      "length_cap": 20,
+      "poem_body": "**Still Water**\n\nThe lake holds the sky\nlike a secret it never asked for,\nclouds drifting through its depths\nwithout ever getting wet.\n\nA stone breaks the surface,\nand the world shatters into rings,\nthen smooths itself again,\npatient as forgetting.\n\nI sit on the bank\nand wonder which of us\nis the reflection \u2014\nthe water, or me.",
+      "preamble_text": "Here is a short poem:",
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJK?L",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKL",
+        "rhyme_participation_rate": 0.0,
+        "person": "mixed",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "7adec854-732c-4fbe-a34f-3cfc2ff1b7dd",
+      "length_cap": 20,
+      "poem_body": "In quiet streets where evening thins,  \nThe window holds its amber dreams;  \nA kettle sings, a soft reply,  \nTo all the day that fades to seams.  \n\nBeneath the sky of folded blue,  \nThe moon arrives, unhurried, bright;  \nMy shadow learns a slower pace,  \nAnd hope steps softly into light.  \n\nSo let the hours slip like leaves\u2014  \nI\u2019ll carry what remains in me:  \nA simple breath, a stubborn heart,  \nStill finding ways to set them free.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCBDEFEGHIH",
+        "rhyme_scheme_known_only": "ABCBDEFEGHIH",
+        "rhyme_participation_rate": 0.5,
+        "person": "mixed",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "af8f594b-91e2-4d38-b028-59d8f90d5b64",
+      "length_cap": 10,
+      "poem_body": "In twilight\u2019s hush the streetlights hum,  \nA soft blue sigh becomes a drum;  \nI walk where shadows gently cling,  \nTo borrowed dreams that softly sing.  \nThe night unfolds, a quiet key\u2014  \nAnd turns my worries into sea.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AABBCC",
+        "rhyme_scheme_known_only": "AABBCC",
+        "rhyme_participation_rate": 1.0,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "3b951bed-175b-4555-86c8-4d63366032ff",
+      "length_cap": 10,
+      "poem_body": "Moonlight drifts on quiet streets,  \nWhere shadows stitch the night to sleep.  \nA single star, unhurried, gleams,  \nAnd spills its silver into dreams.  \nThe wind hums low through cedar boughs,  \nAs time forgets its earthly vows.  \nIn stillness, even hearts can hear  \nThe soft, far music of the near.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCCDDEF",
+        "rhyme_scheme_known_only": "ABCCDDEF",
+        "rhyme_participation_rate": 0.5,
+        "person": "3rd",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "6bbad471-89cd-4f8f-bce6-a6c953f709eb",
+      "length_cap": 5,
+      "poem_body": "The moon slips behind a cloud,\nSilence wraps the sleeping town,\nEven the stars bow their heads.",
+      "preamble_text": "Here is a short poem:",
+      "auto": {
+        "rhyme_scheme": "ABC",
+        "rhyme_scheme_known_only": "ABC",
+        "rhyme_participation_rate": 0.0,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "52817bd0-cf98-4616-b49c-10344e04b4e2",
+      "length_cap": 10,
+      "poem_body": "**Still**\n\nThe candle holds its breath at night,\na small and stubborn kind of light.\nThe dark presses close, but never wins\u2014\nthat's where the quiet hope begins.",
+      "preamble_text": "Here's one:",
+      "auto": {
+        "rhyme_scheme": "ABBCC",
+        "rhyme_scheme_known_only": "ABBCC",
+        "rhyme_participation_rate": 0.8,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "c948a0fb-d3ac-4b4e-b53c-13a8259ab772",
+      "length_cap": 5,
+      "poem_body": "Moonlight threads the quiet trees,  \nA silver hush upon the sea;  \nNight leans close and listens in,  \nDreams unfold like summer leaves.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCD",
+        "rhyme_scheme_known_only": "ABCD",
+        "rhyme_participation_rate": 0.0,
+        "person": "impersonal",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "3b5b1ddf-e65b-4275-a580-220014747bb6",
+      "length_cap": 10,
+      "poem_body": "The kettle hums a lullaby,\nsteam unfurls, a ghost set free.\nOutside, the dusk forgets the sky;\ninside, the lamp remembers me.\nA page turns soft as falling snow\u2014\nthe world can wait. For now, I know\nthe small, warm shape of staying still,\nthe way light pools along the sill.",
+      "preamble_text": "**Quiet Hour**",
+      "auto": {
+        "rhyme_scheme": "ABCBDDEE",
+        "rhyme_scheme_known_only": "ABCBDDEE",
+        "rhyme_participation_rate": 0.75,
+        "person": "1st_singular",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "f5342ed6-41b1-4c95-a985-d7d4e63970be",
+      "length_cap": 20,
+      "poem_body": "**Still Water**\n\nThe lake holds the sky\nlike a secret kept gently,\nclouds drifting below\nthe surface of things.\n\nA stone breaks the mirror,\nrings spreading outward\nuntil the world\nis smooth again.\n\nWe are always returning\nto stillness \u2014\nnot empty,\nbut full of waiting.",
+      "preamble_text": "Here is a short poem:",
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJ?KL",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKL",
+        "rhyme_participation_rate": 0.0,
+        "person": "1st_plural",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "41662201-f774-4217-8366-a6b6c00080f0",
+      "length_cap": 5,
+      "poem_body": "Dawn spills gold on the sleeping street,  \nA sparrow stitches song through air,  \nThe day unfolds with quiet feet,  \nAnd hope, like light, is everywhere.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABAC",
+        "rhyme_scheme_known_only": "ABAC",
+        "rhyme_participation_rate": 0.5,
+        "person": "impersonal",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "e6a78144-e622-4bc2-b402-d6dcd541ff3d",
+      "length_cap": 10,
+      "poem_body": "The kettle hums its single note,\nsteam writing letters on the glass.\nOutside, the maple sheds its coat\nin slow, deliberate brass.\nI hold the morning like a cup\u2014\ntoo full to drink, too warm to set down,\nand watch the small light gather up\nthe edges of the town.",
+      "preamble_text": "**Quiet Hour**",
+      "auto": {
+        "rhyme_scheme": "ABABCDCD",
+        "rhyme_scheme_known_only": "ABABCDCD",
+        "rhyme_participation_rate": 1.0,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "34c61d91-205d-47f7-9a64-237b514a091e",
+      "length_cap": 10,
+      "poem_body": "Night folds over rooftops, ink-black and still,  \nA single star hums softly, bright will.  \nI carry quiet like a lantern\u2019s glow,  \nWalking where the moon learns slow.  \nTomorrow waits\u2014unopened, kind\u2014  \nIn every breath, a practiced, daring mind.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AABBCC",
+        "rhyme_scheme_known_only": "AABBCC",
+        "rhyme_participation_rate": 1.0,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "a6aa867f-43ee-45fc-9893-25da203d1f2e",
+      "length_cap": 20,
+      "poem_body": "Moonlight threads the quiet pines,  \nAnd silver hums through windowpanes.  \nThe night leans close, a patient cat,  \nTo hear the soft world whisper back.  \n\nA star slips loose from heaven\u2019s seam,  \nAnd stitches gold into a dream.  \nI hold my breath; the dark agrees,  \nAnd bends like grass beneath the breeze.  \n\nWhen dawn arrives, it won\u2019t erase  \nThe hush still glowing on my face.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCDEEFFGG",
+        "rhyme_scheme_known_only": "ABCDEEFFGG",
+        "rhyme_participation_rate": 0.6,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "f883cbce-3d6e-4065-800d-0310c8f2099b",
+      "length_cap": 10,
+      "poem_body": "Beneath the streetlamp\u2019s quiet glow,  \nYour laughter threads the dark like light.  \nI hold my breath, then let it go\u2014  \nThe night feels softer than before.  \nTomorrow waits, but I\u2019m not afraid:  \nIn you, my tired heart finds its name.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABACDE",
+        "rhyme_scheme_known_only": "ABACDE",
+        "rhyme_participation_rate": 0.3333333333333333,
+        "person": "mixed",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "e68285fa-e041-4615-93ba-e99b50db6e6f",
+      "length_cap": 10,
+      "poem_body": "The morning breaks in gold,\na sparrow sings its name.\nCoffee steams, the day unfolds\u2014\nnothing stays the same.\nWe chase the hours, growing old,\nyet find in loss a flame.",
+      "preamble_text": "# Brief Light",
+      "auto": {
+        "rhyme_scheme": "ABCBAB",
+        "rhyme_scheme_known_only": "ABCBAB",
+        "rhyme_participation_rate": 0.8333333333333334,
+        "person": "mixed",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "ab9485bc-fea6-4999-90f6-313e7c31788f",
+      "length_cap": 10,
+      "poem_body": "Morning opens like a quiet hand,  \nUnfolding light across the land;  \nThe trees still hold the night\u2019s last dream,  \nWhile silver wakes along the stream.  \nAnd every breath, a small new song,  \nReminds the world to move along.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AABBCC",
+        "rhyme_scheme_known_only": "AABBCC",
+        "rhyme_participation_rate": 1.0,
+        "person": "impersonal",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "a8a99fe5-ffb2-4d7a-b467-d3c5da558829",
+      "length_cap": 20,
+      "poem_body": "**The Quiet Hour**\n\nThe candle burns its steady gold,\nagainst the dark, against the cold,\nwhile outside winds forget their name\nand every restless thing grows tame.\n\nThe clock ticks soft, the shadows lean,\nand somewhere lost between unseen\nand almost known, a thought takes flight \u2014\na small, bright bird dissolving into night.\n\nI hold my cup and let it be,\nthis hour that asks nothing of me,\njust breath, just warmth, just fading light,\njust the gentle, wordless gift of night.",
+      "preamble_text": "Here is a short poem:",
+      "auto": {
+        "rhyme_scheme": "ABBCCDD?EFFEE",
+        "rhyme_scheme_known_only": "ABBCCDDEFFEE",
+        "rhyme_participation_rate": 0.9166666666666666,
+        "person": "mixed",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "0ec23bb3-e246-401e-b94c-555c03cf68e6",
+      "length_cap": 20,
+      "poem_body": "Golden leaves drift down like letters\nfrom summer's final goodbye.\nThe air turns sharp with promise,\nand trees undress without shame.\n\nWe gather what remains\u2014\napples, acorns, fading light\u2014\nand tuck them close as winter\nsharpens its teeth on the horizon.\n\nNothing lasts. Everything changes.\nYet here we stand, grateful,\nwatching beauty slip away,\nknowing it will return.",
+      "preamble_text": "# Autumn",
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJKL",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKL",
+        "rhyme_participation_rate": 0.0,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "50705453-6a96-475b-8967-5d9fce4b03fb",
+      "length_cap": 20,
+      "poem_body": "The kettle hums its quiet song,\nthe window holds a square of gray,\nand morning, like a patient guest,\nunpacks itself and stays.\n\nI cup my hands around the warmth\nof something simple, something true\u2014\na thought, a breath, a steady light\nthat ordinary things accrue.\n\nOutside, a sparrow tries the air.\nInside, the clock forgets to chide.\nThe world begins again, again,\nand I, unhurried, step inside.",
+      "preamble_text": "**Small Hours**",
+      "auto": {
+        "rhyme_scheme": "ABCDEFGFHIJI",
+        "rhyme_scheme_known_only": "ABCDEFGFHIJI",
+        "rhyme_participation_rate": 0.3333333333333333,
+        "person": "1st_singular",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "80b58787-9ef6-44d8-9ce8-49c768175396",
+      "length_cap": 5,
+      "poem_body": "Moonlight slips through quiet trees,  \nA silver hush on sleeping seas.  \nThe night hums soft, then lets us be.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AAB",
+        "rhyme_scheme_known_only": "AAB",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "1st_plural",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "0ad3d9cb-b47b-431d-acf8-23ef02a49e07",
+      "length_cap": 5,
+      "poem_body": "The night unfolds in borrowed light,  \nWhispers stitch the stars in time;  \nI hold my breath, then feel it\u2014right:  \nA quiet hope, a gentle climb.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AB?B",
+        "rhyme_scheme_known_only": "ABB",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "ad82667b-7007-43d1-a339-f5aad1bb3eae",
+      "length_cap": 20,
+      "poem_body": "Moonlight folds the evening thin,  \nA silver hush across the room;  \nThe turning earth keeps moving in  \nIts quiet orbit through the gloom.  \n\nA window breathes with winter light,  \nThe trees are ink against the sky;  \nAnd every small, suspended night  \nTeaches the heart to soften, \u0927\u0940.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCBDED?",
+        "rhyme_scheme_known_only": "ABCBDED",
+        "rhyme_participation_rate": 0.5714285714285714,
+        "person": "3rd",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "9f7a40fe-5fc2-495d-94f2-421a608efb4b",
+      "length_cap": 5,
+      "poem_body": "Moonlight spills on silent stone,\nA river hums, then drifts alone\u2014\nEven shadows need a home.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AAB",
+        "rhyme_scheme_known_only": "AAB",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "impersonal",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "59b31964-8dae-4fb0-a896-5a510b79c84f",
+      "length_cap": 20,
+      "poem_body": "The kettle hums its quiet hymn,\nthe window holds a bruise of dawn,\nand somewhere down the empty street\na single sparrow carries on.\n\nI cup my hands around the heat,\nthe way one holds a borrowed thing\u2014\naware it must be given back\nbefore the day begins to sing.\n\nOutside, the frost rewrites the lawn\nin script too delicate to keep.\nThe world is tender, brief, and bright.\nI drink my tea. The house, asleep.",
+      "preamble_text": "**Small Hours**",
+      "auto": {
+        "rhyme_scheme": "ABCDCEFEBGHG",
+        "rhyme_scheme_known_only": "ABCDCEFEBGHG",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "1st_singular",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "e06bca58-eacc-4da9-8281-5d537dbc0860",
+      "length_cap": 10,
+      "poem_body": "Moonlight rests on quiet fields,  \nWhere silver grass in whispers yields.  \nThe night unfolds a velvet seam,  \nAnd stars drift softly through the dream.  \nA river hums a low refrain,  \nAs darkness mends the day again.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AABBCD",
+        "rhyme_scheme_known_only": "AABBCD",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "impersonal",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "adab309c-f46f-4b7a-a3b0-afff745444da",
+      "length_cap": 20,
+      "poem_body": "At dusk, the quiet street exhales,  \nAnd windows bloom with borrowed gold.  \nA single bird forgets its map,  \nThen finds the sky is wide and kind.  \n\nThe trees speak softly in their leaves,  \nLike elders sharing names of rain.  \nI walk beneath their patient hands  \nAnd feel my worries loosen shape.  \n\nNight does not fall; it gathers close,  \nA shawl of stars on tired shoulders.  \nSomewhere, a small and distant light  \nKeeps watch until the morning answers.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "?ABCDEFGHIJK",
+        "rhyme_scheme_known_only": "ABCDEFGHIJK",
+        "rhyme_participation_rate": 0.0,
+        "person": "3rd",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "00ed273b-09a5-4c69-8510-07e4794077ee",
+      "length_cap": 10,
+      "poem_body": "Moonlight slips through sleeping trees,  \nA silver hush upon the breeze.  \nThe world grows soft, then fades from view,  \nAnd every shadow drinks the blue.  \nIn quiet, even hearts can hear  \nThe small bright song of being near.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AABBCD",
+        "rhyme_scheme_known_only": "AABBCD",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "impersonal",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "e57bd5ee-dfc8-4e43-8117-04a1bca06c23",
+      "length_cap": 20,
+      "poem_body": "Under a moon that mends the dark with light,  \nThe river learns the shape of silver air;  \nA quiet pine stands listening through the night,  \nWhile stars like fallen seeds are everywhere.  \n\nThe world grows soft as breath on window glass,  \nAnd time, unbuttoned, pauses at the gate;  \nEven the shadowed roots beneath us pass  \nTheir secrets to the tender hand of fate.  \n\nSo let the evening keep its patient glow\u2014  \nSome hearts are found by simply letting go.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABACDEDEFF",
+        "rhyme_scheme_known_only": "ABACDEDEFF",
+        "rhyme_participation_rate": 0.8,
+        "person": "3rd",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "ddb850d7-665b-4794-a0c3-0a37ea7f9af1",
+      "length_cap": 5,
+      "poem_body": "Beneath the dusk\u2019s soft, muted flame,  \nI walk where shadows learn my name;  \nThe night leans close, and time lets loose\u2014  \nA quiet spark: I drift, then choose.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AABC",
+        "rhyme_scheme_known_only": "AABC",
+        "rhyme_participation_rate": 0.5,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "cf6d37b7-a7dc-4d96-9232-fb099d19bd3b",
+      "length_cap": 5,
+      "poem_body": "Morning breaks like a promise kept,\nshadows fold into the day,\nand somewhere, a bird remembers how to sing.",
+      "preamble_text": "# Brief Light",
+      "auto": {
+        "rhyme_scheme": "ABC",
+        "rhyme_scheme_known_only": "ABC",
+        "rhyme_participation_rate": 0.0,
+        "person": "impersonal",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "14c249fa-27bb-4aec-96d4-35854b7498bf",
+      "length_cap": 10,
+      "poem_body": "**Still Water**\n\nThe lake holds the sky in its arms,\nA mirror of clouds drifting by.\nThe wind barely whispers its charms,\nAnd silence forgets how to cry.",
+      "preamble_text": "Here is a short poem:",
+      "auto": {
+        "rhyme_scheme": "ABCBC",
+        "rhyme_scheme_known_only": "ABCBC",
+        "rhyme_participation_rate": 0.8,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "ca0b66ab-15ab-4245-8e37-311ae2747fc6",
+      "length_cap": 5,
+      "poem_body": "Moonlight spills on quiet stone,\nA river hums its way back home.\nThe night exhales, and I, alone,\nAm less afraid of being known.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABAA",
+        "rhyme_scheme_known_only": "ABAA",
+        "rhyme_participation_rate": 0.75,
+        "person": "mixed",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "9de03ace-75f2-43d5-a433-aa49836f7091",
+      "length_cap": 5,
+      "poem_body": "The moon slips behind a cloud,\nSilence fills the empty street,\nEven the shadows hold their breath.",
+      "preamble_text": "Here's one:",
+      "auto": {
+        "rhyme_scheme": "ABC",
+        "rhyme_scheme_known_only": "ABC",
+        "rhyme_participation_rate": 0.0,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "47e8011e-656c-4581-a755-b2df577a688f",
+      "length_cap": 20,
+      "poem_body": "The kettle hums a lonely note,\nthe window fogs with breath.\nOutside, a streetlight stutters,\nkeeping vigil with the moths.\n\nI hold a cup I do not drink,\nwarm proof that I am here\u2014\nthat night, for all its weight,\nstill leaves a little room.\n\nSomewhere a door clicks shut.\nSomewhere a child turns over.\nThe world keeps its quiet promises\nto those who stay awake.\n\nAnd morning, when it comes,\nwill not ask where I have been\u2014\nonly offer, like an open hand,\nthe ordinary light again.",
+      "preamble_text": "**Small Hours**",
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJKLMNOP",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKLMNOP",
+        "rhyme_participation_rate": 0.0,
+        "person": "1st_singular",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "43bdcd85-4b85-44e8-a9cb-f1d216fec731",
+      "length_cap": 20,
+      "poem_body": "The sun breaks through the gathered clouds,\npainting gold across the grass.\nA single bird calls out its song,\nand the world wakes gently.\n\nDew still clings to spider's silk,\ndiamonds strung between the leaves.\nThe air is cool, the day is new,\nfull of quiet possibility.\n\nNothing asks anything of us\nin this moment, in this light\u2014\nonly to notice, to breathe,\nto be alive.",
+      "preamble_text": "# Morning Light",
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJKL",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKL",
+        "rhyme_participation_rate": 0.0,
+        "person": "mixed",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "2890b550-a38d-4160-b1af-4317781f656d",
+      "length_cap": 10,
+      "poem_body": "A dawn-lit street hums soft and gray,  \nwhere idle light begins to play;  \nI fold my worries, neat as thread,  \nand let them fade where shadows led.  \nThe day exhales, I learn to stay\u2014  \nand find my hope in what won\u2019t stay.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AABBAA",
+        "rhyme_scheme_known_only": "AABBAA",
+        "rhyme_participation_rate": 1.0,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "aee7e761-3b74-4988-87c6-0ce90527aa13",
+      "length_cap": 20,
+      "poem_body": "The coffee steams in morning light,\nA cardinal perches, bold and bright.\nOutside, the world is still asleep,\nWhile I sit here, my vigil keep.\n\nThe day ahead waits to be made,\nBut here I linger in this shade\u2014\nNo urgent calls, no pressing need,\nJust time to think, to pause, to read.\n\nThis peace won't last, I know it well,\nBut for now, within this spell,\nI'm grateful for these stolen hours,\nBefore the day exerts its powers.",
+      "preamble_text": "# Quiet Morning",
+      "auto": {
+        "rhyme_scheme": "AABBCCDEFFGG",
+        "rhyme_scheme_known_only": "AABBCCDEFFGG",
+        "rhyme_participation_rate": 0.8333333333333334,
+        "person": "1st_singular",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "15cb41d5-4e08-4f00-96aa-89234a15339f",
+      "length_cap": 20,
+      "poem_body": "At dusk the windows learn to glow,  \nand every room becomes a shore.  \nThe kettle hums, the soft lights slow,  \nwhile day unbuttons at the door.  \n\nA sparrow stitches through the rain,  \nthe streetlamp gathers drops like gold;  \nsome losses whisper, not in pain,  \nbut like a hand we used to hold.  \n\nStill, night is kind to what is small:  \na cup, a book, a breathing tree.  \nThe stars do not explain at all\u2014  \nthey only shine, and let us be.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABABCDCDEFEF",
+        "rhyme_scheme_known_only": "ABABCDCDEFEF",
+        "rhyme_participation_rate": 1.0,
+        "person": "1st_plural",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "4bd4fd5a-04a7-4ede-a25a-ffeb373a2911",
+      "length_cap": 20,
+      "poem_body": "The kettle hums its small hymn\nto morning, steam unspooling\nlike a thought I haven't finished.\n\nOutside, the maple is rehearsing\nits slow surrender\u2014each leaf\na letter it forgot to send.\n\nI stand at the window, holding\na cup that holds the light,\nand the light, somehow, holds me.\n\nThere is a kind of prayer\nthat asks for nothing,\nonly listens\n\nto the world arriving\nagain, and again,\nat its own quiet door.",
+      "preamble_text": "**Threshold**",
+      "auto": {
+        "rhyme_scheme": "A?BCDEFGHIJKLMN",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKLMN",
+        "rhyme_participation_rate": 0.0,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "f83a68a9-5f82-4685-a1b0-a7d82c8c1b50",
+      "length_cap": 5,
+      "poem_body": "The morning breaks with golden light,\nA bird sings soft against the night,\nHope blooms where darkness fades away.",
+      "preamble_text": "# Dawn",
+      "auto": {
+        "rhyme_scheme": "AAB",
+        "rhyme_scheme_known_only": "AAB",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "impersonal",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "dd851956-8129-438e-948c-ba684eafc717",
+      "length_cap": 5,
+      "poem_body": "Moonlight spills on quiet roofs,  \nA hush of stars hums low;  \nWe drift where daylight fades,  \nAnd find our hearts in slow.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCB",
+        "rhyme_scheme_known_only": "ABCB",
+        "rhyme_participation_rate": 0.5,
+        "person": "1st_plural",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "ae5a02c5-07ca-4705-9e00-6327a360cdc8",
+      "length_cap": 5,
+      "poem_body": "Morning folds light into the cup of my hands;  \na sparrow startles the silence into song.  \nFor one bright breath, the whole world feels small enough to love.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABC",
+        "rhyme_scheme_known_only": "ABC",
+        "rhyme_participation_rate": 0.0,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "7ce41bca-e0fa-4a6d-82d2-3a558fcc8b78",
+      "length_cap": 10,
+      "poem_body": "Moonlight threads the silent pines,  \nA silver hush on glassy streams;  \nThe night unfolds in braided signs,  \nAnd gathers fireflies into dreams.  \n\nThe wind rehearses soft goodbyes,  \nWhile stars lean down to hear the tide;  \nMy heart, a lantern, learns to rise  \nAnd drift where all the dark things hide.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABABCDCD",
+        "rhyme_scheme_known_only": "ABABCDCD",
+        "rhyme_participation_rate": 1.0,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "74fb462d-e2fc-4654-a089-07f2222d3009",
+      "length_cap": 5,
+      "poem_body": "Moonlight threads the restless sea,  \nWhispers braid the night with glee;  \nDawn hums softly, warm and free\u2014  \nAnd all my worries drift with thee.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AAAA",
+        "rhyme_scheme_known_only": "AAAA",
+        "rhyme_participation_rate": 1.0,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "325a75fa-66e3-4ec2-8424-0794eb6585f7",
+      "length_cap": 10,
+      "poem_body": "**Still Water**\n\nThe lake holds the sky in its arms,\nA mirror of clouds drifting by.\nThe wind whispers through the tall grass,\nAnd silence becomes a reply.\nEven the stones learn to let go,\nWorn smooth by the patient tide.\nSome things don't need to be chased\u2014\nThey simply arrive.",
+      "preamble_text": "Here is a short poem:",
+      "auto": {
+        "rhyme_scheme": "ABCDCEFGH",
+        "rhyme_scheme_known_only": "ABCDCEFGH",
+        "rhyme_participation_rate": 0.2222222222222222,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "e0feb0e5-9461-4edf-9513-00eb3c53bdcf",
+      "length_cap": 10,
+      "poem_body": "Morning spills gold on the windowsill,  \nA sparrow stitches silence with song.  \nSteam curls softly from a waiting cup,  \nAnd shadows loosen, thin and long.  \nThe day, still small, fits in your hands\u2014  \nA fragile flame, a borrowed bloom.  \nHold it gently as it wakes,  \nAnd make a little light of room.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "?ABACDED",
+        "rhyme_scheme_known_only": "ABACDED",
+        "rhyme_participation_rate": 0.5714285714285714,
+        "person": "3rd",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "6affae73-a9ab-4ccf-aead-804f24a4de10",
+      "length_cap": 20,
+      "poem_body": "The kettle hums its single note,\na moth rehearses at the screen,\nand somewhere down the dim-lit street\na dog reminds the dark it's seen.\n\nI hold a cup I do not drink.\nI think the thoughts I cannot say.\nThe window gathers up the night\nand hands it, softened, back as day.",
+      "preamble_text": "**Small Hours**",
+      "auto": {
+        "rhyme_scheme": "ABCBDEFE",
+        "rhyme_scheme_known_only": "ABCBDEFE",
+        "rhyme_participation_rate": 0.5,
+        "person": "1st_singular",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "7753e04a-ee85-422a-8fea-500229897cec",
+      "length_cap": 10,
+      "poem_body": "The morning light spills gold across the floor,\nWhile shadows dance and fade to something more.\nIn silence, hearts find words they couldn't say,\nAnd every ending births another day.",
+      "preamble_text": "# Whispers",
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1.0,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "17428207-c68c-4862-93ad-19f378ae4e4c",
+      "length_cap": 5,
+      "poem_body": "Moonlight spills on the quiet street,  \nA silver hush where shadows meet.  \nThe night breathes soft, and all is still,  \nAs dreams drift down the window sill.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1.0,
+        "person": "impersonal",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "05ec927c-611c-4951-ad5d-f2244d2adbcb",
+      "length_cap": 5,
+      "poem_body": "The moon slips behind a cloud,\nA secret kept from no one.\nEven the dark has light inside.",
+      "preamble_text": "Here's one:",
+      "auto": {
+        "rhyme_scheme": "ABC",
+        "rhyme_scheme_known_only": "ABC",
+        "rhyme_participation_rate": 0.0,
+        "person": "impersonal",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "1b264f02-18c5-492a-b9f4-a800e4b07773",
+      "length_cap": 5,
+      "poem_body": "Moonlight folds the night in silver thread,  \nA quiet dream where all our worries tread;  \nDawn waits softly at the edge of blue,  \nTo wake the world with something bright and new.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1.0,
+        "person": "1st_plural",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "3b5cfd1b-0197-425c-b189-d19597c2c856",
+      "length_cap": 10,
+      "poem_body": "Rain writes silver on the street,  \nNight folds softly at my feet.  \nA window keeps one ember bright,  \nSmall defiance in the night.  \nSomewhere, dawn prepares its hue\u2014  \nQuiet world, beginning new.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AABBCC",
+        "rhyme_scheme_known_only": "AABBCC",
+        "rhyme_participation_rate": 1.0,
+        "person": "mixed",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "2e636f2b-4b5a-493a-8901-6836c8dfbb76",
+      "length_cap": 10,
+      "poem_body": "Morning light spills through the pines,\nGold and shadow intertwine.\nA bird calls out its ancient song,\nThe world remembers it belongs.\nIn this quiet, I find peace,\nAll my wandering finds release.\nSimple moments, vast and true\u2014\nEverything I needed knew.",
+      "preamble_text": "# Whispers",
+      "auto": {
+        "rhyme_scheme": "ABCDEEFF",
+        "rhyme_scheme_known_only": "ABCDEEFF",
+        "rhyme_participation_rate": 0.5,
+        "person": "1st_singular",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "adcf1561-7044-4a45-b46e-cf58b08a0ada",
+      "length_cap": 5,
+      "poem_body": "Moon spills silver on the sill,\nthe kettle hums, the world holds still\u2014\nsmall joys keep the dark at bay.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AAB",
+        "rhyme_scheme_known_only": "AAB",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "impersonal",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "ef3839bb-299a-4d3a-90f9-9e64f7116a62",
+      "length_cap": 10,
+      "poem_body": "Golden leaves drift through cool air,\nBranches bare their wooden bones,\nThe world prepares for winter's sleep,\nWhile geese call out their sad goodbyes,\nAnd silence settles on the earth.",
+      "preamble_text": "# Autumn",
+      "auto": {
+        "rhyme_scheme": "ABCDE",
+        "rhyme_scheme_known_only": "ABCDE",
+        "rhyme_participation_rate": 0.0,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "38a62acd-8dbb-4d77-aea3-03bac2e60439",
+      "length_cap": 5,
+      "poem_body": "Moonlight stitches the quiet night,  \nSilver threads on rivers bright.  \nEven the dark learns how to glow,  \nWhen dreams begin to drift and flow.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1.0,
+        "person": "impersonal",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "0a2ee6b9-d910-4872-b1e8-c75522a27928",
+      "length_cap": 10,
+      "poem_body": "The morning breaks in golden light,\nA single bird takes flight,\nWhile shadows dance on dewy grass,\nAnd gentle moments quietly pass.\nThe world spins soft and slow,\nSeeds of wonder start to grow.",
+      "preamble_text": "# Whisper",
+      "auto": {
+        "rhyme_scheme": "AABBCC",
+        "rhyme_scheme_known_only": "AABBCC",
+        "rhyme_participation_rate": 1.0,
+        "person": "impersonal",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "390b465c-f7fc-4d87-b0e8-e3d8d44e4d8e",
+      "length_cap": 20,
+      "poem_body": "At dusk, the windows learn the color gold,  \nAnd even silence hums a little tune.  \nThe trees stand still, like stories never told,  \nWhile evening lifts its lantern to the moon.  \n\nA sparrow folds the daylight in its wing,  \nThe road grows soft beneath a violet sky.  \nSomewhere, a hidden creek begins to sing,  \nAs if the earth itself could breathe a sigh.  \n\nAnd in that hour between the dark and bright,  \nThe world feels held by something calm and deep\u2014  \nA tender hand laid lightly on the night,  \nA promise even restless hearts can keep.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABABCDCDEFEF",
+        "rhyme_scheme_known_only": "ABABCDCDEFEF",
+        "rhyme_participation_rate": 1.0,
+        "person": "3rd",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "41148ca6-16dc-4bda-ad8e-334432c2c7b1",
+      "length_cap": 10,
+      "poem_body": "Morning spills gold on the windowsill,  \nA quiet bird invents the day.  \nThe kettle hums, the shadows chill,  \nThen soften as they drift away.  \n\nI hold one breath of waking light,  \nA small, bright thing I cannot keep\u2014  \nIt trembles once, then takes to flight  \nAnd leaves its warmth inside my sleep.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "?ABACDCD",
+        "rhyme_scheme_known_only": "ABACDCD",
+        "rhyme_participation_rate": 0.8571428571428571,
+        "person": "mixed",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "d4b463da-2b7c-4e60-a240-289ce8713eee",
+      "length_cap": 10,
+      "poem_body": "Stars pierce the dark like punctuation marks,\nscattered across a sentence never finished.\nThe moon listens to the quiet,\nand I listen too\u2014\nto the spaces between heartbeats,\nto the soft exhale of wind.\nTomorrow will come.\nTonight, we rest.",
+      "preamble_text": "# Night",
+      "auto": {
+        "rhyme_scheme": "ABCDEFGH",
+        "rhyme_scheme_known_only": "ABCDEFGH",
+        "rhyme_participation_rate": 0.0,
+        "person": "mixed",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "f78902a4-38fa-4dbb-b9f9-73b549db47f0",
+      "length_cap": 5,
+      "poem_body": "Rain taps the window, then slips away.  \nA sparrow stitches morning into the gray.  \nI hold one warm cup against the cold,  \nand day begins, quietly, like gold.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1.0,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "363f9bc2-241d-4d2d-8436-e751a701ec92",
+      "length_cap": 20,
+      "poem_body": "Between the hours, I hear the pines\u2014  \na green-slow language, soft but true.  \nThe streetlights blink like distant brines,  \nand dusk exhales its ember-blue.  \n\nA sparrow argues with the wind\u2019s small seam,  \nwhile windows hold their quiet flame.  \nI gather moments like a thread of steam,  \nthen let them drift\u2014unclaimed.  \n\nIf love is weather, let it pass through,  \nleave light on floors, erase the doubt.  \nMorning will find what night can\u2019t do:  \nmake room for hope to wear its mouth.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABA?CDC?BEBF",
+        "rhyme_scheme_known_only": "ABACDCBEBF",
+        "rhyme_participation_rate": 0.7,
+        "person": "3rd",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "43cbf396-0c97-494e-8fc1-bc9bfe2ac301",
+      "length_cap": 20,
+      "poem_body": "The kettle hums a single note,\nsteam curls like a question mark\nabove the chipped blue cup.\n\nOutside, the streetlight stutters\u2014\na moth orbits its small religion,\nwings translating darkness into prayer.\n\nI am learning the language of staying:\nhow the floorboards settle,\nhow the clock forgives each minute\nby letting it go.\n\nSomewhere, a door closes softly.\nSomewhere, a child turns in sleep.\nAnd here, in the long pause\nbetween one breath and the next,\nthe world is almost\nenough.",
+      "preamble_text": "**Small Hours**",
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJKLMNOP",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKLMNOP",
+        "rhyme_participation_rate": 0.0,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "10e7bdd1-179a-4bc5-bc41-eaa87d124607",
+      "length_cap": 20,
+      "poem_body": "The coffee steams in morning light,\na small warmth held between my hands.\nThe world outside is still asleep,\nbirds haven't started their debates.\n\nHere in this soft, unhurried space,\nI'm just a person, nothing more\u2014\nno lists to check, no clocks to beat,\njust breath and silence, side by side.\n\nThe day will come and pull me in,\nbut not yet. Not quite yet.\nFor now, I'll watch the shadows move\nacross the kitchen wall,\nand let myself be small.",
+      "preamble_text": "# Quiet Morning",
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJKLL",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKLL",
+        "rhyme_participation_rate": 0.15384615384615385,
+        "person": "1st_singular",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "1e084d54-e683-41bd-a16f-30fafbd26e35",
+      "length_cap": 5,
+      "poem_body": "Moonlight stitches silver threads  \nAcross the hush of sleeping trees;  \nThe night holds breath in gentle hands,  \nAnd dreams drift out on velvet seas.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCB",
+        "rhyme_scheme_known_only": "ABCB",
+        "rhyme_participation_rate": 0.5,
+        "person": "impersonal",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "e566b85a-3436-429d-acbc-8fc9a16e37a7",
+      "length_cap": 20,
+      "poem_body": "**Still Water**\n\nThe lake holds the sky\nlike a secret it never asked for,\nsilver and trembling\nat the edges.\n\nA stone breaks the surface \u2014\nall that stillness\nscattered into rings,\nreaching for the shore.\n\nThen quiet again.\nThe water forgets,\nor pretends to.",
+      "preamble_text": "Here is a short poem:",
+      "auto": {
+        "rhyme_scheme": "ABCDE?FGCHIJ",
+        "rhyme_scheme_known_only": "ABCDEFGCHIJ",
+        "rhyme_participation_rate": 0.18181818181818182,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "48a0f65e-720a-46d1-b612-36a0a13a1741",
+      "length_cap": 20,
+      "poem_body": "Morning folds itself from the dark  \nlike paper learning its first shape.  \nDew hangs quiet as unsent words,  \nand the trees lift their green hands  \nto greet a wind that has traveled far.  \n\nSomewhere, a sparrow tries its small bright music,  \nas if the world were made to be begun again.  \nI stand at the edge of the day,  \ncarrying yesterday like a stone in my pocket,  \nand still, the light finds me.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJ",
+        "rhyme_scheme_known_only": "ABCDEFGHIJ",
+        "rhyme_participation_rate": 0.0,
+        "person": "3rd",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "eb75a670-5203-4135-bf42-d80b898e14a3",
+      "length_cap": 5,
+      "poem_body": "Moonlight spills on silent stone,\nA river hums its way back home.\nThe night exhales\u2014I am not alone.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABA",
+        "rhyme_scheme_known_only": "ABA",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "3rd",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "c6953178-42f2-451f-99cb-e0a66d6c88d6",
+      "length_cap": 20,
+      "poem_body": "The road forgets itself by dusk,\nthe trees lean in like listeners,\nand somewhere past the bend, a lamp\nkeeps its small argument with the dark.\n\nI have walked here before\u2014\nor someone wearing my shoes did,\ncounting breath like coins,\nspending each on the next slow step.\n\nThe fog is not unkind.\nIt only wants to hold what passes,\nto soften the edges of going,\nto make of every traveler\na rumor, a hush, a glow.\n\nAnd the lantern, patient thing,\nasks nothing of the night\nbut that it stay\nlong enough to be lit.",
+      "preamble_text": "**Lantern in the Fog**",
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJKLMNOPQ",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKLMNOPQ",
+        "rhyme_participation_rate": 0.0,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "e904293e-05e5-4bf6-b86a-924fcdb24d32",
+      "length_cap": 5,
+      "poem_body": "The moon slips behind a cloud,\nA secret kept from the crowd,\nEven light needs to hide.",
+      "preamble_text": "Here's one:",
+      "auto": {
+        "rhyme_scheme": "AAB",
+        "rhyme_scheme_known_only": "AAB",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "impersonal",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "a52597ce-d3ed-4b64-8daa-8a2d244ac57b",
+      "length_cap": 20,
+      "poem_body": "**The Last Light**\n\nThe sun drips down behind the hill,\nand everything goes amber, slow.\nThe birds have had their say and now\nthe crickets take the show.\n\nI sit here on the cooling steps\nand let the darkness come,\nthe way you let an old song play\nthough it leaves you numb.\n\nThe stars don't care about my name.\nThe wind has no advice.\nAnd somehow that's the only thing\ntonight that feels precise.",
+      "preamble_text": "Here's one:",
+      "auto": {
+        "rhyme_scheme": "ABCDCEFGFHIJI",
+        "rhyme_scheme_known_only": "ABCDCEFGFHIJI",
+        "rhyme_participation_rate": 0.46153846153846156,
+        "person": "mixed",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "0068b324-3d0c-44d4-883c-705a805e9475",
+      "length_cap": 10,
+      "poem_body": "The kettle hums a hymn to no one,\nsteam unspooling like a thought\nI almost had. Outside, a streetlight\nkeeps its yellow vigil over nothing\nin particular\u2014a wet road, a cat,\nthe shape of my own shadow\nleaning toward morning\nwithout me.",
+      "preamble_text": "**Small Hours**",
+      "auto": {
+        "rhyme_scheme": "AB?CDEFG",
+        "rhyme_scheme_known_only": "ABCDEFG",
+        "rhyme_participation_rate": 0.0,
+        "person": "1st_singular",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "5b647556-c005-4ab8-bfdf-bc0fdadf8b3f",
+      "length_cap": 20,
+      "poem_body": "At dawn the rooftops hold a little gold,  \nAs if the night forgot its scattered change.  \nA sparrow stitches music through the cold,  \nAnd every window learns the light is strange.  \n\nThe trees, half-waking, lift their silver hands;  \nThe street exhales the hush of passing rain.  \nA single cloud, like chalk across the lands,  \nIs smudged and drawn and smudged to shape again.  \n\nI stand between the ordinary things\u2014  \nA cup, a door, the day I have to start\u2014  \nAnd hear how softly morning always sings  \nIts brave, small anthem to a human heart.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABABCDCEFGFG",
+        "rhyme_scheme_known_only": "ABABCDCEFGFG",
+        "rhyme_participation_rate": 0.8333333333333334,
+        "person": "3rd",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "ae498101-8cf1-48c5-9838-38d17c30063f",
+      "length_cap": 10,
+      "poem_body": "The kettle hums its solitary tune,\nsteam drawing ghosts across the windowpane.\nOutside, the street is washed in early moon,\na hush that settles soft as falling rain.\nI hold the cup. I do not speak its name\u2014\nthe warmth is enough, the silence, the small flame.",
+      "preamble_text": "**Quiet Hours**",
+      "auto": {
+        "rhyme_scheme": "ABACDD",
+        "rhyme_scheme_known_only": "ABACDD",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "mixed",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "4c767a18-ac18-4198-b816-2fc255ac45dc",
+      "length_cap": 20,
+      "poem_body": "Beneath a streetlamp\u2019s amber flame,  \nthe evening gathers, soft and tame;  \na sparrow stitches dusk to air,  \nand every passing footstep\u2019s prayer.  \n\nI carry quiet in my sleeves,  \nold stories, warm as worn-out leaves;  \nthe night unfolds, a borrowed book\u2014  \nturning its pages by each look.  \n\nSo let the worries grow no crown;  \nlet starlight find what you\u2019ve let down;  \nif tomorrow knocks, I\u2019ll sing\u2014  \nsmall hope, in a human thing.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AABBCCDDEEFF",
+        "rhyme_scheme_known_only": "AABBCCDDEEFF",
+        "rhyme_participation_rate": 1.0,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "ec85e5de-fff4-4ef1-9d96-d388dc7c6f13",
+      "length_cap": 20,
+      "poem_body": "Morning folds the city into light,  \nA sparrow stitches silence to the air.  \nCoffee steam becomes a ghost in flight,  \nAnd dreams drift loose from sleep-warmed hair.  \n\nThe day, still tender, waits unnamed,  \nA page uncreased, a match unflamed.  \nWe step into it, pulse and breath,  \nSmall candles walking back from death.  \n\nBy dusk our shadows learn to bend,  \nGold bruises blue at every end.  \nNight gathers up what hours have sown,  \nAnd stars make homes of the unknown.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABABC?DDEEFF",
+        "rhyme_scheme_known_only": "ABABCDDEEFF",
+        "rhyme_participation_rate": 0.9090909090909091,
+        "person": "1st_plural",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "15e0a29d-0b03-4501-8623-81b1803e9111",
+      "length_cap": 10,
+      "poem_body": "Beneath the streetlight\u2019s amber hush,  \nyour laughter threads the night through rust.  \nI carry sparks in pockets torn\u2014  \ntomorrow\u2019s map is drawn in dust.  \nIf dawn comes soft, we\u2019ll start again,  \ntwo hearts learning how to trust.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCBDB",
+        "rhyme_scheme_known_only": "ABCBDB",
+        "rhyme_participation_rate": 0.5,
+        "person": "mixed",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "ac0f99e1-3c1f-46ee-a1d7-20fb3a1f4f08",
+      "length_cap": 5,
+      "poem_body": "Moonlight stitches silver seams,  \nAcross the hush of sleeping streams.  \nThe night exhales a velvet song,  \nAnd all my quiet thoughts belong.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1.0,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "619eecba-8508-4302-b616-ad77333ba064",
+      "length_cap": 20,
+      "poem_body": "Beneath the streetlight\u2019s amber hush,  \nmy thoughts unspool like silver thread;  \nthe night leans close, then gently shuts  \nthe door on everything unsaid.  \n\nA distant train hums through the dark,  \na tired song without a name;  \nI learn to hold my scattered sparks  \nuntil they flicker into flame.  \n\nTomorrow waits in quiet boots,  \nno promise, just a borrowed breath\u2014  \nI step, and in my walking doubts,  \nI find my courage on the path.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCBDEFEGHIJ",
+        "rhyme_scheme_known_only": "ABCBDEFEGHIJ",
+        "rhyme_participation_rate": 0.3333333333333333,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "ff5346b0-795b-4698-b419-ef42f2a130cf",
+      "length_cap": 20,
+      "poem_body": "The morning spills its quiet gold,  \nAcross the sleeping window\u2019s pane;  \nA sparrow stitches through the air,  \nAnd every doubt feels brief again.  \n\nI carry light in borrowed hands,  \nA small, unclaimed, persistent flame;  \nThe world turns pages\u2014river, road\u2014  \nAnd asks me, gently, to feel my name.  \n\nSo I walk on, though night still waits,  \nWith ink of stars and steady breath;  \nIf hope is only what we make,  \nThen let this be enough for depth.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGFHIJK",
+        "rhyme_scheme_known_only": "ABCDEFGFHIJK",
+        "rhyme_participation_rate": 0.16666666666666666,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "0a012504-a647-434c-8ad0-e3a1ff1025ea",
+      "length_cap": 5,
+      "poem_body": "Rain taps the window,\nnight folds into silver hush\u2014\none small lamp stays warm.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABC",
+        "rhyme_scheme_known_only": "ABC",
+        "rhyme_participation_rate": 0.0,
+        "person": "impersonal",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "4b05544d-dee8-4e45-9bf2-f7ecc578faf1",
+      "length_cap": 5,
+      "poem_body": "Beneath the hush of evening skies,  \nyour name becomes a distant light;  \nI walk through shadows, not surprised\u2014  \nlove finds me, though it isn\u2019t right.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCB",
+        "rhyme_scheme_known_only": "ABCB",
+        "rhyme_participation_rate": 0.5,
+        "person": "mixed",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "05ceb0ff-3c1f-47b7-8f7d-0cb89d6d1af2",
+      "length_cap": 10,
+      "poem_body": "Golden rays slip through the window,\npainting silence with warmth.\nA bird calls, once, then waits\u2014\nas if the world holds its breath\nbetween night and day.\nEverything is possible here,\nin this small stretch of dawn.",
+      "preamble_text": "# Morning Light",
+      "auto": {
+        "rhyme_scheme": "ABCDEFG",
+        "rhyme_scheme_known_only": "ABCDEFG",
+        "rhyme_participation_rate": 0.0,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "cda8dd03-d67c-4e87-8aff-029b4af52b7c",
+      "length_cap": 20,
+      "poem_body": "In the morning\u2019s thin blue hush,  \nthe light unthreads dawn from night;  \na sparrow stitches bright with hush,  \nand rooftops learn to hold the light.  \n\nI carry days like borrowed breath,  \nhalf-mended prayers in pockets deep;  \nthe world keeps turning\u2014quiet, deft\u2014  \nuntil my footsteps find their beat.  \n\nIf something breaks, let it be free;  \nlet water teach the stone to change.  \nI\u2019ll bend, I\u2019ll breathe, I\u2019ll still agree\u2014  \nto live is to become, in range.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABABCDEFGHGH",
+        "rhyme_scheme_known_only": "ABABCDEFGHGH",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "mixed",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "11a9df6c-8958-4c39-a193-907318602856",
+      "length_cap": 20,
+      "poem_body": "Beneath the streetlamp\u2019s honeyed glow,  \nthe night rehearses how to breathe.  \nCrickets stitch a small, steady song,  \nwhile distant trains unspool their grief.  \n\nI carry pockets full of maybes,  \nand someone\u2019s laugh in faded ink;  \nthe sky, a quiet, waiting page,  \nturns slowly\u2014almost like a wink.  \n\nIf dawn should find me out of tune,  \nI\u2019ll still step forward, soft and brave,  \nlet light revise my tired heart  \nwith something new to hold, to save.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCD?EFEGHIH",
+        "rhyme_scheme_known_only": "ABCDEFEGHIH",
+        "rhyme_participation_rate": 0.36363636363636365,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "139b9c33-dd81-4b64-b6fc-2de9c7735b05",
+      "length_cap": 5,
+      "poem_body": "Silver beams drift through the pines,\nStars whisper secrets the night keeps,\nDreams bloom where shadows sleep.",
+      "preamble_text": "# Moonlight",
+      "auto": {
+        "rhyme_scheme": "ABC",
+        "rhyme_scheme_known_only": "ABC",
+        "rhyme_participation_rate": 0.0,
+        "person": "impersonal",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "4f667f56-09f1-4cfc-b42d-ed8676499c7b",
+      "length_cap": 20,
+      "poem_body": "**Still Water**\n\nThe lake holds the sky\nlike a secret it never asked for,\nclouds drifting through its depth\nwithout getting wet.\n\nA single stone breaks the mirror.\nRings spread outward, quietly\nreclaiming the silence\nthe way forgetting does.\n\nBy evening, the surface is smooth again,\nand no one can tell\nanything fell.",
+      "preamble_text": "Here is a short poem:",
+      "auto": {
+        "rhyme_scheme": "ABCDEFGHIJKK",
+        "rhyme_scheme_known_only": "ABCDEFGHIJKK",
+        "rhyme_participation_rate": 0.16666666666666666,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "f5303ca3-012e-42f5-a6db-ed3b6335a9f5",
+      "length_cap": 20,
+      "poem_body": "Morning breaks through kitchen glass,\ncoffee steam rises like a ghost,\nand for a moment, nothing else matters\u2014\nnot the bills, not the clock,\nnot the weight of yesterday.\n\nA bird lands on the fence post,\ntilts its head as if to say,\n*you're still here.*\n\nYes, I'm still here.\nBreathing. Waiting. Becoming.\n\nThe day stretches out its hand.\nI take it.",
+      "preamble_text": "# Brief Light",
+      "auto": {
+        "rhyme_scheme": "ABCDEBFGGHIJ",
+        "rhyme_scheme_known_only": "ABCDEBFGGHIJ",
+        "rhyme_participation_rate": 0.3333333333333333,
+        "person": "3rd",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "83a2eaf1-a74b-4595-8d7c-c5b429d9d696",
+      "length_cap": 10,
+      "poem_body": "Moonlight spills on quiet streets,  \nWhere winter breathes through silver trees.  \nThe river hums a sleep-song low,  \nAnd stars lean down on drifting snow.  \nA single lamp against the night  \nKeeps watch with tender amber light,  \nWhile every shadow softens \u05e9\u05dd  \nAnd dreams arrive, then name the dawn.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCCDD?E",
+        "rhyme_scheme_known_only": "ABCCDDE",
+        "rhyme_participation_rate": 0.5714285714285714,
+        "person": "impersonal",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "b63326bd-75d0-488f-9f9d-90ffcab13d4c",
+      "length_cap": 5,
+      "poem_body": "The sun dips low and fades to night,\nStars emerge like scattered light,\nSilence holds the world in sleep.",
+      "preamble_text": "Here is a short poem:",
+      "auto": {
+        "rhyme_scheme": "AAB",
+        "rhyme_scheme_known_only": "AAB",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "impersonal",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "0f437a18-5f9e-4068-b03c-9f3c0940a0d2",
+      "length_cap": 5,
+      "poem_body": "*The sun slips behind the hill,*\n*Painting the sky in gold and rose,*\n*The world grows soft and still.*",
+      "preamble_text": "Here's a short poem:",
+      "auto": {
+        "rhyme_scheme": "ABA",
+        "rhyme_scheme_known_only": "ABA",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "impersonal",
+        "has_preamble": true
+      }
+    },
+    {
+      "run_id": "16bc24e8-1a5c-436e-8552-7ffd064543cb",
+      "length_cap": 5,
+      "poem_body": "Morning spills gold on the sill,  \nA sparrow stitches silence with song,  \nCoffee breathes like a small warm hill,  \nAnd the day learns to belong.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABAB",
+        "rhyme_scheme_known_only": "ABAB",
+        "rhyme_participation_rate": 1.0,
+        "person": "impersonal",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "540eba13-8ccf-4298-a67c-694ca34ff8d8",
+      "length_cap": 20,
+      "poem_body": "Beneath a sky the color of old ink,  \nI fold my restless thoughts like paper cranes.  \nThe wind turns pages I can\u2019t quite read,  \nthen leaves them blooming in the rain.  \n\nA distant streetlamp hums its patient light;  \nmy shadow learns new shapes to wear.  \nI taste tomorrow on my tongue\u2014  \nsweet as a dare, and lightly unfair.  \n\nSo I walk on, unlatched from fear,  \nfollowing small bright sparks I find,  \nuntil my heart, a quiet drum,  \nbeats time with morning on the wind.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCDEFGFHIJI",
+        "rhyme_scheme_known_only": "ABCDEFGFHIJI",
+        "rhyme_participation_rate": 0.3333333333333333,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "300fb127-2e90-4aa6-a6ce-5662269f7279",
+      "length_cap": 5,
+      "poem_body": "Moonlight spills on quiet stone,\nA heartbeat hums, the night's alone\u2014\nStars rehearse what dreams have known.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AAA",
+        "rhyme_scheme_known_only": "AAA",
+        "rhyme_participation_rate": 1.0,
+        "person": "impersonal",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "e47cf949-40a5-4ecb-97ea-71fd82cf9911",
+      "length_cap": 10,
+      "poem_body": "Beneath the hush of midnight skies,  \nMy thoughts take wings and learn to rise;  \nA candle flame, a steady thread,  \nUnthreads the dark I wore instead.  \nI breathe in hope, and softly stay\u2014  \nMorning comes, and turns me gray to day.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AABBCC",
+        "rhyme_scheme_known_only": "AABBCC",
+        "rhyme_participation_rate": 1.0,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "7c76b6aa-ab09-4a7c-96bb-d219c1a50f64",
+      "length_cap": 5,
+      "poem_body": "Morning folds the sky into a quiet blue,  \nLeaves whisper secrets only breezes knew.  \nA single bird writes music through the air\u2014  \nDay begins softly, and the world is there.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AABB",
+        "rhyme_scheme_known_only": "AABB",
+        "rhyme_participation_rate": 1.0,
+        "person": "impersonal",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "1fa70b8a-1acc-4b9b-a425-7106886b25c3",
+      "length_cap": 5,
+      "poem_body": "Moonlight folds the night in silver thread,  \nA hush of stars blooms softly overhead;  \nOne breath of wind, and all the dark takes flight.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AAB",
+        "rhyme_scheme_known_only": "AAB",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "impersonal",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "2bc1c626-e0c9-423c-9161-225146daea5e",
+      "length_cap": 5,
+      "poem_body": "In twilight\u2019s hush, the streetlights glow,  \nYour name\u2014a spark in borrowed air;  \nI walk on, letting shadows go,  \nTill morning opens where you were.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABAC",
+        "rhyme_scheme_known_only": "ABAC",
+        "rhyme_participation_rate": 0.5,
+        "person": "2nd",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "211eabf7-b427-4ee7-8a7a-bc73303f3e38",
+      "length_cap": 10,
+      "poem_body": "At dusk, the sky unbuttons into gold,  \nAnd shadows sip the last of daylight\u2019s wine.  \nA sparrow stitches silence through the cold,  \nWhile stars rehearse their names in silver line.  \nThe wind forgets the road, then finds the sea,  \nA moonlit secret trembling in the tide.  \nI stand where night and memory loosen me,  \nAnd let the dark bloom open, wide inside.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABABCDCD",
+        "rhyme_scheme_known_only": "ABABCDCD",
+        "rhyme_participation_rate": 1.0,
+        "person": "1st_singular",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "53dbbd5a-cdcb-488a-be84-46b7f6e562d8",
+      "length_cap": 5,
+      "poem_body": "Moonlight spills on quiet stone,\nthe river hums an old refrain\u2014\neven silence learns to sing\nwhen no one waits to hear.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCD",
+        "rhyme_scheme_known_only": "ABCD",
+        "rhyme_participation_rate": 0.0,
+        "person": "impersonal",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "dd34bf78-4a19-45f4-9923-8f5c05704c66",
+      "length_cap": 5,
+      "poem_body": "Moonlight stitches silver threads  \nAcross the breath of sleeping trees;  \nThe night hums softly in its bed,  \nAnd dreams drift out on gentle seas.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABCB",
+        "rhyme_scheme_known_only": "ABCB",
+        "rhyme_participation_rate": 0.5,
+        "person": "3rd",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "5e8fbb47-3b27-4df6-b17f-2aad10c2553c",
+      "length_cap": 20,
+      "poem_body": "Dawn lifts its quiet lantern high,  \nAnd stitches gold across the sky;  \nThe trees, still wearing beads of dew,  \nLean close to hear the morning through.  \n\nA sparrow shakes the sleep from air,  \nAnd finds a song already there;  \nThe world, for just a breath, is new\u2014  \nA page of light with nothing blue.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "AABBCCBB",
+        "rhyme_scheme_known_only": "AABBCCBB",
+        "rhyme_participation_rate": 1.0,
+        "person": "3rd",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "48f2abe5-0ebd-43ea-91d0-709839d355e3",
+      "length_cap": 5,
+      "poem_body": "Dusk folds the city into violet sleep,  \nOne window keeps a small gold vow.  \nI pass beneath it, quiet as rain.",
+      "preamble_text": null,
+      "auto": {
+        "rhyme_scheme": "ABC",
+        "rhyme_scheme_known_only": "ABC",
+        "rhyme_participation_rate": 0.0,
+        "person": "mixed",
+        "has_preamble": false
+      }
+    },
+    {
+      "run_id": "2f063877-6ad8-4acb-a60d-ca43f31ad2d6",
+      "length_cap": 5,
+      "poem_body": "The old oak bends but does not break,\nIts roots run deep through spring and snow,\nTeaching us how to bend and grow.",
+      "preamble_text": "# Whisper",
+      "auto": {
+        "rhyme_scheme": "ABB",
+        "rhyme_scheme_known_only": "ABB",
+        "rhyme_participation_rate": 0.6666666666666666,
+        "person": "mixed",
+        "has_preamble": true
+      }
+    }
+  ]
+}

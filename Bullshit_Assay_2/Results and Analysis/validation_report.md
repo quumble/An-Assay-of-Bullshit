@@ -1,0 +1,39 @@
+# Validation Results
+
+Total items in sample: 200
+Agreement threshold (locked): 0.85
+
+| Feature | Agreement | Tagged n | Untagged | Passes 85% |
+|---|---|---|---|---|
+| pos_ok | 0.860 | 200 | 0 | True |
+| rhyme_ok | 0.860 | 200 | 0 | True |
+| person_ok | 0.905 | 200 | 0 | True |
+| preamble_ok | 0.905 | 200 | 0 | True |
+
+## Notes
+
+- [f89a7185-eb1c-49d1-b978-6b18f88732ac] title included as first line
+- [c993b2c3-9b37-44e7-b5b7-2fc50d2b62c6] title included as first line
+- [f0b9da7b-eef4-4462-bdae-95f4bb981c56] title included as first line
+- [e71c5615-f2b8-40c2-952f-d12c19680858] title included as first line
+- [79ec7f7c-40f5-4942-b8e1-427126408912] cyrillic replacement
+- [78b7a565-83f0-49a0-8aa7-84747e4bae9d] title included as first line
+- [c235e4d6-88b9-41b7-b0b6-eee58fb099ac] title included as first line
+- [c346a43f-bce6-4057-b2d3-a9cbba405e32] title included as first line
+- [b4c56154-6c77-4185-93d3-ed5e0b0b9c8b] title included as first line
+- [d63cc97b-3efd-4ae4-845e-90420d5968ae] title included as first line
+- [8b5ade1b-35c5-45f5-8026-8d5dc3110dbe] title included as first line
+- [43051014-757d-46ff-9c54-799796e7661d] title included as first line
+- [8c1e04c9-fca0-4797-912a-74587ac4d46d] title included as first line
+- [52817bd0-cf98-4616-b49c-10344e04b4e2] title included as first line
+- [f5342ed6-41b1-4c95-a985-d7d4e63970be] title included as first line
+- [e68285fa-e041-4615-93ba-e99b50db6e6f] c slant rhyme
+- [a8a99fe5-ffb2-4d7a-b467-d3c5da558829] title included as first line
+- [ad82667b-7007-43d1-a339-f5aad1bb3eae] hindi replacement
+- [14c249fa-27bb-4aec-96d4-35854b7498bf] title included as first line
+- [325a75fa-66e3-4ec2-8424-0794eb6585f7] title included as first line
+- [e566b85a-3436-429d-acbc-8fc9a16e37a7] title included as first line
+- [a52597ce-d3ed-4b64-8daa-8a2d244ac57b] title included as first line
+- [ff5346b0-795b-4698-b419-ef42f2a130cf] slant
+- [4f667f56-09f1-4cfc-b42d-ed8676499c7b] title included as first line
+- [83a2eaf1-a74b-4595-8d7c-c5b429d9d696] weird

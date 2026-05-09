@@ -1,0 +1,72 @@
+{
+  "experiment": "Bullshit Assay 2 \u2014 poetry defaults",
+  "started_at": "2026-05-08T21:28:19.924658+00:00",
+  "seed": 197121941,
+  "git_commit": null,
+  "anthropic_models": [
+    "claude-haiku-4-5-20251001",
+    "claude-sonnet-4-6",
+    "claude-opus-4-7"
+  ],
+  "openai_models": [
+    "gpt-5.4-nano",
+    "gpt-5.4-mini",
+    "gpt-5.4"
+  ],
+  "prompts": [
+    {
+      "id": "poem_write_5",
+      "text": "write a poem in fewer than 5 lines."
+    },
+    {
+      "id": "poem_write_10",
+      "text": "write a poem in fewer than 10 lines."
+    },
+    {
+      "id": "poem_write_20",
+      "text": "write a poem in fewer than 20 lines."
+    },
+    {
+      "id": "poem_compose_5",
+      "text": "compose a poem in fewer than 5 lines."
+    },
+    {
+      "id": "poem_compose_10",
+      "text": "compose a poem in fewer than 10 lines."
+    },
+    {
+      "id": "poem_compose_20",
+      "text": "compose a poem in fewer than 20 lines."
+    },
+    {
+      "id": "poem_gimme_5",
+      "text": "gimme a poem in fewer than 5 lines."
+    },
+    {
+      "id": "poem_gimme_10",
+      "text": "gimme a poem in fewer than 10 lines."
+    },
+    {
+      "id": "poem_gimme_20",
+      "text": "gimme a poem in fewer than 20 lines."
+    }
+  ],
+  "temperature": 1.0,
+  "max_tokens": 400,
+  "runs_per_cell": 100,
+  "total_planned_calls": 5400,
+  "package_versions": {
+    "anthropic": "0.86.0",
+    "openai": "2.33.0",
+    "python": "3.14.3"
+  },
+  "args": {
+    "runs_per_cell": 100,
+    "output": "results.jsonl",
+    "resume": false,
+    "anthropic_only": false,
+    "openai_only": false,
+    "seed_arg": null
+  },
+  "prompt_list_hash": "4de88a0ecdb6be70543d98e7b8d6d88c3ba0bc2c573263f1386214c42e570019"
+}

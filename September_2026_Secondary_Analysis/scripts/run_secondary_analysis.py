@@ -304,9 +304,21 @@ def stratified_bootstrap_metrics(df_pred: pd.DataFrame, strata_cols, n_boot: int
 
 
 def full_fit_predict(train, test, target):
+    train_x = train[FULL_SURFACE_FEATURES].copy()
+    test_x = test[FULL_SURFACE_FEATURES].copy()
+
+    # The harmonized parser stores the two locked surface indicators as bools.
+    # scikit-learn 1.9.1 SimpleImputer does not accept dtype=bool, so encode the
+    # same binary values numerically (False=0.0, True=1.0) before preprocessing.
+    # This is representation-only: the binary features are still imputed with
+    # most_frequent and are not standardized.
+    for col in SURFACE_BINARY:
+        train_x[col] = train_x[col].astype(float)
+        test_x[col] = test_x[col].astype(float)
+
     pipe = full_surface_classifier()
-    pipe.fit(train[FULL_SURFACE_FEATURES], train[target])
-    return pipe.predict(test[FULL_SURFACE_FEATURES])
+    pipe.fit(train_x, train[target])
+    return pipe.predict(test_x)
 
 
 def s2_p1(df, out_dir):

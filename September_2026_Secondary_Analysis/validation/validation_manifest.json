@@ -1,0 +1,14 @@
+{
+  "schema": "ba_sep2026_parser_validation_v1",
+  "seed": 20260915,
+  "target_total": 180,
+  "target_per_study": 90,
+  "target_per_model_per_study": 15,
+  "ba1_source": "D:\\My_Life_3\\Bo Chesterton\\Research-Repos\\An-Assay-of-Bullshit\\Bullshit_Assay_1\\Results and Heuristics\\results.jsonl",
+  "ba2_source": "D:\\My_Life_3\\Bo Chesterton\\Research-Repos\\An-Assay-of-Bullshit\\Bullshit_Assay_2\\Results and Analysis\\results_final_raw_5400.jsonl",
+  "ba1_success_nonempty_available": 540,
+  "ba2_success_nonempty_available": 5398,
+  "review_packet": "validation_packet.csv",
+  "private_key": "validation_key_PRIVATE.csv",
+  "review_html": "validation_review.html"
+}

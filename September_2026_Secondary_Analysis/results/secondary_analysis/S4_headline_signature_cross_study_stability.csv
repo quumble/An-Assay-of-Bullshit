@@ -1,0 +1,16 @@
+signature,spearman_ba1_poetry_vs_ba2
+em_dash_mean_per_100_words,0.8285714285714287
+em_dash_prevalence,0.8116794499134279
+preamble_rate,0.5483870967741936
+title_rate,0.9393364366277244
+opening_entropy_bits,0.942857142857143
+opening_top_share,0.9276336570439175
+body_word_count_mean,-0.4285714285714286
+body_line_count_mean,-0.5428571428571429
+body_stanza_count_mean,-0.3142857142857143
+words_per_line_mean_mean,0.8285714285714287
+words_per_line_sd_mean,0.6
+pronoun_1s_share_mean,0.3142857142857143
+pronoun_1p_share_mean,0.7142857142857143
+pronoun_2_share_mean,0.3142857142857143
+pronoun_3_share_mean,-0.14285714285714288

@@ -252,7 +252,7 @@ def full_surface_classifier() -> Pipeline:
     ], remainder="drop")
     return Pipeline([
         ("preprocess", pre),
-        ("clf", LogisticRegression()),
+        ("clf", LogisticRegression(max_iter=1000)),
     ])
 
 

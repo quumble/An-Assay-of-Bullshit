@@ -13,3 +13,11 @@ Add dated entries here if the locked secondary-analysis plan or harmonized codin
 - No feature definition, sample, split, target, imputation rule, scaling rule, classifier, hyperparameter, random seed, bootstrap rule, effect-size definition, or interpretation rule is changed.
 - This is an implementation/runtime compatibility correction rather than a scientific-plan deviation.
 - The aborted run may have written incomplete S1 files before the S2 exception. Those partial outputs are not treated as results; the `results/secondary_analysis/` directory is cleared and the complete S1-S5 suite is rerun from scratch after this correction is frozen.
+## 2026-09-15 — S2 convergence-limit correction
+
+- After the boolean-dtype compatibility correction, the complete S1-S5 run reached output generation but emitted a `ConvergenceWarning` from the S2 logistic-regression classifier: the default `lbfgs` solver reached `max_iter=100` before convergence.
+- No S1-S5 result values were inspected before this correction was specified.
+- Correction: increase only the S2 full-surface logistic-regression iteration ceiling from the scikit-learn default `max_iter=100` to `max_iter=1000`.
+- Solver, penalty, regularization strength, feature set, preprocessing, train/test splits, seeds, targets, and all evaluation rules remain unchanged.
+- This change is explicitly permitted by the locked analysis plan for a documented convergence issue and is intended only to allow the originally specified model to converge.
+- Outputs from the warning-bearing run are discarded and the full S1-S5 suite is rerun from scratch.

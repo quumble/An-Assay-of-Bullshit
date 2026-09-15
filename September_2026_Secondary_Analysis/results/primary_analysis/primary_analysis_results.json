@@ -1,0 +1,1175 @@
+{
+  "analysis": "September 2026 locked primary P1-P5",
+  "base_seed": 20260915,
+  "body_features": [
+    "body_word_count",
+    "body_line_count_nonempty",
+    "body_stanza_count",
+    "words_per_line_mean",
+    "words_per_line_sd",
+    "mean_word_length",
+    "pos_noun_ratio",
+    "pos_verb_ratio",
+    "pos_adj_ratio",
+    "pos_adv_ratio",
+    "pos_pronoun_ratio",
+    "pronoun_1s_share",
+    "pronoun_1p_share",
+    "pronoun_2_share",
+    "pronoun_3_share",
+    "em_dash_per_100_words",
+    "semicolon_per_100_words",
+    "colon_per_100_words",
+    "comma_per_100_words",
+    "exclamation_per_100_words",
+    "question_per_100_words",
+    "ellipsis_per_100_words"
+  ],
+  "source": {
+    "path": "September_2026_Secondary_Analysis\\derived_data\\harmonized_features.jsonl",
+    "sha256": "cd6dfbb320e219241923a8a71a3f8cc2fb50d86c15226d73fb9c90653845750f",
+    "counts": {
+      "BA1": 540,
+      "BA2": 5398
+    }
+  },
+  "environment": {
+    "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scikit_learn": "1.9.1"
+  },
+  "P1": {
+    "n": 180,
+    "accuracy": 0.4888888888888889,
+    "balanced_accuracy": 0.4888888888888889,
+    "per_label_recall": {
+      "claude-haiku-4-5-20251001": 0.7333333333333333,
+      "claude-sonnet-4-6": 0.43333333333333335,
+      "claude-opus-4-7": 0.1,
+      "gpt-5.4-nano": 0.6333333333333333,
+      "gpt-5.4-mini": 0.5666666666666667,
+      "gpt-5.4": 0.4666666666666667
+    },
+    "confusion_matrix": [
+      [
+        22,
+        1,
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        8,
+        13,
+        4,
+        0,
+        0,
+        5
+      ],
+      [
+        9,
+        2,
+        3,
+        3,
+        6,
+        7
+      ],
+      [
+        4,
+        0,
+        4,
+        19,
+        2,
+        1
+      ],
+      [
+        3,
+        2,
+        3,
+        0,
+        17,
+        5
+      ],
+      [
+        8,
+        1,
+        0,
+        2,
+        5,
+        14
+      ]
+    ],
+    "labels": [
+      "claude-haiku-4-5-20251001",
+      "claude-sonnet-4-6",
+      "claude-opus-4-7",
+      "gpt-5.4-nano",
+      "gpt-5.4-mini",
+      "gpt-5.4"
+    ],
+    "bootstrap": {
+      "n_resamples": 10000,
+      "seed": 20260916,
+      "strata": [
+        "model",
+        "prompt_id"
+      ],
+      "accuracy_95pct": [
+        0.42777777777777776,
+        0.55
+      ],
+      "balanced_accuracy_95pct": [
+        0.42777777777777776,
+        0.5499999999999999
+      ]
+    },
+    "train_n": 5398,
+    "test_n": 180
+  },
+  "P2": {
+    "n": 180,
+    "accuracy": 0.7055555555555556,
+    "balanced_accuracy": 0.7055555555555555,
+    "per_label_recall": {
+      "anthropic": 0.6333333333333333,
+      "openai": 0.7777777777777778
+    },
+    "confusion_matrix": [
+      [
+        57,
+        33
+      ],
+      [
+        20,
+        70
+      ]
+    ],
+    "labels": [
+      "anthropic",
+      "openai"
+    ],
+    "bootstrap": {
+      "n_resamples": 10000,
+      "seed": 20260917,
+      "strata": [
+        "model",
+        "prompt_id"
+      ],
+      "accuracy_95pct": [
+        0.65,
+        0.7611111111111111
+      ],
+      "balanced_accuracy_95pct": [
+        0.6499999999999999,
+        0.7611111111111111
+      ]
+    },
+    "train_n": 5398,
+    "test_n": 180
+  },
+  "P3": {
+    "folds": {
+      "story": {
+        "n": 180,
+        "accuracy": 0.24444444444444444,
+        "balanced_accuracy": 0.24444444444444446,
+        "per_label_recall": {
+          "claude-haiku-4-5-20251001": 0.0,
+          "claude-sonnet-4-6": 0.8,
+          "claude-opus-4-7": 0.0,
+          "gpt-5.4-nano": 0.3,
+          "gpt-5.4-mini": 0.03333333333333333,
+          "gpt-5.4": 0.3333333333333333
+        },
+        "confusion_matrix": [
+          [
+            0,
+            23,
+            2,
+            5,
+            0,
+            0
+          ],
+          [
+            0,
+            24,
+            0,
+            5,
+            0,
+            1
+          ],
+          [
+            0,
+            22,
+            0,
+            1,
+            0,
+            7
+          ],
+          [
+            0,
+            15,
+            0,
+            9,
+            0,
+            6
+          ],
+          [
+            0,
+            19,
+            0,
+            0,
+            1,
+            10
+          ],
+          [
+            0,
+            17,
+            0,
+            3,
+            0,
+            10
+          ]
+        ],
+        "labels": [
+          "claude-haiku-4-5-20251001",
+          "claude-sonnet-4-6",
+          "claude-opus-4-7",
+          "gpt-5.4-nano",
+          "gpt-5.4-mini",
+          "gpt-5.4"
+        ],
+        "train_n": 360,
+        "test_n": 180
+      },
+      "animal": {
+        "n": 180,
+        "accuracy": 0.25,
+        "balanced_accuracy": 0.25,
+        "per_label_recall": {
+          "claude-haiku-4-5-20251001": 0.6666666666666666,
+          "claude-sonnet-4-6": 0.0,
+          "claude-opus-4-7": 0.3333333333333333,
+          "gpt-5.4-nano": 0.0,
+          "gpt-5.4-mini": 0.43333333333333335,
+          "gpt-5.4": 0.06666666666666667
+        },
+        "confusion_matrix": [
+          [
+            20,
+            0,
+            10,
+            0,
+            0,
+            0
+          ],
+          [
+            18,
+            0,
+            10,
+            0,
+            2,
+            0
+          ],
+          [
+            20,
+            0,
+            10,
+            0,
+            0,
+            0
+          ],
+          [
+            13,
+            0,
+            16,
+            0,
+            1,
+            0
+          ],
+          [
+            3,
+            0,
+            14,
+            0,
+            13,
+            0
+          ],
+          [
+            0,
+            0,
+            21,
+            0,
+            7,
+            2
+          ]
+        ],
+        "labels": [
+          "claude-haiku-4-5-20251001",
+          "claude-sonnet-4-6",
+          "claude-opus-4-7",
+          "gpt-5.4-nano",
+          "gpt-5.4-mini",
+          "gpt-5.4"
+        ],
+        "train_n": 360,
+        "test_n": 180
+      },
+      "poem": {
+        "n": 180,
+        "accuracy": 0.17777777777777778,
+        "balanced_accuracy": 0.17777777777777778,
+        "per_label_recall": {
+          "claude-haiku-4-5-20251001": 0.0,
+          "claude-sonnet-4-6": 0.23333333333333334,
+          "claude-opus-4-7": 0.23333333333333334,
+          "gpt-5.4-nano": 0.13333333333333333,
+          "gpt-5.4-mini": 0.03333333333333333,
+          "gpt-5.4": 0.43333333333333335
+        },
+        "confusion_matrix": [
+          [
+            0,
+            1,
+            15,
+            2,
+            0,
+            12
+          ],
+          [
+            0,
+            7,
+            13,
+            0,
+            0,
+            10
+          ],
+          [
+            0,
+            3,
+            7,
+            8,
+            0,
+            12
+          ],
+          [
+            0,
+            1,
+            25,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            9,
+            1,
+            1,
+            16
+          ],
+          [
+            0,
+            2,
+            11,
+            1,
+            3,
+            13
+          ]
+        ],
+        "labels": [
+          "claude-haiku-4-5-20251001",
+          "claude-sonnet-4-6",
+          "claude-opus-4-7",
+          "gpt-5.4-nano",
+          "gpt-5.4-mini",
+          "gpt-5.4"
+        ],
+        "train_n": 360,
+        "test_n": 180
+      }
+    },
+    "pooled": {
+      "n": 540,
+      "accuracy": 0.22407407407407406,
+      "balanced_accuracy": 0.22407407407407406,
+      "per_label_recall": {
+        "claude-haiku-4-5-20251001": 0.2222222222222222,
+        "claude-sonnet-4-6": 0.34444444444444444,
+        "claude-opus-4-7": 0.18888888888888888,
+        "gpt-5.4-nano": 0.14444444444444443,
+        "gpt-5.4-mini": 0.16666666666666666,
+        "gpt-5.4": 0.2777777777777778
+      },
+      "confusion_matrix": [
+        [
+          20,
+          24,
+          27,
+          7,
+          0,
+          12
+        ],
+        [
+          18,
+          31,
+          23,
+          5,
+          2,
+          11
+        ],
+        [
+          20,
+          25,
+          17,
+          9,
+          0,
+          19
+        ],
+        [
+          13,
+          16,
+          41,
+          13,
+          1,
+          6
+        ],
+        [
+          3,
+          22,
+          23,
+          1,
+          15,
+          26
+        ],
+        [
+          0,
+          19,
+          32,
+          4,
+          10,
+          25
+        ]
+      ],
+      "labels": [
+        "claude-haiku-4-5-20251001",
+        "claude-sonnet-4-6",
+        "claude-opus-4-7",
+        "gpt-5.4-nano",
+        "gpt-5.4-mini",
+        "gpt-5.4"
+      ]
+    }
+  },
+  "P4": {
+    "phrasing": {
+      "folds": {
+        "write": {
+          "n": 1799,
+          "accuracy": 0.6414674819344081,
+          "balanced_accuracy": 0.6414214046822743,
+          "per_label_recall": {
+            "claude-haiku-4-5-20251001": 0.38333333333333336,
+            "claude-sonnet-4-6": 0.7133333333333334,
+            "claude-opus-4-7": 0.6766666666666666,
+            "gpt-5.4-nano": 0.8566666666666667,
+            "gpt-5.4-mini": 0.66,
+            "gpt-5.4": 0.5585284280936454
+          },
+          "confusion_matrix": [
+            [
+              115,
+              40,
+              49,
+              8,
+              37,
+              51
+            ],
+            [
+              27,
+              214,
+              25,
+              1,
+              6,
+              27
+            ],
+            [
+              29,
+              27,
+              203,
+              22,
+              6,
+              13
+            ],
+            [
+              13,
+              0,
+              20,
+              257,
+              4,
+              6
+            ],
+            [
+              21,
+              24,
+              10,
+              3,
+              198,
+              44
+            ],
+            [
+              18,
+              28,
+              18,
+              8,
+              60,
+              167
+            ]
+          ],
+          "labels": [
+            "claude-haiku-4-5-20251001",
+            "claude-sonnet-4-6",
+            "claude-opus-4-7",
+            "gpt-5.4-nano",
+            "gpt-5.4-mini",
+            "gpt-5.4"
+          ],
+          "train_n": 3599,
+          "test_n": 1799
+        },
+        "compose": {
+          "n": 1799,
+          "accuracy": 0.6592551417454141,
+          "balanced_accuracy": 0.6593924191750279,
+          "per_label_recall": {
+            "claude-haiku-4-5-20251001": 0.5666666666666667,
+            "claude-sonnet-4-6": 0.62,
+            "claude-opus-4-7": 0.6833333333333333,
+            "gpt-5.4-nano": 0.9063545150501672,
+            "gpt-5.4-mini": 0.6333333333333333,
+            "gpt-5.4": 0.5466666666666666
+          },
+          "confusion_matrix": [
+            [
+              170,
+              21,
+              22,
+              13,
+              26,
+              48
+            ],
+            [
+              55,
+              186,
+              17,
+              6,
+              12,
+              24
+            ],
+            [
+              19,
+              23,
+              205,
+              22,
+              7,
+              24
+            ],
+            [
+              7,
+              1,
+              14,
+              271,
+              3,
+              3
+            ],
+            [
+              18,
+              21,
+              2,
+              10,
+              190,
+              59
+            ],
+            [
+              32,
+              12,
+              3,
+              28,
+              61,
+              164
+            ]
+          ],
+          "labels": [
+            "claude-haiku-4-5-20251001",
+            "claude-sonnet-4-6",
+            "claude-opus-4-7",
+            "gpt-5.4-nano",
+            "gpt-5.4-mini",
+            "gpt-5.4"
+          ],
+          "train_n": 3599,
+          "test_n": 1799
+        },
+        "gimme": {
+          "n": 1800,
+          "accuracy": 0.5572222222222222,
+          "balanced_accuracy": 0.5572222222222222,
+          "per_label_recall": {
+            "claude-haiku-4-5-20251001": 0.32,
+            "claude-sonnet-4-6": 0.67,
+            "claude-opus-4-7": 0.66,
+            "gpt-5.4-nano": 0.7266666666666667,
+            "gpt-5.4-mini": 0.5766666666666667,
+            "gpt-5.4": 0.39
+          },
+          "confusion_matrix": [
+            [
+              96,
+              71,
+              86,
+              12,
+              12,
+              23
+            ],
+            [
+              31,
+              201,
+              41,
+              6,
+              9,
+              12
+            ],
+            [
+              24,
+              35,
+              198,
+              28,
+              2,
+              13
+            ],
+            [
+              13,
+              2,
+              50,
+              218,
+              5,
+              12
+            ],
+            [
+              46,
+              18,
+              7,
+              1,
+              173,
+              55
+            ],
+            [
+              48,
+              37,
+              48,
+              8,
+              42,
+              117
+            ]
+          ],
+          "labels": [
+            "claude-haiku-4-5-20251001",
+            "claude-sonnet-4-6",
+            "claude-opus-4-7",
+            "gpt-5.4-nano",
+            "gpt-5.4-mini",
+            "gpt-5.4"
+          ],
+          "train_n": 3598,
+          "test_n": 1800
+        }
+      },
+      "pooled": {
+        "n": 5398,
+        "accuracy": 0.6193034457206372,
+        "balanced_accuracy": 0.6193200263667449,
+        "per_label_recall": {
+          "claude-haiku-4-5-20251001": 0.42333333333333334,
+          "claude-sonnet-4-6": 0.6677777777777778,
+          "claude-opus-4-7": 0.6733333333333333,
+          "gpt-5.4-nano": 0.8298109010011123,
+          "gpt-5.4-mini": 0.6233333333333333,
+          "gpt-5.4": 0.4983314794215795
+        },
+        "confusion_matrix": [
+          [
+            381,
+            132,
+            157,
+            33,
+            75,
+            122
+          ],
+          [
+            113,
+            601,
+            83,
+            13,
+            27,
+            63
+          ],
+          [
+            72,
+            85,
+            606,
+            72,
+            15,
+            50
+          ],
+          [
+            33,
+            3,
+            84,
+            746,
+            12,
+            21
+          ],
+          [
+            85,
+            63,
+            19,
+            14,
+            561,
+            158
+          ],
+          [
+            98,
+            77,
+            69,
+            44,
+            163,
+            448
+          ]
+        ],
+        "labels": [
+          "claude-haiku-4-5-20251001",
+          "claude-sonnet-4-6",
+          "claude-opus-4-7",
+          "gpt-5.4-nano",
+          "gpt-5.4-mini",
+          "gpt-5.4"
+        ]
+      }
+    },
+    "length_cap": {
+      "folds": {
+        "5": {
+          "n": 1799,
+          "accuracy": 0.49583101723179546,
+          "balanced_accuracy": 0.4956744704570792,
+          "per_label_recall": {
+            "claude-haiku-4-5-20251001": 0.33666666666666667,
+            "claude-sonnet-4-6": 0.6166666666666667,
+            "claude-opus-4-7": 0.09333333333333334,
+            "gpt-5.4-nano": 0.9066666666666666,
+            "gpt-5.4-mini": 0.8066666666666666,
+            "gpt-5.4": 0.2140468227424749
+          },
+          "confusion_matrix": [
+            [
+              101,
+              63,
+              6,
+              44,
+              55,
+              31
+            ],
+            [
+              54,
+              185,
+              14,
+              2,
+              28,
+              17
+            ],
+            [
+              57,
+              14,
+              28,
+              172,
+              2,
+              27
+            ],
+            [
+              8,
+              1,
+              7,
+              272,
+              12,
+              0
+            ],
+            [
+              34,
+              13,
+              1,
+              3,
+              242,
+              7
+            ],
+            [
+              29,
+              27,
+              11,
+              33,
+              135,
+              64
+            ]
+          ],
+          "labels": [
+            "claude-haiku-4-5-20251001",
+            "claude-sonnet-4-6",
+            "claude-opus-4-7",
+            "gpt-5.4-nano",
+            "gpt-5.4-mini",
+            "gpt-5.4"
+          ],
+          "train_n": 3599,
+          "test_n": 1799
+        },
+        "10": {
+          "n": 1799,
+          "accuracy": 0.5736520289049472,
+          "balanced_accuracy": 0.5737495354886659,
+          "per_label_recall": {
+            "claude-haiku-4-5-20251001": 0.5733333333333334,
+            "claude-sonnet-4-6": 0.77,
+            "claude-opus-4-7": 0.29333333333333333,
+            "gpt-5.4-nano": 0.7491638795986622,
+            "gpt-5.4-mini": 0.78,
+            "gpt-5.4": 0.27666666666666667
+          },
+          "confusion_matrix": [
+            [
+              172,
+              45,
+              14,
+              4,
+              52,
+              13
+            ],
+            [
+              19,
+              231,
+              6,
+              2,
+              30,
+              12
+            ],
+            [
+              58,
+              80,
+              88,
+              32,
+              25,
+              17
+            ],
+            [
+              44,
+              3,
+              9,
+              224,
+              8,
+              11
+            ],
+            [
+              31,
+              18,
+              2,
+              3,
+              234,
+              12
+            ],
+            [
+              53,
+              25,
+              6,
+              12,
+              121,
+              83
+            ]
+          ],
+          "labels": [
+            "claude-haiku-4-5-20251001",
+            "claude-sonnet-4-6",
+            "claude-opus-4-7",
+            "gpt-5.4-nano",
+            "gpt-5.4-mini",
+            "gpt-5.4"
+          ],
+          "train_n": 3599,
+          "test_n": 1799
+        },
+        "20": {
+          "n": 1800,
+          "accuracy": 0.38333333333333336,
+          "balanced_accuracy": 0.3833333333333333,
+          "per_label_recall": {
+            "claude-haiku-4-5-20251001": 0.03333333333333333,
+            "claude-sonnet-4-6": 0.023333333333333334,
+            "claude-opus-4-7": 0.8733333333333333,
+            "gpt-5.4-nano": 0.22333333333333333,
+            "gpt-5.4-mini": 0.39,
+            "gpt-5.4": 0.7566666666666667
+          },
+          "confusion_matrix": [
+            [
+              10,
+              2,
+              166,
+              3,
+              12,
+              107
+            ],
+            [
+              12,
+              7,
+              184,
+              0,
+              22,
+              75
+            ],
+            [
+              4,
+              0,
+              262,
+              0,
+              0,
+              34
+            ],
+            [
+              0,
+              0,
+              161,
+              67,
+              11,
+              61
+            ],
+            [
+              0,
+              1,
+              20,
+              0,
+              117,
+              162
+            ],
+            [
+              1,
+              0,
+              42,
+              0,
+              30,
+              227
+            ]
+          ],
+          "labels": [
+            "claude-haiku-4-5-20251001",
+            "claude-sonnet-4-6",
+            "claude-opus-4-7",
+            "gpt-5.4-nano",
+            "gpt-5.4-mini",
+            "gpt-5.4"
+          ],
+          "train_n": 3598,
+          "test_n": 1800
+        }
+      },
+      "pooled": {
+        "n": 5398,
+        "accuracy": 0.4842534271952575,
+        "balanced_accuracy": 0.48426708688666414,
+        "per_label_recall": {
+          "claude-haiku-4-5-20251001": 0.31444444444444447,
+          "claude-sonnet-4-6": 0.47,
+          "claude-opus-4-7": 0.42,
+          "gpt-5.4-nano": 0.6262513904338154,
+          "gpt-5.4-mini": 0.6588888888888889,
+          "gpt-5.4": 0.41601779755283647
+        },
+        "confusion_matrix": [
+          [
+            283,
+            110,
+            186,
+            51,
+            119,
+            151
+          ],
+          [
+            85,
+            423,
+            204,
+            4,
+            80,
+            104
+          ],
+          [
+            119,
+            94,
+            378,
+            204,
+            27,
+            78
+          ],
+          [
+            52,
+            4,
+            177,
+            563,
+            31,
+            72
+          ],
+          [
+            65,
+            32,
+            23,
+            6,
+            593,
+            181
+          ],
+          [
+            83,
+            52,
+            59,
+            45,
+            286,
+            374
+          ]
+        ],
+        "labels": [
+          "claude-haiku-4-5-20251001",
+          "claude-sonnet-4-6",
+          "claude-opus-4-7",
+          "gpt-5.4-nano",
+          "gpt-5.4-mini",
+          "gpt-5.4"
+        ]
+      }
+    }
+  },
+  "P5": {
+    "models": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "ba1_n": 30,
+        "ba1_entropy_bits": 2.781076011914607,
+        "ba2_n": 900,
+        "ba2_rarefaction_n": 30,
+        "ba2_rarefaction_resamples": 10000,
+        "ba2_rarefaction_seed": 3408132530,
+        "ba2_rarefaction_mean_entropy_bits": 2.139507008109824,
+        "ba2_rarefaction_median_entropy_bits": 2.149869837094248,
+        "ba2_rarefaction_95pct_low": 1.3721597626314752,
+        "ba2_rarefaction_95pct_high": 2.8497120352661516,
+        "ba1_inside_ba2_95pct": true
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "ba1_n": 30,
+        "ba1_entropy_bits": 0.21084230031853213,
+        "ba2_n": 900,
+        "ba2_rarefaction_n": 30,
+        "ba2_rarefaction_resamples": 10000,
+        "ba2_rarefaction_seed": 3239485263,
+        "ba2_rarefaction_mean_entropy_bits": 0.04824935911859394,
+        "ba2_rarefaction_median_entropy_bits": 0.0,
+        "ba2_rarefaction_95pct_low": -0.0,
+        "ba2_rarefaction_95pct_high": 0.21084230031853213,
+        "ba1_inside_ba2_95pct": true
+      },
+      {
+        "model": "claude-opus-4-7",
+        "ba1_n": 30,
+        "ba1_entropy_bits": 1.258040253688799,
+        "ba2_n": 900,
+        "ba2_rarefaction_n": 30,
+        "ba2_rarefaction_resamples": 10000,
+        "ba2_rarefaction_seed": 3832639285,
+        "ba2_rarefaction_mean_entropy_bits": 0.9572904429699822,
+        "ba2_rarefaction_median_entropy_bits": 0.9480782435939055,
+        "ba2_rarefaction_95pct_low": 0.7219280948873623,
+        "ba2_rarefaction_95pct_high": 1.2309595631140104,
+        "ba1_inside_ba2_95pct": false
+      },
+      {
+        "model": "gpt-5.4-nano",
+        "ba1_n": 30,
+        "ba1_entropy_bits": 1.297626229780677,
+        "ba2_n": 899,
+        "ba2_rarefaction_n": 30,
+        "ba2_rarefaction_resamples": 10000,
+        "ba2_rarefaction_seed": 526467106,
+        "ba2_rarefaction_mean_entropy_bits": 2.042993464127513,
+        "ba2_rarefaction_median_entropy_bits": 2.0486037302133706,
+        "ba2_rarefaction_95pct_low": 1.4833522872708722,
+        "ba2_rarefaction_95pct_high": 2.5716287152428543,
+        "ba1_inside_ba2_95pct": false
+      },
+      {
+        "model": "gpt-5.4-mini",
+        "ba1_n": 30,
+        "ba1_entropy_bits": 1.2655590033282207,
+        "ba2_n": 900,
+        "ba2_rarefaction_n": 30,
+        "ba2_rarefaction_resamples": 10000,
+        "ba2_rarefaction_seed": 922768031,
+        "ba2_rarefaction_mean_entropy_bits": 1.463416971174053,
+        "ba2_rarefaction_median_entropy_bits": 1.4539580943104375,
+        "ba2_rarefaction_95pct_low": 0.8118475207241324,
+        "ba2_rarefaction_95pct_high": 2.0988320688278774,
+        "ba1_inside_ba2_95pct": true
+      },
+      {
+        "model": "gpt-5.4",
+        "ba1_n": 30,
+        "ba1_entropy_bits": 2.1671334858609224,
+        "ba2_n": 899,
+        "ba2_rarefaction_n": 30,
+        "ba2_rarefaction_resamples": 10000,
+        "ba2_rarefaction_seed": 722759286,
+        "ba2_rarefaction_mean_entropy_bits": 2.3944313229783316,
+        "ba2_rarefaction_median_entropy_bits": 2.400327114342708,
+        "ba2_rarefaction_95pct_low": 1.9722417218751747,
+        "ba2_rarefaction_95pct_high": 2.7777471629109445,
+        "ba1_inside_ba2_95pct": true
+      }
+    ],
+    "ba1_rank_high_to_low": [
+      "claude-haiku-4-5-20251001",
+      "gpt-5.4",
+      "gpt-5.4-nano",
+      "gpt-5.4-mini",
+      "claude-opus-4-7",
+      "claude-sonnet-4-6"
+    ],
+    "ba2_rarefaction_mean_rank_high_to_low": [
+      "gpt-5.4",
+      "claude-haiku-4-5-20251001",
+      "gpt-5.4-nano",
+      "gpt-5.4-mini",
+      "claude-opus-4-7",
+      "claude-sonnet-4-6"
+    ],
+    "provider_descriptive_means": {
+      "anthropic": {
+        "ba1_entropy_bits": 1.4166528553073128,
+        "ba2_rarefaction_mean_entropy_bits": 1.0483489367328
+      },
+      "openai": {
+        "ba1_entropy_bits": 1.5767729063232734,
+        "ba2_rarefaction_mean_entropy_bits": 1.9669472527599658
+      }
+    },
+    "provider_descriptive_gap": {
+      "ba1_anthropic_minus_openai_bits": -0.1601200510159606,
+      "ba2_rarefaction_mean_anthropic_minus_openai_bits": -0.9185983160271658
+    }
+  }
+}

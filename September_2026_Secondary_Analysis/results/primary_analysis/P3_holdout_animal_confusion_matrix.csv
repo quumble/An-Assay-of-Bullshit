@@ -1,0 +1,7 @@
+true,claude-haiku-4-5-20251001,claude-sonnet-4-6,claude-opus-4-7,gpt-5.4-nano,gpt-5.4-mini,gpt-5.4
+claude-haiku-4-5-20251001,20,0,10,0,0,0
+claude-sonnet-4-6,18,0,10,0,2,0
+claude-opus-4-7,20,0,10,0,0,0
+gpt-5.4-nano,13,0,16,0,1,0
+gpt-5.4-mini,3,0,14,0,13,0
+gpt-5.4,0,0,21,0,7,2

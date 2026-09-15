@@ -1,0 +1,48 @@
+{
+  "schema": "ba_sep2026_harmonized_input_audit_v1",
+  "sources": {
+    "BA1": "D:\\My_Life_3\\Bo Chesterton\\Research-Repos\\An-Assay-of-Bullshit\\Bullshit_Assay_1\\Results and Heuristics\\results.jsonl",
+    "BA2": "D:\\My_Life_3\\Bo Chesterton\\Research-Repos\\An-Assay-of-Bullshit\\Bullshit_Assay_2\\Results and Analysis\\results_final_raw_5400.jsonl"
+  },
+  "counts": {
+    "BA1": {
+      "raw_nonblank": 540,
+      "included": 540,
+      "error": 0,
+      "empty": 0,
+      "malformed": 0
+    },
+    "BA2": {
+      "raw_nonblank": 5400,
+      "included": 5398,
+      "error": 2,
+      "empty": 0,
+      "malformed": 0
+    }
+  },
+  "excluded_records": [
+    {
+      "study": "BA2",
+      "source_line": 2915,
+      "reason": "error",
+      "provider": "openai",
+      "model": "gpt-5.4",
+      "prompt_id": "poem_write_5",
+      "iteration": 55,
+      "source_run_id": "4d0692ba-979a-4675-9630-b14fafecd5c1",
+      "error": "NotFoundError: Error code: 404"
+    },
+    {
+      "study": "BA2",
+      "source_line": 3035,
+      "reason": "error",
+      "provider": "openai",
+      "model": "gpt-5.4-nano",
+      "prompt_id": "poem_compose_10",
+      "iteration": 46,
+      "source_run_id": "643accee-7cfb-4763-8aa7-626a591cacc9",
+      "error": "NotFoundError: Error code: 404"
+    }
+  ],
+  "validation_score_file": "D:\\My_Life_3\\Bo Chesterton\\Research-Repos\\An-Assay-of-Bullshit\\September_2026_Secondary_Analysis\\validation\\validation_scores.json"
+}

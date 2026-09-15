@@ -1,0 +1,21 @@
+﻿{
+  "study": "BA2",
+  "planned_raw_rows": 5400,
+  "raw_successful_nonempty": 5398,
+  "raw_error_rows": 2,
+  "may_feature_rows": 5397,
+  "shared_run_ids": 5397,
+  "duplicate_may_feature_run_ids": 0,
+  "meaningful_metadata_mismatches_shared": 0,
+  "successful_raw_rows_missing_from_may_features": [
+    {
+      "run_id": "dc984875-02cd-458c-a90c-68e3f2043596",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "prompt_id": "poem_write_20",
+      "iteration": 35
+    }
+  ],
+  "september_inclusion_decision": "Include all 5398 successful nonempty raw BA2 responses under the locked raw-data inclusion rule.",
+  "historical_note": "The May 5397-record feature artifact omitted one otherwise successful raw response."
+}

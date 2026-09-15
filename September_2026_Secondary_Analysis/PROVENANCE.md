@@ -80,3 +80,20 @@ Any result appearing in the September manuscript must be traceable to:
 5. any applicable deviation record.
 
 If the September plan changes after this lock, the change must be logged prospectively where feasible and never back-edited into the original lock without an explicit amendment trail.
+
+## September reconciliation of the Study 2 record count
+
+The May analysis artifacts report 5,397 analyzable Study 2 records. A September 2026 raw-to-feature reconciliation found that the frozen 5,400-row raw file contains 5,398 successful, non-empty responses and two API-error rows.
+
+Exactly one successful raw response is absent from the May `features_final_5397.jsonl` artifact:
+
+- run_id: `dc984875-02cd-458c-a90c-68e3f2043596`
+- model: `gpt-5.4-mini`
+- prompt_id: `poem_write_20`
+- iteration: `35`
+
+The 5,397 shared run IDs contain no meaningful disagreements in model, prompt ID, or iteration metadata, and the May feature artifact contains no duplicate run IDs.
+
+Accordingly, the September harmonized analysis includes 5,398 Study 2 records, following the locked rule to derive inclusion from the frozen raw responses rather than inheriting the May derived-table omission. The historical May 5,397 count remains unchanged in the frozen May record.
+
+Machine-readable reconciliation: `results/ba2_may_reconciliation.json`.

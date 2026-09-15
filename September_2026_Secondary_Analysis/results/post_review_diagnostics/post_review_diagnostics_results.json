@@ -1,0 +1,162 @@
+{
+  "analysis": "September 2026 post-review manuscript diagnostics",
+  "evidentiary_status": "outcome-informed exploratory",
+  "base_seed": 20260915,
+  "source": {
+    "harmonized_path": "D:\\My_Life_3\\Bo Chesterton\\Research-Repos\\An-Assay-of-Bullshit\\September_2026_Secondary_Analysis\\derived_data\\harmonized_features.jsonl",
+    "harmonized_sha256": "cd6dfbb320e219241923a8a71a3f8cc2fb50d86c15226d73fb9c90653845750f",
+    "primary_results_path": "D:\\My_Life_3\\Bo Chesterton\\Research-Repos\\An-Assay-of-Bullshit\\September_2026_Secondary_Analysis\\results\\primary_analysis\\primary_analysis_results.json",
+    "primary_results_sha256": "95f549bc125d137972fa863386886775503f353ec8e5ff9e0097fb98e9e112bb",
+    "ba1_raw_path": "D:\\My_Life_3\\Bo Chesterton\\Research-Repos\\An-Assay-of-Bullshit\\Bullshit_Assay_1\\Results and Heuristics\\results.jsonl",
+    "ba1_raw_sha256": "08d086f11875bc122b5b3d6cb7b087cbe597061f5aa6af2b0125c3d6519ff804",
+    "ba2_raw_path": "D:\\My_Life_3\\Bo Chesterton\\Research-Repos\\An-Assay-of-Bullshit\\Bullshit_Assay_2\\Results and Analysis\\results_final_raw_5400.jsonl",
+    "ba2_raw_sha256": "35d0864d60052207562f2f6a443383ec93294ac0a4c9bf219685c5bac3875ed4"
+  },
+  "environment": {
+    "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scikit_learn": "1.9.1"
+  },
+  "D1": {
+    "status": "outcome-informed exploratory",
+    "question": "BA1 poetry target-local six-way separability",
+    "seed": 20261215,
+    "n_resamples": 1000,
+    "split_rule": "within each model x prompt cell, 5 train / 5 test without replacement",
+    "train_n_per_resample": 90,
+    "test_n_per_resample": 90,
+    "chance_reference": 0.16666666666666666,
+    "accuracy": {
+      "mean": 0.579611111111111,
+      "median": 0.5777777777777777,
+      "pct_2_5": 0.5,
+      "pct_97_5": 0.6666666666666666
+    },
+    "balanced_accuracy": {
+      "mean": 0.579611111111111,
+      "median": 0.5777777777777778,
+      "pct_2_5": 0.5,
+      "pct_97_5": 0.6666666666666666
+    },
+    "per_model_recall": {
+      "claude-haiku-4-5-20251001": {
+        "mean": 0.5537333333333333,
+        "median": 0.5333333333333333,
+        "pct_2_5": 0.3333333333333333,
+        "pct_97_5": 0.8
+      },
+      "claude-sonnet-4-6": {
+        "mean": 0.7341333333333333,
+        "median": 0.7333333333333333,
+        "pct_2_5": 0.4666666666666667,
+        "pct_97_5": 0.9333333333333333
+      },
+      "claude-opus-4-7": {
+        "mean": 0.46193333333333336,
+        "median": 0.4666666666666667,
+        "pct_2_5": 0.2,
+        "pct_97_5": 0.7333333333333333
+      },
+      "gpt-5.4-nano": {
+        "mean": 0.7949333333333333,
+        "median": 0.8,
+        "pct_2_5": 0.5333333333333333,
+        "pct_97_5": 1.0
+      },
+      "gpt-5.4-mini": {
+        "mean": 0.5432666666666667,
+        "median": 0.5333333333333333,
+        "pct_2_5": 0.3333333333333333,
+        "pct_97_5": 0.8
+      },
+      "gpt-5.4": {
+        "mean": 0.38966666666666666,
+        "median": 0.4,
+        "pct_2_5": 0.13333333333333333,
+        "pct_97_5": 0.6
+      }
+    }
+  },
+  "D2": {
+    "status": "outcome-informed exploratory",
+    "successful_nonempty_records_audited": {
+      "BA1": 540,
+      "BA2": 5398
+    },
+    "direct_cap_ba2_n": 0,
+    "sensitivity_triggered": false,
+    "by_study": [
+      {
+        "study": "BA1",
+        "n": 540.0,
+        "direct_cap_n": 0.0,
+        "direct_cap_fraction": 0.0,
+        "at_or_above_cap_n": 44.0,
+        "at_or_above_cap_fraction": 0.08148148148148149,
+        "near_cap_95_n": 50.0,
+        "near_cap_95_fraction": 0.09259259259259259,
+        "output_tokens_median": 149.0,
+        "output_tokens_p95": 400.0,
+        "output_tokens_max": 400.0
+      },
+      {
+        "study": "BA2",
+        "n": 5398.0,
+        "direct_cap_n": 0.0,
+        "direct_cap_fraction": 0.0,
+        "at_or_above_cap_n": 0.0,
+        "at_or_above_cap_fraction": 0.0,
+        "near_cap_95_n": 0.0,
+        "near_cap_95_fraction": 0.0,
+        "output_tokens_median": 68.0,
+        "output_tokens_p95": 149.0,
+        "output_tokens_max": 255.0
+      }
+    ],
+    "ba2_by_length": [
+      {
+        "length_cap": 5.0,
+        "n": 1799.0,
+        "direct_cap_n": 0.0,
+        "direct_cap_fraction": 0.0,
+        "at_or_above_cap_n": 0.0,
+        "at_or_above_cap_fraction": 0.0,
+        "near_cap_95_n": 0.0,
+        "near_cap_95_fraction": 0.0,
+        "output_tokens_median": 39.0,
+        "output_tokens_p95": 55.0,
+        "output_tokens_max": 68.0
+      },
+      {
+        "length_cap": 10.0,
+        "n": 1799.0,
+        "direct_cap_n": 0.0,
+        "direct_cap_fraction": 0.0,
+        "at_or_above_cap_n": 0.0,
+        "at_or_above_cap_fraction": 0.0,
+        "near_cap_95_n": 0.0,
+        "near_cap_95_fraction": 0.0,
+        "output_tokens_median": 69.0,
+        "output_tokens_p95": 109.0,
+        "output_tokens_max": 141.0
+      },
+      {
+        "length_cap": 20.0,
+        "n": 1800.0,
+        "direct_cap_n": 0.0,
+        "direct_cap_fraction": 0.0,
+        "at_or_above_cap_n": 0.0,
+        "at_or_above_cap_fraction": 0.0,
+        "near_cap_95_n": 0.0,
+        "near_cap_95_fraction": 0.0,
+        "output_tokens_median": 115.0,
+        "output_tokens_p95": 187.0,
+        "output_tokens_max": 255.0
+      }
+    ],
+    "conditional_sensitivity": null,
+    "interpretation_note": "direct_cap_flag uses provider termination/status metadata; token-count proximity flags are diagnostics and are not automatically interpreted as proof of visible-text truncation"
+  }
+}

@@ -1,0 +1,4 @@
+length_cap,n,direct_cap_n,direct_cap_fraction,at_or_above_cap_n,at_or_above_cap_fraction,near_cap_95_n,near_cap_95_fraction,output_tokens_median,output_tokens_p95,output_tokens_max
+5.0,1799.0,0.0,0.0,0.0,0.0,0.0,0.0,39.0,55.0,68.0
+10.0,1799.0,0.0,0.0,0.0,0.0,0.0,0.0,69.0,109.0,141.0
+20.0,1800.0,0.0,0.0,0.0,0.0,0.0,0.0,115.0,187.0,255.0

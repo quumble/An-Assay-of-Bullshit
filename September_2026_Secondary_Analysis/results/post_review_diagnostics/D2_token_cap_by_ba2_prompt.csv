@@ -1,0 +1,10 @@
+prompt_id,n,direct_cap_n,direct_cap_fraction,at_or_above_cap_n,at_or_above_cap_fraction,near_cap_95_n,near_cap_95_fraction,output_tokens_median,output_tokens_p95,output_tokens_max
+poem_compose_10,599.0,0.0,0.0,0.0,0.0,0.0,0.0,71.0,112.0,141.0
+poem_compose_20,600.0,0.0,0.0,0.0,0.0,0.0,0.0,119.0,202.0,255.0
+poem_compose_5,600.0,0.0,0.0,0.0,0.0,0.0,0.0,41.0,57.0,61.0
+poem_gimme_10,600.0,0.0,0.0,0.0,0.0,0.0,0.0,68.0,110.0,132.0
+poem_gimme_20,600.0,0.0,0.0,0.0,0.0,0.0,0.0,112.0,172.0,213.0
+poem_gimme_5,600.0,0.0,0.0,0.0,0.0,0.0,0.0,38.0,56.0,68.0
+poem_write_10,600.0,0.0,0.0,0.0,0.0,0.0,0.0,67.0,104.0,127.0
+poem_write_20,600.0,0.0,0.0,0.0,0.0,0.0,0.0,113.0,185.0,238.0
+poem_write_5,599.0,0.0,0.0,0.0,0.0,0.0,0.0,38.0,47.0,57.0

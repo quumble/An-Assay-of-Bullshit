@@ -1,0 +1,42 @@
+{
+  "threshold": 0.9,
+  "packet_n": 180,
+  "judgment_items_present": 180,
+  "missing_item_records": [],
+  "fields": {
+    "preamble_present": {
+      "n_scored": 180,
+      "n_missing": 0,
+      "agreement": 0.9888888888888889,
+      "passes_0.90": true
+    },
+    "title_present": {
+      "n_scored": 180,
+      "n_missing": 0,
+      "agreement": 0.9944444444444445,
+      "passes_0.90": true
+    },
+    "preamble_boundary_correct": {
+      "n_scored": 25,
+      "n_not_applicable": 155,
+      "n_missing": 0,
+      "agreement": 0.92,
+      "passes_0.90": true
+    },
+    "title_boundary_correct": {
+      "n_scored": 73,
+      "n_not_applicable": 107,
+      "n_missing": 0,
+      "agreement": 0.9863013698630136,
+      "passes_0.90": true
+    },
+    "creative_body_start_correct": {
+      "n_scored": 180,
+      "n_not_applicable": 0,
+      "n_missing": 0,
+      "agreement": 0.9888888888888889,
+      "passes_0.90": true
+    }
+  },
+  "overall_pass": true
+}

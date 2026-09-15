@@ -1,0 +1,1446 @@
+{
+  "schema": "ba_sep2026_parser_validation_v1",
+  "exported_at": "2026-09-15T15:58:46.346Z",
+  "judgments": {
+    "V001": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V002": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V003": {
+      "human_preamble_present": "yes",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "yes",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V004": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V005": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V006": {
+      "human_preamble_present": "yes",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "yes",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V007": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V008": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V009": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V010": {
+      "human_preamble_present": "yes",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "yes",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V011": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V012": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V013": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V014": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V015": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V016": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V017": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V018": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V019": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V020": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V021": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V022": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V023": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V024": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V025": {
+      "human_preamble_present": "yes",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "yes",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V026": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V027": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V028": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V029": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V030": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V031": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V032": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V033": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V034": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V035": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V036": {
+      "human_preamble_present": "yes",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "yes",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V037": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V038": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V039": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V040": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V041": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V042": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V043": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V044": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V045": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V046": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V047": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V048": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V049": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V050": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V051": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V052": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V053": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V054": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V055": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V056": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V057": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V058": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V059": {
+      "human_preamble_present": "yes",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "yes",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V060": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V061": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V062": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V063": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V064": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V065": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V066": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V067": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V068": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V069": {
+      "human_preamble_present": "yes",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "yes",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V070": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V071": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V072": {
+      "human_preamble_present": "yes",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "no",
+      "human_title_boundary_correct": "no",
+      "human_creative_body_start_correct": "no",
+      "notes": "borderline"
+    },
+    "V073": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V074": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V075": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V076": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V077": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V078": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V079": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V080": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V081": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V082": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V083": {
+      "human_preamble_present": "yes",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "yes",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V084": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V085": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V086": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V087": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V088": {
+      "human_preamble_present": "yes",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "yes",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V089": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V090": {
+      "human_preamble_present": "yes",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "yes",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V091": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V092": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V093": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V094": {
+      "human_preamble_present": "yes",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "yes",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V095": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V096": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V097": {
+      "human_preamble_present": "yes",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "yes",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V098": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V099": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V100": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V101": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V102": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V103": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V104": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V105": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V106": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V107": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V108": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V109": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V110": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V111": {
+      "human_preamble_present": "yes",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "yes",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V112": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V113": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V114": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V115": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V116": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V117": {
+      "human_preamble_present": "yes",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "yes",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V118": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V119": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V120": {
+      "human_preamble_present": "yes",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "yes",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V121": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V122": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V123": {
+      "human_preamble_present": "yes",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "yes",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V124": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V125": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V126": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V127": {
+      "human_preamble_present": "yes",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "no",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "no",
+      "notes": "borderline preamble- Here’s an original animal: "
+    },
+    "V128": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V129": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V130": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V131": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V132": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V133": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V134": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V135": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V136": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V137": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V138": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V139": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V140": {
+      "human_preamble_present": "yes",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "yes",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V141": {
+      "human_preamble_present": "yes",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "yes",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V142": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V143": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V144": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V145": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V146": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V147": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V148": {
+      "human_preamble_present": "yes",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "yes",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V149": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V150": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V151": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V152": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V153": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V154": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V155": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V156": {
+      "human_preamble_present": "yes",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "yes",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V157": {
+      "human_preamble_present": "yes",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "yes",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V158": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V159": {
+      "human_preamble_present": "yes",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "yes",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V160": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V161": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V162": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V163": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V164": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V165": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V166": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V167": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V168": {
+      "human_preamble_present": "yes",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "yes",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V169": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V170": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V171": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V172": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V173": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V174": {
+      "human_preamble_present": "no",
+      "human_title_present": "yes",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "yes",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V175": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V176": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V177": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V178": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V179": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    },
+    "V180": {
+      "human_preamble_present": "no",
+      "human_title_present": "no",
+      "human_preamble_boundary_correct": "not_applicable",
+      "human_title_boundary_correct": "not_applicable",
+      "human_creative_body_start_correct": "yes",
+      "notes": ""
+    }
+  }
+}

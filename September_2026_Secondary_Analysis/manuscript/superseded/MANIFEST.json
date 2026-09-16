@@ -1,0 +1,28 @@
+{
+  "scope": "Unchanged superseded September DOCX manuscripts only",
+  "repository": "quumble/An-Assay-of-Bullshit",
+  "archive_relative_path": "September_2026_Secondary_Analysis/manuscript/superseded",
+  "files": [
+    {
+      "path": "boundary_original/The_Boundary_Conditions_of_Model_Associated_Style_Bo_Chesterton(1).docx",
+      "source_filename": "The_Boundary_Conditions_of_Model_Associated_Style_Bo_Chesterton(1).docx",
+      "label": "Original Boundary Conditions draft",
+      "size_bytes": 578876,
+      "sha256": "647e393c9432cae817a3384a4e2c228b516f52210acf98234d6fd50946d7e7bc"
+    },
+    {
+      "path": "boundary_editorial_revision/The_Boundary_Conditions_of_Model_Associated_Style_Revised.docx",
+      "source_filename": "The_Boundary_Conditions_of_Model_Associated_Style_Revised.docx",
+      "label": "Editorial Boundary Conditions revision",
+      "size_bytes": 130700,
+      "sha256": "da0d21c62516e7ed887db9af231b75b4025bc0424878ac8d6b48a4c37581adec"
+    },
+    {
+      "path": "style_diagnostic_revision/Model_Associated_Style_Revised(1).docx",
+      "source_filename": "Model_Associated_Style_Revised(1).docx",
+      "label": "Diagnostic Model Associated Style revision",
+      "size_bytes": 197555,
+      "sha256": "50b1d86b1b9833e1a04fdf9a3e504b74d60aeb46ea98d77ba0dfc8266c0fcb5b"
+    }
+  ]
+}

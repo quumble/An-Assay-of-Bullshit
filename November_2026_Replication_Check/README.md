@@ -27,6 +27,7 @@ Prompts, verbatim:
 | `results.jsonl` | Every call as it ran, including the system prompt sent. |
 | `summary.md`, `summary.csv` | Scorer output, as generated on the collection machine. |
 | `PREREG_FABLE.md` | The analyst's predictions. See the provenance note below before relying on it. |
+| `HAND_ARM.md`, `hand_claude.txt` | The by-hand arm from the Claude app: conditions, table, and the nine replies. |
 
 Scoring uses the preamble, title-line, em-dash and word-count rules copied from `Bullshit_Assay_1/Results and Heuristics/structural_heuristics.py`. The copy reproduces the published coded outputs on all 540 Series 1 rows for those four features.
 
@@ -51,16 +52,20 @@ System-prompt arm:
 - Claude Opus 4.7 dropped its joke opener ("Here's one for you:") from 15 of 20 to 0 of 20.
 - Any-em-dash rose or held in all six Claude poem and story cells and fell in none (Opus poems 1 to 13 of 20, Haiku poems 4 to 11, Sonnet stories 6 to 12). Exploratory and not predicted.
 
-Predictions: P1 to P8 all held. P9 concerns a by-hand arm that had not been run when this was filed.
+Predictions: P1 to P8 held. P9, about the by-hand arm, missed. See `HAND_ARM.md`.
 
 ## Limits
 
 - n = 20 per cell.
-- One sentence is a stand-in for a consumer app, not the app. Nothing here tests the real products.
+- One sentence is a stand-in for a consumer app, not the app. Only the by-hand arm touches a real product, at n = 3 per model.
 - **The date in the system prompt leaks into content.** Claude Haiku 4.5 mentions November or the season in 19 of 20 `chatapp` poems against 6 of 20 `bare`. The sentence changes four things at once (a system prompt exists, a name, an app, a date), so no effect in this arm can be assigned to any one of them. The em-dash rise in particular may come from different poems, not from the name.
 - Fisher p-values in `summary.md` are uncorrected.
 - The joke probe ran at 400 output tokens here; the original joke study's cap was not checked against this.
 
-## Not done
+## By-hand arm
 
-A by-hand arm (fresh temporary chats in the consumer apps, "Tell me a joke.") is the only test of the original claim in its strong form. If it is run, the replies go in `hand_claude.txt` and `hand_chatgpt.txt` in this folder and `python product_gap.py score` picks them up.
+Added later the same day: nine replies from the Claude app in fresh incognito chats. Same three-joke canon, one joke per model. Conditions, table and limits are in `HAND_ARM.md`; the replies are in `hand_claude.txt`.
+
+`summary.md` and `summary.csv` are the scorer output from the collection machine and predate this arm, so they do not include it. Running `python product_gap.py score` here would add a pooled by-hand row.
+
+No ChatGPT replies have been collected. If they are, they go in `hand_chatgpt.txt`.

@@ -1,0 +1,37 @@
+model,prompt_id,arm,n,preamble,title,emdash_any,emdash_per100w,atoms,identical,distinct,top_first_word,modal_text
+claude-haiku-4-5-20251001,joke,bare,20,0,0,0,0.0,20,16,2,why (20),Why don't scientists trust atoms? /  / Because they make up everything! 😄
+claude-haiku-4-5-20251001,joke,chatapp,20,0,0,0,0.0,20,20,1,why (20),Why don't scientists trust atoms? /  / Because they make up everything! 😄
+claude-sonnet-4-6,joke,bare,20,20,20,0,0.0,20,20,1,here's (20),Here's one: /  / Why don't scientists trust atoms? /  / **Because they make up everything!
+claude-sonnet-4-6,joke,chatapp,20,20,20,0,0.0,20,18,2,here's (20),Here's one: /  / Why don't scientists trust atoms? /  / **Because they make up everything!
+claude-opus-4-7,joke,bare,20,15,15,0,0.0,20,13,4,here's (13),Here's one for you: /  / Why don't scientists trust atoms? /  / Because they make up every
+claude-opus-4-7,joke,chatapp,20,0,0,0,0.0,19,17,3,why (20),Why don't scientists trust atoms? /  / Because they make up everything! /  / Want another 
+gpt-5.4-nano,joke,bare,20,0,0,0,0.0,9,6,5,why (20),Why don’t scientists trust atoms? /  / Because they make up everything.
+gpt-5.4-nano,joke,chatapp,20,0,0,0,0.0,7,5,11,why (20),Why don’t skeletons fight each other? /  / Because they don’t have the guts.
+gpt-5.4-mini,joke,bare,20,0,0,0,0.0,2,9,4,why (20),Why don’t skeletons fight each other? /  / Because they don’t have the guts.
+gpt-5.4-mini,joke,chatapp,20,0,0,0,0.0,7,7,5,why (20),Why don’t scientists trust atoms? /  / Because they make up everything.
+gpt-5.4,joke,bare,20,0,0,0,0.0,0,19,2,why (20),Why don’t skeletons fight each other? /  / They don’t have the guts.
+gpt-5.4,joke,chatapp,20,0,0,0,0.0,0,20,1,why (20),Why don’t skeletons fight each other? /  / They don’t have the guts.
+claude-haiku-4-5-20251001,poem_lt5,bare,20,0,20,4,0.95,0,1,20,whisper (16),"# Whispers /  / The moon hangs silent in the dark, / While stars ignite their gentle spark"
+claude-haiku-4-5-20251001,poem_lt5,chatapp,20,1,20,11,2.24,0,1,20,november (9),"# November's Quiet /  / Leaves drift down in golden silence, / Winter whispers at the door"
+claude-sonnet-4-6,poem_lt5,bare,20,20,20,0,0.0,0,3,16,here (16),"Here is a short poem: /  / The stars burn bright against the night, / Whispering secrets o"
+claude-sonnet-4-6,poem_lt5,chatapp,20,20,20,0,0.0,0,1,20,here's (20),"Here's a short poem: /  / *The stars dissolve at break of day,* / *Yet leave their light a"
+claude-opus-4-7,poem_lt5,bare,20,0,0,1,0.24,0,1,20,moonlight (16),"Moonlight spills on silent streams, / Whispers weave through sleeping trees, / Stars compo"
+claude-opus-4-7,poem_lt5,chatapp,20,2,2,13,3.0,0,1,20,moonlight (9),"Silent moon on restless sea, / Whispers waves have shared with me— / Secrets older than th"
+gpt-5.4-nano,poem_lt5,bare,20,0,0,17,3.33,0,1,20,beneath (11),"Beneath the moon’s soft silver glow,   / my worries drift where daylight goes;   / I breat"
+gpt-5.4-nano,poem_lt5,chatapp,20,0,0,18,3.52,0,1,20,in (6),"In dusk’s soft hush, my worries fade,   / Stars stitch calm into the air;   / I breathe in"
+gpt-5.4-mini,poem_lt5,bare,20,0,0,0,0.0,0,1,20,moonlight (20),"Moonlight drifts on quiet streets,   / The night hums soft, in silver beats,   / Dreams un"
+gpt-5.4-mini,poem_lt5,chatapp,20,0,0,1,0.21,0,1,20,moonlight (20),"Moonlight hums on the quiet sea,   / Soft winds carry a dream to me;   / Night unfolds in "
+gpt-5.4,poem_lt5,bare,20,0,0,2,0.39,0,1,20,dawn (13),"Dawn spills gold on quiet stone,   / A sparrow stitches song through air,   / The world, h"
+gpt-5.4,poem_lt5,chatapp,20,0,0,2,0.38,0,1,20,morning (15),"Morning folds gold into the trees,   / A sparrow stitches songs through breeze,   / Small "
+claude-haiku-4-5-20251001,story_lt5,bare,20,0,20,14,0.77,0,1,20,the (20),# The Lost Letter /  / An elderly woman found a yellowed envelope in her attic addressed t
+claude-haiku-4-5-20251001,story_lt5,chatapp,20,0,20,16,0.96,0,1,20,the (20),"# The Last Train /  / Maya stood on the empty platform as the final train pulled away, her"
+claude-sonnet-4-6,story_lt5,bare,20,20,20,6,0.39,0,1,20,here (20),"Here is a short story: /  / Sarah found an old letter in her grandmother's attic, sealed w"
+claude-sonnet-4-6,story_lt5,chatapp,20,20,20,12,0.7,0,1,20,here (19),"Here is a short story: /  / The old lighthouse had been dark for thirty years, its keeper "
+claude-opus-4-7,story_lt5,bare,20,0,0,3,0.21,0,1,20,the (20),"The lighthouse keeper had written to the sea for forty years, tossing bottles into the wav"
+claude-opus-4-7,story_lt5,chatapp,20,0,0,3,0.21,0,1,20,the (20),"The lighthouse keeper had written to the sea every night for forty years, sealing each let"
+gpt-5.4-nano,story_lt5,bare,20,0,0,11,0.93,0,1,20,mara (17),Mara found a small key in her pocket that hadn’t been there that morning. It fit the ruste
+gpt-5.4-nano,story_lt5,chatapp,20,0,0,15,1.09,0,1,20,mara (19),"Mara found a pocket watch in the attic that ticked backward, every second undoing a tiny m"
+gpt-5.4-mini,story_lt5,bare,20,0,0,1,0.06,0,1,20,at (15),"On the night the city lost its stars, Mara climbed to the rooftop with a jar full of firef"
+gpt-5.4-mini,story_lt5,chatapp,20,0,0,2,0.18,0,1,20,at (10),"On the last train home, Mara found a small brass key tucked into the pocket of her coat, t"
+gpt-5.4,story_lt5,bare,20,0,0,6,0.45,0,1,20,at (17),"On the last train home, Mara found a note tucked into the window frame: “You already survi"
+gpt-5.4,story_lt5,chatapp,20,0,0,3,0.24,0,1,20,at (15),"At midnight, the town’s broken clock began to tick backward, and with each chime, lost thi"

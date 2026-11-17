@@ -60,7 +60,23 @@ Predictions: P1 to P8 held. P9, about the by-hand arm, missed. See `HAND_ARM.md`
 - One sentence is a stand-in for a consumer app, not the app. Only the by-hand arm touches a real product, at n = 3 per model.
 - **The date in the system prompt leaks into content.** Claude Haiku 4.5 mentions November or the season in 19 of 20 `chatapp` poems against 6 of 20 `bare`. The sentence changes four things at once (a system prompt exists, a name, an app, a date), so no effect in this arm can be assigned to any one of them. The em-dash rise in particular may come from different poems, not from the name.
 - Fisher p-values in `summary.md` are uncorrected.
-- The joke probe ran at 400 output tokens here; the original joke study's cap was not checked against this.
+- For the joke prompt, only four of the six models match the original joke study (Claude Haiku 4.5, Claude Sonnet 4.6, gpt-5.4-nano, gpt-5.4-mini). That study's large tiers were claude-opus-4-8 and gpt-5.5; this run used claude-opus-4-7 and gpt-5.4, which are the Bullshit Assay models. The joke rows for those two are new data, not a replication.
+- The joke probe ran at a 400-token cap here; the original joke study used 512. No reply in either run came near the cap.
+
+## Correction and byte-level check (added 2026-11-16, after merge)
+
+The first version of this README described the joke rows as a replication on "the six original model IDs". That was the analyst's error: the model list was taken from the Bullshit Assay and never checked against the joke study. The limits above now state the overlap correctly.
+
+For the four models that do overlap, the `bare` joke replies were compared byte for byte with the June raw data (`test_1/data/runs.jsonl` in github.com/quumble/Digital-Standup, baseline condition, n = 200 per model):
+
+| Model | November replies that appear verbatim in June | November replies identical to June's modal string |
+|---|---|---|
+| claude-sonnet-4-6 | 20/20 | 20/20 |
+| claude-haiku-4-5-20251001 | 20/20 | 16/20 |
+| gpt-5.4-nano | 20/20 | 6/20 |
+| gpt-5.4-mini | 20/20 | 9/20 |
+
+All 80 replies are strings already present in the June data. For each model, the most common string in November is the most common string in June.
 
 ## By-hand arm
 

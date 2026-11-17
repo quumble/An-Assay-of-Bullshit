@@ -27,7 +27,7 @@ Prompts, verbatim:
 | `results.jsonl` | Every call as it ran, including the system prompt sent. |
 | `summary.md`, `summary.csv` | Scorer output, as generated on the collection machine. |
 | `PREREG_FABLE.md` | The analyst's predictions. See the provenance note below before relying on it. |
-| `HAND_ARM.md`, `hand_claude.txt` | The by-hand arm from the Claude app: conditions, table, and the nine replies. |
+| `HAND_ARM.md`, `hand_claude.txt`, `hand_chatgpt.txt` | The by-hand arm from both apps: conditions, tables, and the fifteen replies. |
 
 Scoring uses the preamble, title-line, em-dash and word-count rules copied from `Bullshit_Assay_1/Results and Heuristics/structural_heuristics.py`. The copy reproduces the published coded outputs on all 540 Series 1 rows for those four features.
 
@@ -64,8 +64,6 @@ Predictions: P1 to P8 held. P9, about the by-hand arm, missed. See `HAND_ARM.md`
 
 ## By-hand arm
 
-Added later the same day: nine replies from the Claude app in fresh incognito chats. Same three-joke canon, one joke per model. Conditions, table and limits are in `HAND_ARM.md`; the replies are in `hand_claude.txt`.
+Added later the same day: nine replies from the Claude app and six from the ChatGPT app, each in a fresh incognito or temporary chat. All fifteen are from the same three-joke canon. Conditions, tables and limits are in `HAND_ARM.md`; the replies are in `hand_claude.txt` and `hand_chatgpt.txt`.
 
 `summary.md` and `summary.csv` are the scorer output from the collection machine and predate this arm, so they do not include it. Running `python product_gap.py score` here would add a pooled by-hand row.
-
-No ChatGPT replies have been collected. If they are, they go in `hand_chatgpt.txt`.

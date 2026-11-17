@@ -8,7 +8,7 @@ The May studies and the September secondary analysis are unchanged by this folde
 
 Two things in one run of 720 calls:
 
-1. **A same-snapshot replication.** The `bare` arm repeats the published condition (no system prompt, temperature 1.0, 400 output tokens) on the six original model IDs, for three prompts.
+1. **A same-snapshot replication.** The `bare` arm repeats the published condition (no system prompt, temperature 1.0, 400 output tokens) for three prompts. The six model IDs are the Bullshit Assay's. For the joke prompt only four of them match the original joke study; see the correction below.
 2. **An exploratory system-prompt arm.** The `chatapp` arm adds one sentence telling the model its name, its maker, that it is in a chat app, and the date. Everything else is the same.
 
 Design: 6 models x 3 prompts x 2 arms x 20 calls. All calls ran in one shuffled batch before anything was scored. 720 of 720 returned, with no errors, no empty replies and no token-cap hits.
@@ -65,7 +65,7 @@ Predictions: P1 to P8 held. P9, about the by-hand arm, missed. See `HAND_ARM.md`
 
 ## Correction and byte-level check (added 2026-11-16, after merge)
 
-The first version of this README described the joke rows as a replication on "the six original model IDs". That was the analyst's error: the model list was taken from the Bullshit Assay and never checked against the joke study. The limits above now state the overlap correctly.
+The first version of this README described the joke rows as a replication on "the six original model IDs". That was the analyst's error: the model list was taken from the Bullshit Assay and never checked against the joke study. The sentence under "What it is" and the limits above were edited in place to state the overlap correctly. The original wording is in the repository history.
 
 For the four models that do overlap, the `bare` joke replies were compared byte for byte with the June raw data (`test_1/data/runs.jsonl` in github.com/quumble/Digital-Standup, baseline condition, n = 200 per model):
 

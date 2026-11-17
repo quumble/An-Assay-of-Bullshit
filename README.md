@@ -18,6 +18,11 @@ full).
   artifacts are preserved unchanged at
   `Bullshit_Assay_2/Results and Analysis/`.
 
+## Later layers
+
+- **September 2026** (`September_2026_Secondary_Analysis/`): secondary analysis over the two frozen May studies.
+- **November 2026** (`November_2026_Replication_Check/`): a quick replication check of the bare-API condition plus an exploratory system-prompt arm and a small by-hand arm from the consumer apps. A check-in, not a study.
+
 ## Methodological transparency
 
 Series 2 is preregistered (`Bullshit_Assay_2/preregistration.md`)
@@ -34,8 +39,6 @@ Deviation logs are layered:
 - `Bullshit_Assay_2/Claude_Analysis/deviations.md` — re-analysis
   log, including a bug fix (5 of 13 preregistered Q2/Q3 features
   silently dropped from the original report).
-
-[... existing series 1 content goes here unchanged ...]
 
 ## License
 
